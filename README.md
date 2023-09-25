@@ -37,7 +37,8 @@ cdkcmdm
 ## Modelado de usuarios del Sistema
 Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas personas elijen usar este tipo de metodos, por lo tanto tambien vamos a agregarlos a nuestro publico
 
-![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/9e550447-1920-47ac-819a-b700857925e3)
+![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/4c66c0ec-33ea-41f4-8cb5-2bda8db9fafa)
+
 
 
 [template de user personas2]
