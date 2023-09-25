@@ -5,7 +5,7 @@ M4A - Docentes: Alejandro  Adorjan
 ## Fundamentos de Ingeniería en Software
 ## Repositorio
 Aqui debemos explicar que tecnicas usamos para trabajar en el repo, como hicimos los merge, pull etc.
-##Versionado:
+## Versionado:
 Aqui explicamos que distinatas ramas usamos, como nos organizamos etc.
 tenemos que trabajar en un area develop y un area main
 
