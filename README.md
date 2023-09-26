@@ -24,14 +24,34 @@ kcmdk
 
 
 ## INGENIERIA INVERSA
-Investigamos y evaluamos dos apps para daily planning: Lists to do y Tiimo. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.
+Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.
 
 Porque elegimos estas dos y no otras? Lists to do se enfoca en la organizacion y mantenimiento de los habitos mientras que Tiimo tiene como objetivo ser un planner mas que nada visual hecho para personas con TDAH.
 
 ##Conclusiones de la ingenieria inversa:
-ddkdkc
-dcdcdmc
-cdkcmdm
+ 1. tiimo
+Al empezar te pregunta si SOS un pensador visual neurodivergente etc
+Esto permite un área de fotos y recomendaciones según las necesidades del perfil definido
+Te pregunta para que quieres usar la app : tareas del hogar estudio trabajo etc
+Elegir objetivos para que nos ayude: estrés ansiedad estructurar enfocar rutinas 
+…parte de login
+Revisar los planes del día cada mañana
+Revisar a la noche para revisar tareas pendientes
+Recordatorios diarios
+Al añadir tarea:
+Le da un color , visualización
+Establece un horario y DURACIÓN
+Horario de inicio y finalización 
+Opciones en cualquier momento o todo el dia 
+Se programa repetición: cada dia / l a v mensual etc
+En la página principal vemos nuestra semana y un área con un checklist de las actividades de hoy.
+Hay una sección de notas
+En una página muestra lo que está pasando ahora mismo, de qué hora a qué hora es,  cuánto tiempo falta para terminar la tarea etc
+
+
+
+2. 
+Notion
 
 ## OBSERVACION
 
