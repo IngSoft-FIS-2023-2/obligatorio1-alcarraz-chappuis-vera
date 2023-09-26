@@ -2,6 +2,7 @@ M4A - Docentes: Alejandro  Adorjan
 - Agustin Alcarraz 281644
 - Victoria Chappuis 278311
 - Serena Vera      267108
+
 ## Fundamentos de Ingeniería en Software
 ## Repositorio
 Aqui debemos explicar que tecnicas usamos para trabajar en el repo, como hicimos los merge, pull etc.
@@ -52,13 +53,7 @@ Actor: usuario
 Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas(en proceso, 	finalizado) tareas en su planner
 Prioridad: alta
 
--Visualización de todas las tareas:
-		-
-		-
-	-Área para realizar notas
-		prioridad baja
-	-Alarmas y tracker de medicamentos:
-	prioridad alta
+
 -Rf2: Sistema de puntos:
 Actor : usuario
 	Descripción: el sistema deberá brindar, los puntos correspondientes de acuerdo a la racha de tareas completadas
@@ -67,17 +62,40 @@ Actor : usuario
 	Rf3: Mascota
 Actor: Sistema 
 Descripción: la mascota deberá cambiar su estado de ánimo de acuerdo al puntaje promedio del dia 
+Prioridad: media
 
 Rf4: Estadísticas
+Actor: Sistema
+Descripcion: el sistema debera mostrar en pantalla el porcentaje de tareas completadas en el día
+Prioridad: alta
+ 
+Rf5: Visualización de todas las tareas:
+	Actor: Sistema
+Descripcion: el sistema tiene que mostrar todas las tareas del dia
+Prioridad: alta
+
+Rf6: Notas
+Actor: usuario
+Descripcion: el usuario podra tener la opcion de poder escribir notas rapidas
+Prioridad baja
+
+	-Alarmas y tracker de medicamentos:
+	prioridad alta
 
 ## Requerimientos no Funcionales
 
 Rnf1: Sistema de compatibilidad
- 	Descripción: el planner deberá soportar en celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores
+Descripción: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores
+
 Rnf2: Idiomas soportados
 Descripción: la aplicación deberá ser desarrollada principalmente en español e inglés
+
 Rnf3 Validación de la aplicación
 Descripción: para poder subir la aplicación tanto para la Play Store de android como en la App Store de IOS, deberá cumplir con los standards de dichas tiendas 
+
+Rnf4: Interfaz y logica
+Descripción: la interfaz del planner sera en XXX y la logica en XXX
+
 
 ## HISTORIAS DE USUARIO
 ## Historias de usuario 1
