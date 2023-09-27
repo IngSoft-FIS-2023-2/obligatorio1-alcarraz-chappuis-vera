@@ -3,12 +3,11 @@ M4A - Docentes: Alejandro  Adorjan
 - Victoria Chappuis 278311
 - Serena Vera      267108
 
-## Fundamentos de Ingeniería en Software
+# Fundamentos de Ingeniería en Software
 ## Repositorio
-Aqui debemos explicar que tecnicas usamos para trabajar en el repo, como hicimos los merge, pull etc.
+Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él esta el Readme.md en el cual esta todo el trabajo del obligatorio. A su vez, estan presentes las carpetas "casosDeUso" en donde tiene las imagenes correspondientes a los perfiles que considermas adecuados para nuestra aplicación.
 ## Versionado:
-Aqui explicamos que distinatas ramas usamos, como nos organizamos etc.
-tenemos que trabajar en un area develop y un area main
+El obligatorio cuenta con dos ramas, una la **dev**, en la cual estamos subiendo todo lo que hagamos ahi con el objetivo de tener un cuerpo claro del obligatiorio, para luego hacer un merge con la rama **main**..
 
 
 ## ELICITACIÓN
@@ -28,10 +27,11 @@ Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfoc
 
 Porque elegimos estas dos y no otras? Lists to do se enfoca en la organizacion y mantenimiento de los habitos mientras que Tiimo tiene como objetivo ser un planner mas que nada visual hecho para personas con TDAH.
 
-##Conclusiones de la ingenieria inversa:
- 1. tiimo
-Al empezar te pregunta si SOS un pensador visual neurodivergente etc
-Esto permite un área de fotos y recomendaciones según las necesidades del perfil definido
+
+ ## Tiimo
+
+Al empezar te pregunta si SOS un pensador visual neurodivergente,esto permite un área de fotos y recomendaciones según las necesidades del perfil definido.
+
 Te pregunta para que quieres usar la app : tareas del hogar estudio trabajo etc
 Elegir objetivos para que nos ayude: estrés ansiedad estructurar enfocar rutinas 
 …parte de login
@@ -48,10 +48,28 @@ En la página principal vemos nuestra semana y un área con un checklist de las 
 Hay una sección de notas
 En una página muestra lo que está pasando ahora mismo, de qué hora a qué hora es,  cuánto tiempo falta para terminar la tarea etc
 
-##2. Notion
+
+Tiimo es una aplicación diseñada pensando en personas neurodivergentes con un enfoque en la representación visual. Al iniciar, se pregunta si eres un pensador visual neurodivergente, lo que permite crear un perfil personalizado con fotos y recomendaciones según las necesidades identificadas.
+
+Al iniciar sesión, la aplicación te pregunta para qué deseas utilizarla, ya sea para tareas del hogar, estudio, trabajo, etc. Además, te permite seleccionar objetivos para recibir ayuda en aspectos como estrés, ansiedad, estructuración y enfoque de rutinas.
+
+Después del inicio de sesión, se establecen rutinas como revisar los planes del día cada mañana y hacer una revisión nocturna de las tareas pendientes. La aplicación proporciona recordatorios diarios para apoyar en la gestión del tiempo.
+
+Cuando se agrega una tarea, se le asigna un color y una representación visual. Además, se pueden establecer horarios y duraciones específicas para cada tarea, incluyendo un horario de inicio y finalización. Se brindan opciones flexibles, permitiendo establecer la duración de la tarea en cualquier momento del día o para toda la jornada. También se pueden programar repeticiones diarias, de lunes a viernes o mensuales, según sea necesario.
+
+En la página principal de la aplicación, se presenta una visualización semanal que muestra las actividades planificadas para cada día, acompañadas de un área con una lista de verificación de las actividades para el día actual. Además, hay una sección de notas para agregar información adicional.
+
+Adicionalmente, Tiimo muestra en una página especial lo que está sucediendo en tiempo real, indicando la hora actual, la duración de la tarea en curso y el tiempo restante para completarla, brindando una experiencia visual y temporal completa para el usuario.
+
+
+
+
+
+
+## Notion
 Notion es una aplicación de gestión que se adapta a una amplia variedad de necesidades. Su funcionamiento se basa en la creación de “carpetas” o “bases” que pueden contener una variedad de elementos como texto, listas de tareas, tablas, bases de datos, archivos adjuntos, y más. Estas bases tienen una estructura jerárquica, que permite organizar las páginas de manera estructurada, a modo de tener páginas principales y subpáginas dentro de ellas.
  
-Funcionamiento de Notion:
+### Funcionamiento de Notion:
  
 1. Creación de páginas: Los usuarios pueden crear páginas en blanco o elegir entre plantillas predefinidas para diferentes tipos de contenido, como notas, tareas, calendarios, entre otros.
  
@@ -61,7 +79,7 @@ Funcionamiento de Notion:
  
 4. Colaboración: Notion permite la colaboración en tiempo real, lo que facilita el trabajo en equipo. Los usuarios pueden comentar en las páginas, asignar tareas y compartir documentos con otros usuarios.
  
-Dificultades para personas con déficit de atención:
+### Dificultades para personas con déficit de atención:
  
 1. Complejidad visual: Notion ofrece muchas opciones de formato y personalización, lo que puede resultar abrumador para personas con déficit de atención. Puede ser útil proporcionar una configuración simplificada o plantillas específicas para evitar distracciones visuales innecesarias.
  
@@ -71,16 +89,18 @@ Dificultades para personas con déficit de atención:
  
 4. Gestión del tiempo: Las funciones de gestión del tiempo, como los calendarios y las fechas de vencimiento de tareas, son útiles, pero las personas con déficit de atención pueden necesitar recordatorios adicionales y alertas para seguir un horario.
  
-En resumen, Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales.
+En resumen, Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales. PUEDE IR EN CONCLUSIONES
  
-
+## Conclusiones de la ingenieria inversa:
 
 ## OBSERVACION
 
 ## Modelado de usuarios del Sistema
 Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas personas elijen usar este tipo de metodos, por lo tanto tambien vamos a agregarlos a nuestro publico
 
-![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/e362966c-00a1-4347-ac51-6e794a453ad4)
+![Alt text](image-1.png)
+
+![Alt text](image.png)
 
 
 
@@ -89,53 +109,55 @@ Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas pe
 [template de user personas2]
 
 ## ESPECIFICACIÓN
-##Requirimientos Funcionales
- 	-Rf1: Ingreso y actualización de tareas 
+## Requirimientos Funcionales
+###  Rf1: Ingreso y actualización de tareas 
 Actor: usuario
 Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas(en proceso, 	finalizado) tareas en su planner
 Prioridad: alta
 
 
--Rf2: Sistema de puntos:
+### Rf2: Sistema de puntos:
 Actor : usuario
-	Descripción: el sistema deberá brindar, los puntos correspondientes de acuerdo a la racha de tareas completadas
-	Prioridad: alta
+Descripción: el sistema deberá brindar, los puntos correspondientes de acuerdo a la racha de tareas completadas
+Prioridad: alta
 	
-	Rf3: Mascota
+### Rf3: Mascota
 Actor: Sistema 
 Descripción: la mascota deberá cambiar su estado de ánimo de acuerdo al puntaje promedio del dia 
 Prioridad: media
 
-Rf4: Estadísticas
+### Rf4: Estadísticas
 Actor: Sistema
 Descripcion: el sistema debera mostrar en pantalla el porcentaje de tareas completadas en el día
 Prioridad: alta
  
-Rf5: Visualización de todas las tareas:
-	Actor: Sistema
+### Rf5: Visualización de todas las tareas:
+Actor: Sistema
 Descripcion: el sistema tiene que mostrar todas las tareas del dia
 Prioridad: alta
 
-Rf6: Notas
+### Rf6: Notas
 Actor: usuario
 Descripcion: el usuario podra tener la opcion de poder escribir notas rapidas
 Prioridad baja
 
-	-Alarmas y tracker de medicamentos:
-	prioridad alta
+### Rf7: Agregacion de alarmas
+Actor: usuario
+Descripción: el usuario deberá poder agregar recordatorios, de modo que se le active una alarma.
+Prioridad alta
 
 ## Requerimientos no Funcionales
 
-Rnf1: Sistema de compatibilidad
+### Rnf1: Sistema de compatibilidad
 Descripción: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores
 
-Rnf2: Idiomas soportados
+### Rnf2: Idiomas soportados
 Descripción: la aplicación deberá ser desarrollada principalmente en español e inglés
 
-Rnf3 Validación de la aplicación
+### Rnf3 Validación de la aplicación
 Descripción: para poder subir la aplicación tanto para la Play Store de android como en la App Store de IOS, deberá cumplir con los standards de dichas tiendas 
 
-Rnf4: Interfaz y logica
+### Rnf4: Interfaz y logica
 Descripción: la interfaz del planner sera en XXX y la logica en XXX
 
 
