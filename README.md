@@ -1,7 +1,7 @@
 M4A - Docentes: Alejandro  Adorjan
 - Agustin Alcarraz 281644
 - Victoria Chappuis 278311
-- Serena Vera      267108
+- Serena Vera 267108
 
 # Fundamentos de Ingeniería en Software
 ## Repositorio
@@ -15,13 +15,37 @@ El obligatorio cuenta con dos ramas, una la **dev**, en la cualsubimos todos nue
 ## Entrevista
 Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
+
 En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, como podemos ayudarlos en su dia a dia, que problemas suelen tener las personas que trata y que estrategias usa ella para ayudarlos.
 Luego pasamos a hablar sobre como ella desarrollaria el planner ideal para un adolecente con TDHA, que factores son clave, que cosas debemos cuidar y que deberiamos evitar.
 
-## Conclusiones principales de la entrevista
-- 
+## Conclusiones de la entrevista
+- El TDAH tiene varios tipos, y las personas con TDAH suelen padecer de otros trastornos mencionados anteriormente.
+- Es imposible cubrir todas las necesidades o hacer un planner ideal para todos porque no todos tienen las mismas dificultades.
+- Las tecnicas organizacionales que se son ensenadas a las peronas con TDAH le pueden servir a cualquiera.
+
+- La visualizacion es un concepto clave para dessarrollar herramientas organizacionales para personas con TDAH.
+- deben poder visualizar su semana y a la vez tener sus tareas del dia y sus horarios todos en un mismo lugar
+- Las tareas diarias y el visualizador semanal debe ser lo primero que vean al entrar a la app, se distraen de lo contrario.
+- Las tareas completadas deben ser deshechadas o tachadas para generar un estimulo
+- Puede servirles iconizar ciertas tareas si lo desean. 
+- La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias puede ser de gran ayuda.
+- La visualizacion en horizontal es percepcionalmente mejor.
+- Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Los colores deben ser facilmente distnguibles, el leguaje implementado debe ser simple y concreto, evitar letras con serifas.
+- Escribir ciertos elementos clave en mayusculas es de gran ayuda.
+
+- Es bueno que anticipen que es lo que viene siguiente y estar preparados para lo necesario
+- Puede ser positivo que a la ma;ana o noche del dia anterior tengan un review de su dia.
+- Es dificil para ellos anticipar cuanto tiempo les lleva prepararse y comutar para atender ciertos eventos
+- debe tener un reminder antes de este tiempo, y decir como llegar, omnibus etc
 
 
+- Necesitan un lugar para poder tomar notas, hacer checklists, etc.
+- Es importante que sus acciones tengan un feedback positivo.
+- Debe tener algun tipo de "premio"
+- MUchos toman pastillas para la concentracion: recordaatorio de tomar las pastillas y marcar las horas de concentracion.
+- Es dificil aprenderse info clave como ci numero de telefono de contactos importantes, direccion de casa , etc.
+- El pomodoro tracker es un metodo para conentrarse probado muy eficiente para ellos.
 
 
 ## INGENIERIA INVERSA
