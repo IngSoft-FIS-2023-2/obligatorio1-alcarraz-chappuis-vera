@@ -24,6 +24,7 @@ Luego pasamos a hablar sobre como ella desarrollaria el planner ideal para un ad
 - Es imposible cubrir todas las necesidades o hacer un planner ideal para todos porque no todos tienen las mismas dificultades.
 - Las tecnicas organizacionales que se son ensenadas a las peronas con TDAH le pueden servir a cualquiera.
 
+
 Nos brindo consejos para tratar y generar recursos para personas con TDAH, estos son:
 - Otorgar tiempo adicional tanto en su trabajo diario como evaluaciones. El tiempo que demanda procesar informacion es mayor.
 - **Estimular y apoyar la organizacion** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene siguiente, cuales son los eventos del dia, etc.
@@ -53,49 +54,21 @@ Nos brindo consejos para tratar y generar recursos para personas con TDAH, estos
 
 ## INGENIERIA INVERSA
 Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.
-
-Porque elegimos estas dos y no otras? Lists to do se enfoca en la organizacion y mantenimiento de los habitos mientras que Tiimo tiene como objetivo ser un planner mas que nada visual hecho para personas con TDAH.
-
-
- ## Tiimo
-
-Al empezar te pregunta si SOS un pensador visual neurodivergente,esto permite un área de fotos y recomendaciones según las necesidades del perfil definido.
-
-Te pregunta para que quieres usar la app : tareas del hogar estudio trabajo etc
-Elegir objetivos para que nos ayude: estrés ansiedad estructurar enfocar rutinas 
-…parte de login
-Revisar los planes del día cada mañana
-Revisar a la noche para revisar tareas pendientes
-Recordatorios diarios
-Al añadir tarea:
-Le da un color , visualización
-Establece un horario y DURACIÓN
-Horario de inicio y finalización 
-Opciones en cualquier momento o todo el dia 
-Se programa repetición: cada dia / l a v mensual etc
-En la página principal vemos nuestra semana y un área con un checklist de las actividades de hoy.
-Hay una sección de notas
-En una página muestra lo que está pasando ahora mismo, de qué hora a qué hora es,  cuánto tiempo falta para terminar la tarea etc
+Porque elegimos estas dos y no otras? Notion es la mas usada por estudiantes y Tiimo tiene como objetivo ser un planner mas que nada visual hecho para personas con TDAH.
 
 
-Tiimo es una aplicación diseñada pensando en personas neurodivergentes con un enfoque en la representación visual. Al iniciar, se pregunta si eres un pensador visual neurodivergente, lo que permite crear un perfil personalizado con fotos y recomendaciones según las necesidades identificadas.
+ ### Tiimo
+Features principales:
+- Al empezar te pregunta si SOS un pensador visual neurodivergente, esto permite que la app se orgnize de distintas menseras y da recomendaciones según las necesidades del perfil definido. Tambien pregunta para que quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
+- Elegir objetivos para que nos ayude, estos pudeden ser: estrés, ansiedad, queres estructurar nuestras ruitnas mejor, mejorar la concentración, entre otras.
+- Nos permite crear un reminder para revisar los planes del día cada mañana y editarlos, tambien nos ofrece una revision para la noche con el objetivo de revisar las tareas ppendientes.
+- Recordatorios diarios de ciertas tareas estan disponibles
+- Cuando se agrega una tarea, se le asigna un color y una representación visual. Además, se pueden establecer horarios y duraciones específicas para cada tarea, incluyendo un horario de inicio y finalización. Se brindan opciones flexibles, permitiendo establecer la duración de la tarea en cualquier momento del día o para toda la jornada. También se pueden programar repeticiones diarias, de lunes a viernes o mensuales, según sea necesario.
+- En la página principal se presenta una visualización de nuestra semana con las actividades planificadas para cada día y un área con un _checklist_ de las actividades de hoy.
+- Posee de una sección de notas para agregar información adicional.
+- En una de las pestanias se muestra la tarea que deberia estar sucediendo en tiempo real, indicando la hora actual, de qué hora a qué hora es y cuánto tiempo restante para terminar la tarea, exelente para visualizar nuestro tiempo. Esto brinda una experiencia visual completa para el usuario y permite visualizr y esquematizar nuestro tiempo
 
-Al iniciar sesión, la aplicación te pregunta para qué deseas utilizarla, ya sea para tareas del hogar, estudio, trabajo, etc. Además, te permite seleccionar objetivos para recibir ayuda en aspectos como estrés, ansiedad, estructuración y enfoque de rutinas.
-
-Después del inicio de sesión, se establecen rutinas como revisar los planes del día cada mañana y hacer una revisión nocturna de las tareas pendientes. La aplicación proporciona recordatorios diarios para apoyar en la gestión del tiempo.
-
-Cuando se agrega una tarea, se le asigna un color y una representación visual. Además, se pueden establecer horarios y duraciones específicas para cada tarea, incluyendo un horario de inicio y finalización. Se brindan opciones flexibles, permitiendo establecer la duración de la tarea en cualquier momento del día o para toda la jornada. También se pueden programar repeticiones diarias, de lunes a viernes o mensuales, según sea necesario.
-
-En la página principal de la aplicación, se presenta una visualización semanal que muestra las actividades planificadas para cada día, acompañadas de un área con una lista de verificación de las actividades para el día actual. Además, hay una sección de notas para agregar información adicional.
-
-Adicionalmente, Tiimo muestra en una página especial lo que está sucediendo en tiempo real, indicando la hora actual, la duración de la tarea en curso y el tiempo restante para completarla, brindando una experiencia visual y temporal completa para el usuario.
-
-
-
-
-
-
-## Notion
+### Notion
 Notion es una aplicación de gestión que se adapta a una amplia variedad de necesidades. Su funcionamiento se basa en la creación de “carpetas” o “bases” que pueden contener una variedad de elementos como texto, listas de tareas, tablas, bases de datos, archivos adjuntos, y más. Estas bases tienen una estructura jerárquica, que permite organizar las páginas de manera estructurada, a modo de tener páginas principales y subpáginas dentro de ellas.
  
 ### Funcionamiento de Notion:
