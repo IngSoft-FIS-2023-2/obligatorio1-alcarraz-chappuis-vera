@@ -7,17 +7,19 @@ M4A - Docentes: Alejandro  Adorjan
 ## Repositorio
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él esta el Readme.md en el cual esta todo el trabajo del obligatorio. A su vez, estan presentes las carpetas "casosDeUso" en donde tiene las imagenes correspondientes a los perfiles que considermas adecuados para nuestra aplicación.
 ## Versionado:
-El obligatorio cuenta con dos ramas, una la **dev**, en la cual estamos subiendo todo lo que hagamos ahi con el objetivo de tener un cuerpo claro del obligatiorio, para luego hacer un merge con la rama **main**..
+El obligatorio cuenta con dos ramas, una la **dev**, en la cualsubimos todos nuestos avances con el objetivo de tener un cuerpo claro del obligatiorio, para luego hacer un merge con la rama **main** cuando lleguemos a una version completa.
 
 
 ## ELICITACIÓN
 
 ## Entrevista
-Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje, y le preguntamos sobre su experiencia trabajando con estudiantes con dificultades de aprendizaje, cuáles son sus recomendaciones técnicas y tips sobre cómo ayudar a estudiantes con tdah a organizarse.
+Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
+Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
+En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, como podemos ayudarlos en su dia a dia, que problemas suelen tener las personas que trata y que estrategias usa ella para ayudarlos.
+Luego pasamos a hablar sobre como ella desarrollaria el planner ideal para un adolecente con TDHA, que factores son clave, que cosas debemos cuidar y que deberiamos evitar.
 
-## Conclusiones de la entrevista
-ksks
-kcmdk
+## Conclusiones principales de la entrevista
+- 
 
 
 
