@@ -10,7 +10,7 @@ Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo 
 El obligatorio cuenta con dos ramas, una la **dev**, en la cualsubimos todos nuestos avances con el objetivo de tener un cuerpo claro del obligatiorio, para luego hacer un merge con la rama **main** cuando lleguemos a una version completa.
 
 
-## ELICITACIÓN
+# ELICITACIÓN
 
 ## Entrevista
 Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
@@ -19,33 +19,36 @@ Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas l
 En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, como podemos ayudarlos en su dia a dia, que problemas suelen tener las personas que trata y que estrategias usa ella para ayudarlos.
 Luego pasamos a hablar sobre como ella desarrollaria el planner ideal para un adolecente con TDHA, que factores son clave, que cosas debemos cuidar y que deberiamos evitar.
 
-## Conclusiones de la entrevista
+### Conclusiones de la entrevista
 - El TDAH tiene varios tipos, y las personas con TDAH suelen padecer de otros trastornos mencionados anteriormente.
 - Es imposible cubrir todas las necesidades o hacer un planner ideal para todos porque no todos tienen las mismas dificultades.
 - Las tecnicas organizacionales que se son ensenadas a las peronas con TDAH le pueden servir a cualquiera.
 
-- La visualizacion es un concepto clave para dessarrollar herramientas organizacionales para personas con TDAH.
-- deben poder visualizar su semana y a la vez tener sus tareas del dia y sus horarios todos en un mismo lugar
-- Las tareas diarias y el visualizador semanal debe ser lo primero que vean al entrar a la app, se distraen de lo contrario.
+Nos brindo consejos para tratar y generar recursos para personas con TDAH, estos son:
+- Otorgar tiempo adicional tanto en su trabajo diario como evaluaciones. El tiempo que demanda procesar informacion es mayor.
+- **Estimular y apoyar la organizacion** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene siguiente, cuales son los eventos del dia, etc.
+- Presentar **instrucciones pautadas** para las tareas, el espacio grafico suficiente para desarrollarla, escribir lo que sea necesario y a continuacion la siguiente propuesta.
+- Permitirle **descanso entre tareas** y cierto tiempo para que se "mueva" y retome la tarea.
+- - Es dificil para ellos anticipar cuanto tiempo les lleva prepararse y comutar para atender ciertos eventos. DEbemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de como preparase, como llegar, que omnibus, etc.
+- Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Simprificar enunciados, utilizar leguaje claro y directo, reducir cantidad de preguntas, evitar letras con serifas, Escribir ciertos elementos clave en mayusculas es de gran ayuda y utilizar colores facilmente distnguibles.
+- Tener siempre en cuenta que los _"elementos distractores"_ pueden ser perjudiciales para su desempeño.
+- deben poder visualizar su semana y a la vez tener sus tareas del día y sus horarios todos en un mismo lugar
+- La visualizacion es una estrategía clave, los graficos los ayudan a **visualizar** la informacion y as procesarla mas eficientemente.
+- Las tareas diarias y el visualizador semanal debe ser lo primero que vean, de lo contrario genera distorciones
 - Las tareas completadas deben ser deshechadas o tachadas para generar un estimulo
-- Puede servirles iconizar ciertas tareas si lo desean. 
-- La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias puede ser de gran ayuda.
-- La visualizacion en horizontal es percepcionalmente mejor.
-- Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Los colores deben ser facilmente distnguibles, el leguaje implementado debe ser simple y concreto, evitar letras con serifas.
-- Escribir ciertos elementos clave en mayusculas es de gran ayuda.
-
-- Es bueno que anticipen que es lo que viene siguiente y estar preparados para lo necesario
-- Puede ser positivo que a la ma;ana o noche del dia anterior tengan un review de su dia.
-- Es dificil para ellos anticipar cuanto tiempo les lleva prepararse y comutar para atender ciertos eventos
-- debe tener un reminder antes de este tiempo, y decir como llegar, omnibus etc
-
-
-- Necesitan un lugar para poder tomar notas, hacer checklists, etc.
-- Es importante que sus acciones tengan un feedback positivo.
-- Debe tener algun tipo de "premio"
+- Puede servirles iconizar ciertas tareas si lo desean.
+- Es importante que sus acciones tengan un **feedback positivo** y no hacerlos sentirse mal en caso de que no hayan llegado a cumplir con ciertos estandares. Algun tipo de premio siempre es bueno.
+- La Técnica Pomodoro es un metodo para conentrarse probado muy eficiente para ellos.
+- La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias genera mas instancias de recordatorios.
 - MUchos toman pastillas para la concentracion: recordaatorio de tomar las pastillas y marcar las horas de concentracion.
 - Es dificil aprenderse info clave como ci numero de telefono de contactos importantes, direccion de casa , etc.
-- El pomodoro tracker es un metodo para conentrarse probado muy eficiente para ellos.
+
+
+(No quiero poner porque es muy directo):
+- Necesitan un lugar para poder tomar notas, hacer checklists, etc.
+
+
+
 
 
 ## INGENIERIA INVERSA
