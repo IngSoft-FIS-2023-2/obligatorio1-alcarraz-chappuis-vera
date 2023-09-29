@@ -5,9 +5,9 @@ M4A - Docentes: Alejandro  Adorjan
 
 # Fundamentos de Ingeniería en Software
 ## Repositorio
-Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él esta el Readme.md en el cual esta todo el trabajo del obligatorio. A su vez, estan presentes las carpetas "casosDeUso" en donde tiene las imagenes correspondientes a los perfiles que considermas adecuados para nuestra aplicación.
+Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 ## Versionado:
-El obligatorio cuenta con dos ramas, una la **dev**, en la cualsubimos todos nuestos avances con el objetivo de tener un cuerpo claro del obligatiorio, para luego hacer un merge con la rama **main** cuando lleguemos a una version completa.
+El obligatorio cuenta con dos ramas, una la **dev**, en la cual subimos todos nuestros avances con el objetivo de tener un cuerpo claro del obligatorio, para luego hacer un merge con la rama **main** cuando lleguemos a una versión completa.
 
 
 # ELICITACIÓN
@@ -16,57 +16,54 @@ El obligatorio cuenta con dos ramas, una la **dev**, en la cualsubimos todos nue
 Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
 
-En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, como podemos ayudarlos en su dia a dia, que problemas suelen tener las personas que trata y que estrategias usa ella para ayudarlos.
-Luego pasamos a hablar sobre como ella desarrollaria el planner ideal para un adolecente con TDHA, que factores son clave, que cosas debemos cuidar y que deberiamos evitar.
+En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, cómo podemos ayudarlos en su dia a dia, que problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
+Luego pasamos a hablar sobre como ella desarrollaría el planner ideal para un adolecente con TDHA, que factores son clave, que cosas debemos cuidar y que deberíamos evitar.
 
 ### Conclusiones de la entrevista
 - El TDAH tiene varios tipos, y las personas con TDAH suelen padecer de otros trastornos mencionados anteriormente.
 - Es imposible cubrir todas las necesidades o hacer un planner ideal para todos porque no todos tienen las mismas dificultades.
-- Las tecnicas organizacionales que se son ensenadas a las peronas con TDAH le pueden servir a cualquiera.
+- Las técnicas organizacionales que se enseñan a las personas con TDAH le pueden servir a cualquiera.
 
 
-Nos brindo consejos para tratar y generar recursos para personas con TDAH, estos son:
-- Otorgar tiempo adicional tanto en su trabajo diario como evaluaciones. El tiempo que demanda procesar informacion es mayor.
-- **Estimular y apoyar la organizacion** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene siguiente, cuales son los eventos del dia, etc.
-- Presentar **instrucciones pautadas** para las tareas, el espacio grafico suficiente para desarrollarla, escribir lo que sea necesario y a continuacion la siguiente propuesta.
+Nos brindó consejos para tratar y generar recursos para personas con TDAH, estos son:
+- Otorgar tiempo adicional tanto en su trabajo diario como en las evaluaciones. El tiempo que demanda procesar información es mayor.
+- **Estimular y apoyar la organización** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene siguiente, cuales son los eventos del día, etc.
+- Presentar **instrucciones pautadas** para las tareas, el espacio gráfico suficiente para desarrollarla, escribir lo que sea necesario y a continuación la siguiente propuesta.
 - Permitirle **descanso entre tareas** y cierto tiempo para que se "mueva" y retome la tarea.
-- - Es dificil para ellos anticipar cuanto tiempo les lleva prepararse y comutar para atender ciertos eventos. DEbemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de como preparase, como llegar, que omnibus, etc.
-- Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Simprificar enunciados, utilizar leguaje claro y directo, reducir cantidad de preguntas, evitar letras con serifas, Escribir ciertos elementos clave en mayusculas es de gran ayuda y utilizar colores facilmente distnguibles.
+- Es difícil para ellos anticipar cuánto tiempo les lleva prepararse y conmutar para atender ciertos eventos. Debemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de cómo prepararse, como llegar, qué ómnibus, etc.
+- Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Simplificar enunciados, utilizar lenguaje claro y directo, reducir cantidad de preguntas, evitar letras con serifas, Escribir ciertos elementos clave en mayúsculas es de gran ayuda y utilizar colores fácilmente distinguibles.
 - Tener siempre en cuenta que los _"elementos distractores"_ pueden ser perjudiciales para su desempeño.
 - deben poder visualizar su semana y a la vez tener sus tareas del día y sus horarios todos en un mismo lugar
-- La visualizacion es una estrategía clave, los graficos los ayudan a **visualizar** la informacion y as procesarla mas eficientemente.
-- Las tareas diarias y el visualizador semanal debe ser lo primero que vean, de lo contrario genera distorciones
-- Las tareas completadas deben ser deshechadas o tachadas para generar un estimulo
+- La visualización es una estrategía clave, los gráficos los ayudan a **visualizar** la información y procesarla más eficientemente.
+- Las tareas diarias y el visualizador semanal debe ser lo primero que vean, de lo contrario genera distorsiones.
+- Las tareas completadas deben ser desechadas o tachadas para generar un estímulo positivo además de una mejor representación visual de las tareas próximas.
 - Puede servirles iconizar ciertas tareas si lo desean.
-- Es importante que sus acciones tengan un **feedback positivo** y no hacerlos sentirse mal en caso de que no hayan llegado a cumplir con ciertos estandares. Algun tipo de premio siempre es bueno.
-- La Técnica Pomodoro es un metodo para conentrarse probado muy eficiente para ellos.
-- La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias genera mas instancias de recordatorios.
-- MUchos toman pastillas para la concentracion: recordaatorio de tomar las pastillas y marcar las horas de concentracion.
-- Es dificil aprenderse info clave como ci numero de telefono de contactos importantes, direccion de casa , etc.
+- Es importante que sus acciones tengan un **feedback positivo** y no hacerlos sentir mal en caso de que no hayan llegado a cumplir con ciertos estándares. Algún tipo de premio siempre es bueno.
+- La Técnica Pomodoro es un método para concentrarse probado muy eficiente para ellos.
+- La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias genera más instancias de recordatorios.
+- Muchos toman pastillas para la concentración: recordatorio de tomar las pastillas y marcar las horas de concentración.
+- Es difícil aprenderse información clave como número de cédula de identidad, número de teléfono de contactos importantes, dirección de casa , etc.
 
 
 (No quiero poner porque es muy directo):
 - Necesitan un lugar para poder tomar notas, hacer checklists, etc.
 
-
-
-
-
 ## INGENIERIA INVERSA
 Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.
-Porque elegimos estas dos y no otras? Notion es la mas usada por estudiantes y Tiimo tiene como objetivo ser un planner mas que nada visual hecho para personas con TDAH.
+¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
 
 
  ### Tiimo
 Features principales:
-- Al empezar te pregunta si SOS un pensador visual neurodivergente, esto permite que la app se orgnize de distintas menseras y da recomendaciones según las necesidades del perfil definido. Tambien pregunta para que quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
-- Elegir objetivos para que nos ayude, estos pudeden ser: estrés, ansiedad, queres estructurar nuestras ruitnas mejor, mejorar la concentración, entre otras.
-- Nos permite crear un reminder para revisar los planes del día cada mañana y editarlos, tambien nos ofrece una revision para la noche con el objetivo de revisar las tareas ppendientes.
-- Recordatorios diarios de ciertas tareas estan disponibles
+- Al empezar te pregunta si SOS un pensador visual neurodivergente, esto permite que la app se orgnize de distintas maneras y da recomendaciones según las necesidades del perfil definido. También pregunta para qué quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
+- Elegir objetivos para que nos ayude, estos pueden ser: estrés, ansiedad, querer estructurar nuestras rutinas mejor, mejorar la concentración, entre otras.
+- Nos permite crear un reminder para revisar los planes del día cada mañana y editarlos, también nos ofrece una revisión para la noche con el objetivo de revisar las tareas pendientes.
+- Recordatorios diarios de ciertas tareas están disponibles
 - Cuando se agrega una tarea, se le asigna un color y una representación visual. Además, se pueden establecer horarios y duraciones específicas para cada tarea, incluyendo un horario de inicio y finalización. Se brindan opciones flexibles, permitiendo establecer la duración de la tarea en cualquier momento del día o para toda la jornada. También se pueden programar repeticiones diarias, de lunes a viernes o mensuales, según sea necesario.
 - En la página principal se presenta una visualización de nuestra semana con las actividades planificadas para cada día y un área con un _checklist_ de las actividades de hoy.
-- Posee de una sección de notas para agregar información adicional.
-- En una de las pestanias se muestra la tarea que deberia estar sucediendo en tiempo real, indicando la hora actual, de qué hora a qué hora es y cuánto tiempo restante para terminar la tarea, exelente para visualizar nuestro tiempo. Esto brinda una experiencia visual completa para el usuario y permite visualizr y esquematizar nuestro tiempo
+- Posee una sección de notas para agregar información adicional.
+- En una de las pestañas se muestra la tarea que debería estar sucediendo en tiempo real, indicando la hora actual, de qué hora a qué hora es y cuánto tiempo restante para terminar la tarea, excelente para visualizar nuestro tiempo. Esto brinda una experiencia visual completa para el usuario y permite visualizar y esquematizar nuestro tiempo
+
 
 ### Notion
 Notion es una aplicación de gestión que se adapta a una amplia variedad de necesidades. Su funcionamiento se basa en la creación de “carpetas” o “bases” que pueden contener una variedad de elementos como texto, listas de tareas, tablas, bases de datos, archivos adjuntos, y más. Estas bases tienen una estructura jerárquica, que permite organizar las páginas de manera estructurada, a modo de tener páginas principales y subpáginas dentro de ellas.
