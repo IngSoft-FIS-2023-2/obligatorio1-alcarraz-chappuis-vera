@@ -4,6 +4,11 @@ M4A - Docentes: Alejandro  Adorjan
 - Serena Vera 267108
 
 # Fundamentos de Ingeniería en Software
+## Objetivos: 
+Hacer una planner que se adapte a las necesidades de cada uno, principalmente para personas con déficit atencional
+## Descripción contexto: 
+planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
+
 ## Repositorio
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 ## Versionado:
@@ -33,7 +38,7 @@ Nos brindó consejos para tratar y generar recursos para personas con TDAH, esto
 - Es difícil para ellos anticipar cuánto tiempo les lleva prepararse y conmutar para atender ciertos eventos. Debemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de cómo prepararse, como llegar, qué ómnibus, etc.
 - Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Simplificar enunciados, utilizar lenguaje claro y directo, reducir cantidad de preguntas, evitar letras con serifas, Escribir ciertos elementos clave en mayúsculas es de gran ayuda y utilizar colores fácilmente distinguibles.
 - Tener siempre en cuenta que los _"elementos distractores"_ pueden ser perjudiciales para su desempeño.
-- deben poder visualizar su semana y a la vez tener sus tareas del día y sus horarios todos en un mismo lugar
+- Deben poder visualizar su semana y a la vez tener sus tareas del día y sus horarios todos en un mismo lugar.
 - La visualización es una estrategía clave, los gráficos los ayudan a **visualizar** la información y procesarla más eficientemente.
 - Las tareas diarias y el visualizador semanal debe ser lo primero que vean, de lo contrario genera distorsiones.
 - Las tareas completadas deben ser desechadas o tachadas para generar un estímulo positivo además de una mejor representación visual de las tareas próximas.
@@ -97,9 +102,9 @@ En resumen, Notion es una poderosa herramienta de organización e información, 
 ## Modelado de usuarios del Sistema
 Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas personas elijen usar este tipo de metodos, por lo tanto tambien vamos a agregarlos a nuestro publico
 
-![Alt text](image-1.png)
+![Alt text](image-2.png)
 
-![Alt text](image.png)
+![Alt text](image-3.png)
 
 
 
@@ -161,8 +166,38 @@ Descripción: la interfaz del planner sera en XXX y la logica en XXX
 
 
 ## HISTORIAS DE USUARIO
+
 ## Historias de usuario 1
+**Título:** Planificación
+
+- **Como** usuario
+- **Quiero** poder planificar mi vida diaria y semanal
+- **Para** estimularme y poder tener una organización sobre mi vida
+
+**Criterios de aceptación:**
+- El usuario tendrá que agregar sus respectivas tareas para que pueda usar el planner.
 ## Historias de usuario 2
+**Título:** Sistema de puntuación
+
+- **Como** usuario
+- **Quiero** que cada vez que complete una tarea se me recompense
+- **Para** sentirme motivado y seguir usando la aplicación.
+
+**Criterios de aceptación:**
+- El usuario deberá terminar la tarea.
+
+## Historias de usuario 3
+**Título:** Estadísticas
+
+- **Como** usuario
+- **Quiero**poder poner recordatorios y que me avisen
+- **Para** poder concentrarme con el objetivo de hacer otras tareas.
+
+**Criterios de aceptación:**
+- El usuario tendrá que poner en la sección de recordatorios la tarea y a que hora deberá ser activada la alarma.
+
+
+
 
 ## CASOS DE USO
 ## Caso de uso 1
@@ -176,10 +211,6 @@ curso alternativo
 ## REFLEXIÓN
 
 
-## Objetivos: 
-Hacer una planner que se adapte a las necesidades de cada uno, principalmente para personas con déficit atencional
-## Descripción contexto: 
-planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
 
 
  
