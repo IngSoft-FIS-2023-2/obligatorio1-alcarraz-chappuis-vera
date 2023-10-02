@@ -231,7 +231,7 @@ Prioridad: media
 ## Requerimientos no Funcionales
 
 ### Rnf1: Sistema de compatibilidad
-Descripción: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores
+Descripción: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores.
 
 ### Rnf2: Idiomas soportados
 Descripción: la aplicación deberá ser desarrollada principalmente en español e inglés
@@ -239,9 +239,13 @@ Descripción: la aplicación deberá ser desarrollada principalmente en español
 ### Rnf3 Validación de la aplicación
 Descripción: para poder subir la aplicación tanto para la Play Store de android como en la App Store de IOS, deberá cumplir con los standards de dichas tiendas 
 
-### Rnf4: Interfaz y logica
-Descripción: la interfaz del planner sera en XXX y la logica en XXX
+### Rnf4: Imresion
+Descripcion: el usuario podra tener la opcion de imprimir su calendario. 
 
+### Rnf5: formato de la aplicacion
+Descripcion: se debera mostrar en formato horziontal, con el texto de fuente Tahoma y en mayusculas.
+
+###Rnf6: tiempo maximo
 
 ## HISTORIAS DE USUARIO
 
@@ -256,35 +260,43 @@ Descripción: la interfaz del planner sera en XXX y la logica en XXX
 - **Para** estimularme y poder tener una organización sobre mi vida
 
 **Criterios de aceptación:**
-- El usuario tendrá que agregar sus respectivas tareas para que pueda usar el planner.
+-El usuario podra ver en el calendario sus tareas en sus respectivos dias.
+
 ## Historias de usuario 2
-**Título:** Sistema de puntuación
+**Título:** Feedback positivo
 
 - **Como** usuario
 - **Quiero** que cada vez que complete una tarea se me recompense
 - **Para** sentirme motivado y seguir usando la aplicación.
 
 **Criterios de aceptación:**
-- El usuario deberá terminar la tarea.
+- Al terminar terminar el dia o todas las tareas, se van a mostrar "caras felices" de acuerdo a la cantidad de tareas completadas. 
 
 ## Historias de usuario 3
-**Título:** Estadísticas
+**Título:** Representacion temporal de las tareas
 
 - **Como** usuario
-- **Quiero**poder poner recordatorios y que me avisen
-- **Para** poder concentrarme con el objetivo de hacer otras tareas.
+- **Quiero**poder poder ver cuanto tiempo me queda para terminar mi tarea
+- **Para** poder concentrarme y ser consciente sobre como debo lidiar con esta.
 
 **Criterios de aceptación:**
-- El usuario tendrá que poner en la sección de recordatorios la tarea y a que hora deberá ser activada la alarma.
+- El usuario tendra que ingresar una tarea para poder ver cuanto tiempo le falta para terminarla.
 
 
 
 
 ## CASOS DE USO
 ## Caso de uso 1
-título
-actor
-curso normal
+Titulo: ingreso de tareas
+Actor: usuario
+Curso Normal:
+|Accion de los actores|Respuesta del sistema|
+|-||-|
+|1. El usuario completa el formulario de la tarea|2. Se agrega al calendario|
+### Curso alternativo:
+1.1 El usuario no completa los campos obligatorios.
+1.2 El usuario completa los campos obligatorios y confirma los datos.
+1.3 El sistema agrega la tarea al calendario.
 curso alternativo
 ## Caso de uso 2
 
