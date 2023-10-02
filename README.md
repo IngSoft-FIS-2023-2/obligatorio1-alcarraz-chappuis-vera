@@ -362,43 +362,27 @@ Opinion de la psicologa
 
 Checklist requerimientos
 
-Complettud
+| Dimensión                            | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
+|--------------------------------------|-----|-----|-----|-----|-----|-----|-----|
+| **Complettud**                       |     |     |     |     |     |     |     |
+| Se encuentran todos los requerimientos correctamente priorizados? |  |  |  |  |  |  |  |
+| ¿Son todas las clases de usuarios identificados y sus características descriptas? |  |  |  |  |  |  |  |
+| ¿Respeta a especificación la estructura y apartados del estándar? |  |  |  |  |  |  |  |
+| ¿Se identifican y describen las dependencias con otros sistemas? |  |  |  |  |  |  |  |
+| ¿Están todas las características de calidad tenidas en cuenta en la especificación? |  |  |  |  |  |  |  |
+| **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
+| ¿Tiene cada requerimiento una única interpretación? |  |  |  |  |  |  |  |
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? |  |  |  |  |  |  |  |
+| **Correctitud y consistencia**        |     |     |     |     |     |     |     |
+| ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? |  |  |  |  |  |  |  |
+| ¿Existe duplicación de requerimientos o conflicto entre requerimientos? |  |  |  |  |  |  |  |
+| ¿Está cada requerimiento dentro del alcance del problema a resolver? |  |  |  |  |  |  |  |
+| ¿Evitan los requerimientos incluir aspectos de diseño o implementación de la solución? |  |  |  |  |  |  |  |
+| **Trazabilidad**                     |     |     |     |     |     |     |     |
+| ¿Puede cada requerimiento ser identificado correctamente y en forma única? |  |  |  |  |  |  |  |
+| ¿Se referencian correctamente los requerimientos entre sí? |  |  |  |  |  |  |  |
+| ¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de los stakeholders)? |  |  |  |  |  |  |  |
 
-—¿Se encuentran todos los requerimientos correctamente priorizados?
-
-¿Son todas las clases de usuarios identificados y sus características descriptas?
-¿Respeta a especificación la estructura y apartados del estándar?
-
-¿Se identifican y describen las dependencias con otros sistemas?
-
-¿Están todas las características de calidad tenidas en cuenta en la especificación?
-
-Verificabilidad y no ambigiiedad
-
-
-¿Tiene cada requerimiento una única interpretación?
-¿Puede ser cada requerimiento verificado por alguna prueba, demonstración,
-revisión o análisis?
-
-Correctitud y consistencia.
-
-
-¿Están los requerimientos escritos en forma consistente y aun nivel de detalle
-adecuado?
-
-¿Existe duplicación de requerimientos o conflicto entre requerimientos?
-¿Está cada requerimiento dentro del aleance del problema a resolver?
-
-¿Evitan los requerimientos incluir aspectos de diseño o implementación de la
-solución?
-
-Trazabilidad
-
-¿Puede cada requerimiento ser identificado correctamente y en forma única?
-¿Se referencian correctamente os requerimientos ente sí?
-
-¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de
-los stakeholders)?
 
 ### Verificación de Casos de Uso
 
