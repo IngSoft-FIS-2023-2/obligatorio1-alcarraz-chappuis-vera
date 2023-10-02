@@ -5,8 +5,7 @@ M4A - Docentes: Alejandro  Adorjan
 
 # Fundamentos de Ingeniería en Software
 ## Objetivos: 
-EL OBJETIVO
-Hacer una planner que se adapte a las necesidades de cada uno, principalmente para personas con déficit atencional
+El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolecentes con TDAH (Trastorno por Déficit de Atención e Hiperactividad). Este debe ser altamente customizable 
 ## Descripción contexto: 
 planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
 
