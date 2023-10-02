@@ -222,7 +222,9 @@ Actor: sisstema
 Descripcion: el usuario debe tener a primer hora del dia (a modifica)
 Prioridad: media
 
-###Rf
+### Rf7: Anticipacion de las tareas de dia
+Descripcion: al comenzar el dia que aparezca un pop up con todas las tareas y eventos que sucederan en el dia.
+Prioridad: alta.
 
 ## Requerimientos no Funcionales
 
@@ -241,7 +243,8 @@ Descripcion: el usuario podra tener la opcion de imprimir su calendario.
 ### Rnf5: formato de la aplicacion
 Descripcion: se debera mostrar en formato horziontal, con el texto de fuente Tahoma y en mayusculas.
 
-###Rnf6: tiempo maximo
+###Rnf6: Tiempo de maximo de tareas
+Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo de 5 minutos y una tarea no puede durar mas de 2 horas.
 
 ## HISTORIAS DE USUARIO
 
