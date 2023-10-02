@@ -96,8 +96,9 @@ Notion es una aplicación de gestión que se adapta a una amplia variedad de nec
 En resumen, Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales. PUEDE IR EN CONCLUSIONES
  
 ## Conclusiones de la ingenieria inversa:
-
-##INVESTIGACIÓN
+ dhhsh
+ 
+## INVESTIGACIÓN
 
 ¿Qué es el Transtorno por Déficit de Atención e Hiperactividad o TDAH?
 El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y con transmisión genética, que afecta a la capacidad del niño, adolescente o adulto de:
