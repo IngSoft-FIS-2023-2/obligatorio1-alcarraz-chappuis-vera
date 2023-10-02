@@ -20,7 +20,11 @@ El obligatorio cuenta con dos ramas, una la **dev**, en la cual subimos todos nu
 
 
 # ELICITACIÓN
- Vamos a hacer una entrevista una investigacion y una ingenieria inversa(sacar ideas, buenas y malas de cada app).
+ Vamos a hacer una entrevista una investigacion y una ingenieria inversa(sacar ideas, buenas y malas de cada app). 
+
+
+
+ investigacion : extraisa de tl librooo
 ## Entrevista
 Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
@@ -104,45 +108,44 @@ En resumen, Notion es una poderosa herramienta de organización e información, 
  
 ## INVESTIGACIÓN
 
-### 1. ¿Qué es el Transtorno por Déficit de Atención e Hiperactividad o TDAH?
+**1. ¿Qué es el Transtorno por Déficit de Atención e Hiperactividad o TDAH?**
 El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y con transmisión genética, que afecta a la capacidad del niño, adolescente o adulto de:
 - regular su nivel de actividad, por lo que tienen hiperactividad,
 - inhibir o frenar sus ideas, pensamientos o comportamiento, por lo que tienen impulsividad.
 - prestar atención a las acciones que realizan, por lo que sufren inatención.
 
-### 2. ¿Qué consecuencias tiene el TDAH para el adolecente y su familia?
+**2. ¿Qué consecuencias tiene el TDAH para el adolecente y su familia?**
 El TDAH tiene un efecto muy negativo sobre el que lo padece. A largo plazo, y si no se trata correctamente, produce una disminución del rendimiento académico que desemboca en fracaso escolar. Esto dificulta su paso a cursos superiores. Si pasancurso, no dominan la materia anterior y la base de conocimientos del adolcente se hace cada vez más endeble. Además, afecta al desarrollo social y emocional del adolecente. Debido a los múltiples problemas en las relaciones con los compañeros por su impulsividad, los adolecentes con TDAH tienden a tener pocos amigos, poco duraderos, y las relaciones son menos estrechas. Debido a los fracasos repetidos en el colegio, las discusiones con los amigos y con los padres por malas notas y mal comportamiento, son frecuentes los síntomas depresivos e incluso la depresión en los adolecentes con TDAH. Algunos adolcentes con TDAH desarrollan comportamientos negativistas: desobediencias progresivas, desafío a la autoridad y, poco a poco, problemas de conducta mayores, e incluso, abuso de alcohol y drogas.No es un trastorno
 "cosmético" o fruto del perfeccionismo de la sociedad. Las personas con
 TDAH que no reciben tratamiento correcto suelen alcanzar trabajos o profesiones por debajo de su capacidad.
 
-
-### 3. ¿Que tipos de TDAH existen?
+**3. ¿Que tipos de TDAH existen?**
 - TDAH ripo hiperactivo-impulsivo (el niño sólo presenta hiperactividad e impulsividad), que es muy poco frecuente.
 - TDAH tipo inatento (presentan inatención).
 - TDAH tipo combinado (el mito presenta los tres sintomas hiperactividad, impulsividad e inatención), que es el mas fecuente.
 
-### 4. ¿Puede una persona con TDAH no ser hiperactiv@?
+**4. ¿Puede una persona con TDAH no ser hiperactiv@?**
 Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención: cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad.
 
-### 5. ¿Qué características tiene y cómo se reconoce la inatención?
+**5. ¿Qué características tiene y cómo se reconoce la inatención?**
 Los niños con inatención tienen muchas dificultades para realizar una misma actividad durante mucho tiempo. Se aburren enseguida tras unos minutos haciendo la tarea, se les va el santo al cielo y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. Si no se
 cualquier estímulo que se cruza en su camino.  por ejemplo, al prepararse para ir al colegio 
 , si mientras se viste ve un juguete que le atrae, se queda medio vestido jugado. Hay que decirle muchas veces que se vista, quitarle el juguete, acabar de vestirle y llevarle a desayunar, para encontrarle jugueteando con otra cosa y sin desayunar.
 En el colegio, si tiene que ir a sacar punta al lápiz, puede encontrarse por el camino con otros niños con los que hará bromas y se distraerá; olvidará que iba a sacar punta, el profesor le llamará la atención y volverá a su sitio con el lápiz sin punta, teniendo que volver a levantarse... La inatención hace que cualquier estímulo o situación que se cruce por el camino del niño le haga
 perder el norte y olvidarse de lo que estaba haciendo, dejando las cosas a medias. Los padres dicen: "está en todo y en nada", cambiando continuamente su foco de atención, sin alcanzar nunca el objetivo final.
 
-¿Qué características tiene y como se reconoce la hiperactividad?
+**¿Qué características tiene y como se reconoce la hiperactividad?**
 Los niños con hiperactividad están en movimiento constante, y tienen muchas dificultades para permanecer sentados durante mucho tiempo (en clase, en la cena, en la iglesia, viendo la TV, etc.).
 Se levantan y merodean sinsentido, y hablan sin parar. Les resulta imposible aguantar una clase entera sentados y quietos.
 Se levantan y dan vueltas por la clase. Cuando están sentados, se mueven mucho en la silla, enredando con los pies y manos, cambiando de postura, tocándolo todo, por lo que, con frecuencia, las cosas se les caen al suelo. Son ruidosos, y están siempre dando golpecitos en la mesa o canturreando.
 Otras veces, aunque no se mueven, dicen que se sienten inquietos o nerviosos. Los padres cuentan que estos niños mordisquean y rompen los lápices y bolígrafos, desarman las cosas con piezas, perdiendo o estropeando algunas y no pueden armarlas de nuevo (desarman un bolígrafo y pierden el muelle o lo estiran); a veces, también muerden la ropa o arrancan los hilitos que sobresalen hasta que los rompen.
 
-¿Qué características tiene y como se reconoce la impulsividad?
+**¿Qué características tiene y como se reconoce la impulsividad?**
 Los niños con impulsividad tienen dificultades para inhibir o modular sus respuestas o reacciones inmediatas ante las situaciones. Es decir, les resulta difícil no hacer lo primero que les apetece o se les ocurre. No piensan en las consecuencias de sus actos y directamente hacen (o dicen) lo primero que piensan, lo que se les pasa por la cabeza. Por eso, en clase responden sin pensar, a veces, incluso antes de que el profesor haya terminado de formular la pregunta, sin pensar realmenteen lo que se les está preguntando. Hacen comentarios inapropiados sin pensar en la reacción de la otra persona. Por ejemplo, dicen en voz alta "vaya tontería" tras una explicación del profesor, lo que les acarrea un castigo o un punto negativo. Un niño sin impulsividad pensaría que lo que dice el profesor es una tontería, pero que si él lo dice en alto le pueden castigar y decidiría no decir nada. Los niños con TDAH no tienen ese diálogo interior antes de realizar una acción, no valoran las posibilidades ni las consecuencias de cada posible respuesta, simplemente actúan y luego sufren las consecuencias. Sól.
 ven las consecuencias de sus actos cuando es demasiado tarde y ya han hecho o dicho algo inapropiado. Sin embargo, a pesar de sufrir consecuencias, no aprenden, y más adelante se vuelven a dejar llevar por la primera cosa que se les ocurre, reaccionando impulsivamente.
 Su impulsividad hace que les resulte muy difícil esperar su turno para hacer algo, por ejemplo en juegos y, por ello, no son aceptados por los compañeros (por ejemplo: en un partido saca una falta antes de dar tiempo a que se coloque la barrera, habiendo dicho el entrenador que fuera otro el que debía sacarla).
 
-17. ¿Cómo son los adolescentes con TDAH?
+**¿Cómo son los adolescentes con TDAH?**
 Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente como los niños, perotodavía enredan en exceso con las manos, hacen ruiditos, dan golpecitos y sienten inquietud interna. Los padres dicen que la hiperactividad mejora bastante.
 Sin embargo, todavía son desorganizados en sus trabajos escolares y les cuesta mucho acabar las cosas. Les resulta difícil trabajar de forma independiente, todavía hay que estar encima de ellos para que acaben sus tareas y estudios. Suelen tener
 más comportamientos arriesgados (fumar, beber, consumir drogas, tener accidentes, actuar impulsivamente, etc). Sufren autoestima baja por sus fracasos, y por sus peores relaciones con sus iguales presentan dificultades y encontronazos con las figuras de autoridad (padres, profesores, entrenadores). A veces, si el niño es inteligente y sus padres han estado muy pendientes de las tareas escolares, puede no notarse
@@ -150,8 +153,7 @@ el TDAH hasta la adolescencia, donde los trabajos son más complejos y se requie
 asociación de conceptos
 aprendidos anteriormente.
 
-
-18. ¿Qué complicaciones tienen los adolescentes con TDAH?
+**¿Qué complicaciones tienen los adolescentes con TDAH?**
 
 Segun ciertas estadisiticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH.También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes sin TDAH. Esto se debe a que no
 piensan las consecuencias de sus actos y no aprenden de sus errores.
@@ -160,7 +162,7 @@ piensan las consecuencias de sus actos y no aprenden de sus errores.
 
 
 
-ETIOLOGÍA- Causas del TDAH
+**ETIOLOGÍA- Causas del TDAH**
 
 30. ¿Qué neurotransmisores están
 implicados en el TDAH?
@@ -193,35 +195,35 @@ Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas pe
 
 ###  Rf1: Visualizacion de tarea
 Actor: usuario
-Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y esto se debe mostrar, cuando una tarea se completa debe desaparecer
+Descripción:  cuando el usuario abre la app, lo primero que debe ver es su semana y tareas del dia
 Prioridad: alta
 
-###  Rf1: Ingreso y actualización de tareas 
+###  Rf2: Ingreso y actualización de tareas 
 Actor: Sistema
-Descripción: cuando una tarea se completa debe desaparecer para poder visualizarse mejor
+Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y cuando una tarea se completa debe desaparecer para poder visualizarse mejor
 Prioridad: alta
 
-
-
-### Rf2: Sistema de puntos:
+### Rf3: Feedback positivo:
 Actor : usuario
-Descripción: el sistema deberá brindar, los puntos correspondientes de acuerdo a la racha de tareas completadas
+Descripción: el sistema deberá mostrar al terminar todas sus tareas pendientes del dia el numero de caritas felices segun sus tareas completasas
 Prioridad: alta
 
-### Rf5: Visualización de todas las tareas:
-Actor: Sistema
-Descripcion: el sistema tiene que mostrar todas las tareas del dia y toda su semana en la pagina principal
-Prioridad: alta
-
-### Rf6: Notas
+### Rf4: Notas
 Actor: usuario
 Descripcion: el usuario podra tener la opcion de poder escribir notas rapidas
-Prioridad baja
+Prioridad: baja
 
-### Rf7: Agregacion de alarmas
+### Rf5: Agregacion de alarmas
 Actor: usuario
 Descripción: el usuario deberá poder agregar recordatorios, de modo que se le active una alarma.
-Prioridad alta
+Prioridad: media
+
+### Rf6: Ventana de actividad actual
+Actor: sisstema
+Descripcion: el usuario debe tener a primer hora del dia (a modifica)
+Prioridad: media
+
+###Rf
 
 ## Requerimientos no Funcionales
 
