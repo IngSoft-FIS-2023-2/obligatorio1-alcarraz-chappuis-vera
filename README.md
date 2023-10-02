@@ -5,18 +5,22 @@ M4A - Docentes: Alejandro  Adorjan
 
 # Fundamentos de Ingeniería en Software
 ## Objetivos: 
+EL OBJETIVO
 Hacer una planner que se adapte a las necesidades de cada uno, principalmente para personas con déficit atencional
 ## Descripción contexto: 
 planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
 
-## Repositorio
+##Stakeholders
+1. Adolecentes con TDAH: LOS USUARIOS FINALES DE LA PLATAFORMA
+2. 
+## Repositorio Git: Uso de ramas separadas
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 ## Versionado:
 El obligatorio cuenta con dos ramas, una la **dev**, en la cual subimos todos nuestros avances con el objetivo de tener un cuerpo claro del obligatorio, para luego hacer un merge con la rama **main** cuando lleguemos a una versión completa.
 
 
 # ELICITACIÓN
-
+ Vamos a hacer una entrevista una investigacion y una ingenieria inversa(sacar ideas, buenas y malas de cada app).
 ## Entrevista
 Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
@@ -186,30 +190,27 @@ Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas pe
 
 ## ESPECIFICACIÓN
 ## Requirimientos Funcionales
-###  Rf1: Ingreso y actualización de tareas 
+
+###  Rf1: Visualizacion de tarea
 Actor: usuario
-Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas(en proceso, 	finalizado) tareas en su planner
+Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y esto se debe mostrar, cuando una tarea se completa debe desaparecer
 Prioridad: alta
+
+###  Rf1: Ingreso y actualización de tareas 
+Actor: Sistema
+Descripción: cuando una tarea se completa debe desaparecer para poder visualizarse mejor
+Prioridad: alta
+
 
 
 ### Rf2: Sistema de puntos:
 Actor : usuario
 Descripción: el sistema deberá brindar, los puntos correspondientes de acuerdo a la racha de tareas completadas
 Prioridad: alta
-	
-### Rf3: Mascota
-Actor: Sistema 
-Descripción: la mascota deberá cambiar su estado de ánimo de acuerdo al puntaje promedio del dia 
-Prioridad: media
 
-### Rf4: Estadísticas
-Actor: Sistema
-Descripcion: el sistema debera mostrar en pantalla el porcentaje de tareas completadas en el día
-Prioridad: alta
- 
 ### Rf5: Visualización de todas las tareas:
 Actor: Sistema
-Descripcion: el sistema tiene que mostrar todas las tareas del dia
+Descripcion: el sistema tiene que mostrar todas las tareas del dia y toda su semana en la pagina principal
 Prioridad: alta
 
 ### Rf6: Notas
@@ -239,6 +240,9 @@ Descripción: la interfaz del planner sera en XXX y la logica en XXX
 
 ## HISTORIAS DE USUARIO
 
+
+##Modelo conceptual del problema
+[diagrma de cada pagina]
 ## Historias de usuario 1
 **Título:** Planificación
 
