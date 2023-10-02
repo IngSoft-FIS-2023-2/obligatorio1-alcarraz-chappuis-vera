@@ -285,21 +285,145 @@ Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo 
 
 
 ## CASOS DE USO
-## Caso de uso 1
+## Caso de uso 1:
 Titulo: ingreso de tareas
 Actor: usuario
 Curso Normal:
-|Accion de los actores|Respuesta del sistema|
-|-||-|
-|1. El usuario completa el formulario de la tarea|2. Se agrega al calendario|
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario completa el formulario de la tarea     | 2. Se agrega al calendario  |
+
+![Alt text](image-4.png)
+
+
+
 ### Curso alternativo:
 1.1 El usuario no completa los campos obligatorios.
 1.2 El usuario completa los campos obligatorios y confirma los datos.
 1.3 El sistema agrega la tarea al calendario.
 curso alternativo
-## Caso de uso 2
+## Caso de uso 2:
+Titulo: realizar una tarea
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario, ya habiendo escrito una tarea, va a la sección de ahora mismo | 2. El sistema muestra la tarea, el tiempo restante y la siguiente tarea a esta|
+
+![Alt text](image-6.png)
+
+### Curso alternativo:
+1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
+1.2 En la pantalla le saldrá un cartel el cual aparecerá "No hay tareas por completar".
+
+## Caso de uso 3:
+Titulo: eliminar una nota
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario ingresa a la sección de notas  |2.  El sistema deberá mostrar en pantalla todos los nombres de las notas|
+| 3. El usuario presiona la nota |4.  El sistema muestra la nota con su respecitiva descripción |
+| 4. El usuario presiona el ícono de borrar  |5.  El sistema le pone un cartel de confirmación |
+| 6. El usuario selecciona la opcion que dice **"SI"**  |7.  El sistema llevará al usuario devuelta a donde estan todas las notas, dejando de mostrar la ya borrada |
+
+| 1|4 |
+|--------------|--------------|
+| ![Alt text](image-7.png) |![wssw](image-8.png) |
+
+| 6|7|
+|--------------|--------------|
+| ![Alt text](image-9.png)|![Alt text](image-11.png)|
+
+
+
+### Curso alternativo:
+5.1 El usuario selecciona la opcion que dice **"NO"**.
+5.2 Se vuelve a mostrar la nota completa.
+
+
+
+
+
+
+
+
+
+
 
 ## VALIDACION Y VERIFICACION
+### Validación
+Opinion de la psicologa
+
+### Verificación de requerimientos
+
+Checklist requerimientos
+
+Complettud
+
+—¿Se encuentran todos los requerimientos correctamente priorizados?
+
+¿Son todas las clases de usuarios identificados y sus características descriptas?
+¿Respeta a especificación la estructura y apartados del estándar?
+
+¿Se identifican y describen las dependencias con otros sistemas?
+
+¿Están todas las características de calidad tenidas en cuenta en la especificación?
+
+Verificabilidad y no ambigiiedad
+
+
+¿Tiene cada requerimiento una única interpretación?
+¿Puede ser cada requerimiento verificado por alguna prueba, demonstración,
+revisión o análisis?
+
+Correctitud y consistencia.
+
+
+¿Están los requerimientos escritos en forma consistente y aun nivel de detalle
+adecuado?
+
+¿Existe duplicación de requerimientos o conflicto entre requerimientos?
+¿Está cada requerimiento dentro del aleance del problema a resolver?
+
+¿Evitan los requerimientos incluir aspectos de diseño o implementación de la
+solución?
+
+Trazabilidad
+
+¿Puede cada requerimiento ser identificado correctamente y en forma única?
+¿Se referencian correctamente os requerimientos ente sí?
+
+¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de
+los stakeholders)?
+
+### Verificación de Casos de Uso
+
+Checklist casos de uso
+
+¿Cumple el caso de uso un único objetivo 0 tarea?
+
+¿Es su objetivo un resultado medible para el usuario?
+
+¿Queda claro que actor(es) participan y benefician del caso de uso?
+
+¿Existe una secuencia lógica en los pasos que permita entenderla transacción
+entre actor y sistema?
+
+¿Es el nivel de abstracción de las transacciones adecuado para el caso de uso?
+¿Está el caso de uso libre de detalles de diseño e implementación de posibles
+soluciones?
+
+¿Se documentan todos los posibles cursos altematvos y excepcionales?
+¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso?
+
+
+
+
+
 ## REFLEXIÓN
 
 
@@ -326,14 +450,3 @@ curso alternativo
 
 
 
-
-
-
-## preguntas para la entrevista:
-que es el adhd
-que dificultades presenta en el dia a dia una persona con adhd
-como trabajas tu con gente con adhd
-como responden al estimulo la gente con adhd? estimulo positivo? negativo? ambos?
-cuales son buenas practicas para tratar con gente con adhd?
-que recursos usas para tratar con esta gente?
-g
