@@ -100,48 +100,27 @@ En resumen, Notion es una poderosa herramienta de organización e información, 
  
 ## INVESTIGACIÓN
 
-¿Qué es el Transtorno por Déficit de Atención e Hiperactividad o TDAH?
+### 1. ¿Qué es el Transtorno por Déficit de Atención e Hiperactividad o TDAH?
 El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y con transmisión genética, que afecta a la capacidad del niño, adolescente o adulto de:
-a) regular su nivel de actividad, por lo que tienen hiperactividad,
-b) inhibir o frenar sus ideas,
-pensamientos o comportamiento, por lo que tienen impulsividad, y
-c) prestar atención a las acciones que realizan, por lo que sufren inatención.
-En niño con TDAH tiene gran dificultad o incapacidad para prestar atención y concentrarse, presenta un nivel alto de actividad inadecuado para su edad, se distrae muy fácilmente y es muy impulsivo.
+- regular su nivel de actividad, por lo que tienen hiperactividad,
+- inhibir o frenar sus ideas, pensamientos o comportamiento, por lo que tienen impulsividad.
+- prestar atención a las acciones que realizan, por lo que sufren inatención.
+
+### 2. ¿Qué consecuencias tiene el TDAH para el adolecente y su familia?
+El TDAH tiene un efecto muy negativo sobre el que lo padece. A largo plazo, y si no se trata correctamente, produce una disminución del rendimiento académico que desemboca en fracaso escolar. Esto dificulta su paso a cursos superiores. Si pasancurso, no dominan la materia anterior y la base de conocimientos del adolcente se hace cada vez más endeble. Además, afecta al desarrollo social y emocional del adolecente. Debido a los múltiples problemas en las relaciones con los compañeros por su impulsividad, los adolecentes con TDAH tienden a tener pocos amigos, poco duraderos, y las relaciones son menos estrechas. Debido a los fracasos repetidos en el colegio, las discusiones con los amigos y con los padres por malas notas y mal comportamiento, son frecuentes los síntomas depresivos e incluso la depresión en los adolecentes con TDAH. Algunos adolcentes con TDAH desarrollan comportamientos negativistas: desobediencias progresivas, desafío a la autoridad y, poco a poco, problemas de conducta mayores, e incluso, abuso de alcohol y drogas.No es un trastorno
+"cosmético" o fruto del perfeccionismo de la sociedad. Las personas con
+TDAH que no reciben tratamiento correcto suelen alcanzar trabajos o profesiones por debajo de su capacidad.
 
 
-2. ¿Cómo se define el TDAH?
-El TDAH se define como:
-a) un nivel de inatención, o de hiperactividad e
-impulsividad inadecuado para la edad del niño,
-b) cuyos síntomas empiezan
-antes de los 7 años de edad,
-c) que produce un deterioro importante o afecta negativamente al niño o adolescente, en al menos dos ambientes de su vida (en casa, en el colegio, con los amigos...),
-d) que dura al menos seis meses,
-e) que no se debe a otro problema psiquiátrico (por ejemplo:
-ansiedad, depresión),
-f) ni a un problema médico, una sustancia (alcohol, drogas) o
-alguna medicación.
-Por lo tanto, la presencia de los síntomas no es suficiente; es necesario que los síntomas tengan un impacto en la vida del niño en dos ambientes, y que no sea por otra causa psiquiátrica, médic: o tóxica.
-
-3. ¿Qué consecuencias tiene el
-TDAH para el niño y su familia?
-El TDAH tiene un efecto muy negativo sobre el que lo padece. A largo plazo, y si no se trata correctamente, produce una disminución del rendimiento académico que desemboca en fracaso escolar. Esto dificulta su paso a cursos superiores. Si pasancurso, no dominan la materia anterior y la base de conocimientos del niño se hace cada vez más endeble. Además, afecta al desarrollo social y emocional del niño. Debido a los múltiples problemas en las relaciones con los compañeros por su impulsividad, los niños con TDAH tienden a tener pocos amigos, poco duraderos, y las relaciones son menos estrechas. Debido a los fracasos repetidos en el colegio, las discusiones con los amigos y con los padres por malas notas y mal comportamiento, son frecuentes los síntomas depresivos e incluso la depresión en los niños con TDAH. Algunos niños con TDAH desarrollan comportamientos negativistas: desobediencias progresivas, desafío a la autoridad y, poco a poco, problemas de conducta mayores, e incluso, abuso de alcohol y drogas (especialmente, porros).No es un trastorno
-"cosmético" o fruto del perfeccionismo de la sociedad. Los niños con
-TDAH que no reciben tratamiento correcto
-suelen alcanzar trabajos o profesiones por debajo de su capacidad.
-
+### 3. ¿Que tipos de TDAH existen?
 - TDAH ripo hiperactivo-impulsivo (el niño sólo presenta hiperactividad e impulsividad), que es muy poco frecuente.
-- TDAH tipo inatento (el niño tiene inatención).
-- TDAH tipo combinado (el
-mito presenta los tres sintomas
-hiperactividad, impulsividad e inatención), que es el mas fecuente.
+- TDAH tipo inatento (presentan inatención).
+- TDAH tipo combinado (el mito presenta los tres sintomas hiperactividad, impulsividad e inatención), que es el mas fecuente.
 
-5. ¿Puede un niño con TDAH no ser hiperactivo?
-Claro que sí. No todos los niños con TDAH
-son hiperactivos. Los niños con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención:
-cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad. Los niños con TDAH tipo inatento pueden pasar inadvertidos en clase porque no molestan. Como este tipo de TDAH es más frecuente en niñas, a veces pasan por "tontas" o "despistadas", se pasan el día "pensando en las musarañas". Suelen venir a la consulta en cursos más altos de primaria porque no "molestan" en clase.
+### 4. ¿Puede una persona con TDAH no ser hiperactiv@?
+Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención: cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad.
 
-10. ¿Qué características tiene y cómo se reconoce la inatención?
+### 5. ¿Qué características tiene y cómo se reconoce la inatención?
 Los niños con inatención tienen muchas dificultades para realizar una misma actividad durante mucho tiempo. Se aburren enseguida tras unos minutos haciendo la tarea, se les va el santo al cielo y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. Si no se
 cualquier estímulo que se cruza en su camino.  por ejemplo, al prepararse para ir al colegio 
 , si mientras se viste ve un juguete que le atrae, se queda medio vestido jugado. Hay que decirle muchas veces que se vista, quitarle el juguete, acabar de vestirle y llevarle a desayunar, para encontrarle jugueteando con otra cosa y sin desayunar.
@@ -170,7 +149,7 @@ aprendidos anteriormente.
 
 18. ¿Qué complicaciones tienen los adolescentes con TDAH?
 
-adecuado tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH.También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes sin TDAH. Esto se debe a que no
+Segun ciertas estadisiticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH.También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes sin TDAH. Esto se debe a que no
 piensan las consecuencias de sus actos y no aprenden de sus errores.
 
 ![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/4153d7ad-42d2-4aef-a8a0-d32d371b0dd7)
