@@ -6,7 +6,7 @@ M4A - Docentes: Alejandro  Adorjan
 # Fundamentos de Ingeniería en Software
 ## Objetivos: 
 El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolescentes con TDAH (Trastorno por Déficit de Atención e Hiperactividad). Este debe ser altamente customizable, adaptarse a las necesidades, problemas , limitaciones y desafíos que presentan el día a día de un adolescente con TDAH.
-Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organización que favorecen su entendimiento, concentración y atención, así mejorando su productividad diaria, ayudando que no se desenfoquen y pierdan sus objetivos de vista, así mejorando su rendimiento diario y poco a poco, ayudarlos acercarse a su potencial máximo
+Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organización que favorecen su entendimiento, concentración y atención, así mejorando su productividad diaria, ayudando que no se desenfoquen y pierdan sus objetivos de vista, así mejorando su rendimiento diario y poco a poco, ayudarlos acercarse a su potencial máximo.
 
 ## Stakeholders
 1. Adolescentes con TDAH: Los usuarios finales del programa, ellos son quienes hacen la decisión final de usar la app o no.
