@@ -218,11 +218,12 @@ Descripción: el usuario deberá poder agregar recordatorios, de modo que se le 
 Prioridad: media
 
 ### Rf6: Ventana de actividad actual
-Actor: sisstema
+Actor: sistema
 Descripcion: el usuario debe tener a primer hora del dia (a modifica)
 Prioridad: media
 
 ### Rf7: Anticipacion de las tareas de dia
+Actor: sistema
 Descripcion: al comenzar el dia que aparezca un pop up con todas las tareas y eventos que sucederan en el dia.
 Prioridad: alta.
 
@@ -243,7 +244,7 @@ Descripcion: el usuario podra tener la opcion de imprimir su calendario.
 ### Rnf5: formato de la aplicacion
 Descripcion: se debera mostrar en formato horziontal, con el texto de fuente Tahoma y en mayusculas.
 
-###Rnf6: Tiempo de maximo de tareas
+### Rnf6: Tiempo de maximo de tareas
 Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo de 5 minutos y una tarea no puede durar mas de 2 horas.
 
 ## HISTORIAS DE USUARIO
@@ -345,8 +346,40 @@ Curso Normal:
 5.2 Se vuelve a mostrar la nota completa.
 
 
+## Caso de uso 3:
+Titulo: agregar una nota
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario ingresa a la sección de notas  |2.  El sistema deberá mostrar en pantalla todos los nombres de las notas|
+| 3. El usuario presiona el icono para agregar |5.  El sistema va a mostrar una nueva sección en donde se rellena la información sobre la nota |
+| 6. El usuario rellena los campos y le da al botón de aceptar  |7.  El sistema pondrá en la sección de notas, la nueva que escribió el usuario |
 
 
+| 1|4 |
+|--------------|--------------|
+|![Alt text](image-12.png) |![Alt text](image-14.png) |
+
+| 7|
+|--------------|
+| ![Alt text](image-13.png)|
+
+
+
+
+
+
+
+
+
+### Cursos alternativos:
+4.1 El usuario solo rellena el título
+4.2 El sistema agrega la nota de igual manera
+
+4.1 El usuario solo rellena la descripción
+4.2 El sistema muestra un error
 
 
 
@@ -364,24 +397,22 @@ Checklist requerimientos
 
 | Dimensión                            | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
 |--------------------------------------|-----|-----|-----|-----|-----|-----|-----|
-| **Complettud**                       |     |     |     |     |     |     |     |
-| Se encuentran todos los requerimientos correctamente priorizados? |  |  |  |  |  |  |  |
-| ¿Son todas las clases de usuarios identificados y sus características descriptas? |  |  |  |  |  |  |  |
+| **Completitud**                       |     |     |     |     |     |     |     |
+| Se encuentran todos los requerimientos correctamente priorizados? | SI | SI|  SI|  |  |  |  |
+| ¿Están identificados los usuarios? |SI  | SI |SI  |SI  |SI  |SI  |SI  |
 | ¿Respeta a especificación la estructura y apartados del estándar? |  |  |  |  |  |  |  |
-| ¿Se identifican y describen las dependencias con otros sistemas? |  |  |  |  |  |  |  |
 | ¿Están todas las características de calidad tenidas en cuenta en la especificación? |  |  |  |  |  |  |  |
 | **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
-| ¿Tiene cada requerimiento una única interpretación? |  |  |  |  |  |  |  |
-| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? |  |  |  |  |  |  |  |
+| ¿Tiene cada requerimiento una única interpretación? | SI | SI | SI |SI  |SI  |SI |SI  |
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  |  |  |  |  |
 | **Correctitud y consistencia**        |     |     |     |     |     |     |     |
-| ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? |  |  |  |  |  |  |  |
-| ¿Existe duplicación de requerimientos o conflicto entre requerimientos? |  |  |  |  |  |  |  |
-| ¿Está cada requerimiento dentro del alcance del problema a resolver? |  |  |  |  |  |  |  |
-| ¿Evitan los requerimientos incluir aspectos de diseño o implementación de la solución? |  |  |  |  |  |  |  |
-| **Trazabilidad**                     |     |     |     |     |     |     |     |
-| ¿Puede cada requerimiento ser identificado correctamente y en forma única? |  |  |  |  |  |  |  |
-| ¿Se referencian correctamente los requerimientos entre sí? |  |  |  |  |  |  |  |
-| ¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de los stakeholders)? |  |  |  |  |  |  |  |
+| ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? | SI |SI  | SI |SI  |SI  |SI  | SI |
+| ¿Existe duplicación de requerimientos o conflicto entre requerimientos? | NO | NO | NO |NO  |NO  |NO  |NO  |
+| ¿Está cada requerimiento dentro del alcance del problema a resolver? | SI |SI  |SI  |SI  |SI  |SI  | SI |
+|**Trazabilidad**                               |    |    |    |    |    |    |    |
+| ¿Puede cada requerimiento ser identificado correctamente y en forma única? | SI | SI | SI | SI | SI | SI | SI |
+| ¿Se referencian correctamente los requerimientos entre sí? | SI | SI | SI | SI | SI | SI | SI |
+| ¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de los stakeholders)? | SI | SI | SI | SI | SI | SI | SI |
 
 
 ### Verificación de Casos de Uso
@@ -405,7 +436,16 @@ soluciones?
 ¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso?
 
 
-
+| Casos de uso| Caso 1 | Caso 2| Caso 3| Caso 4|
+|--------------|--------------|--------------|--------------|--------------|
+| ¿Cumple el caso de uso un único objetivo o tarea? | SI |SI  | SI |SI |
+| ¿Es su objetivo un resultado medible para el usuario? | SI |SI  | SI |SI |
+| ¿Queda claro qué actor(es) participan y se benefician del caso de uso? | SI |SI  | SI |SI |
+| ¿Existe una secuencia lógica en los pasos que permita entender la transacción entre actor y sistema? | SI |SI  | SI |SI |
+| ¿Es el nivel de abstracción de las transacciones adecuado para el caso de uso? |  |  | ||
+| ¿Está el caso de uso libre de detalles de diseño e implementación de posibles soluciones? |  | |  | |
+| ¿Se documentan todos los posibles cursos alternativos y excepcionales? | | |  | |
+| ¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso? | | | | |
 
 
 ## REFLEXIÓN
