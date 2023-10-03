@@ -8,6 +8,7 @@ M4A - Docentes: Alejandro  Adorjan
 El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolecentes con TDAH (Trastorno por Déficit de Atención e Hiperactividad). Este debe ser altamente customizable, adaptarse a las necesidades, problemas , limitaciones y desafios que presentan el dia a dia de un adolecente con TDAH.
 Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organizacion que favorecen su entrendimiento, concentracion y atencion, asi mejorando su productividad diaria, ayudando que no se desenfoquen y pierdan sus objetivos de vista, asi mejorando su rendimiento diario y poco  a poco, ayudarlos acercarse a su potencial maximo
 
+<<<<<<< HEAD
 ## Descripción contexto: 
 planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
 
@@ -16,6 +17,13 @@ planner altamente customizable para TDAH, enfocado en poder organizar su día te
 2. Profesionales y expertos del tema: Por ejemplo: Pisiquiatras, Profesores, Tecnicos de dificultades de aprendizaje, etc. Ellos tienen entendimiento profundo en la condicion y al probar nuestra app reconoceran facilmente que realmente ayuda a un adolecente con TDAH y que no
 3. Redes sociales, influencers, etc: Promueven y popularizan la app.
 
+=======
+## Stakeholders
+1. Adolecentes con TDAH: Los usuarios finales del programa, ellos son quienes hacen la desicion final de usar la app o no.
+2. Profesionales y expertos del tema: Por ejemplo: Pisiquiatras, Profesores, Tecnicos de dificultades de aprendizaje, etc. Ellos tienen entendimiento profundo en la condicion y al probar nuestra app reconoceran facilmente que realmente ayuda a un adolecente con TDAH y que no
+3. Redes sociales, influencers, etc: Promueven y popularizan la app. 
+
+>>>>>>> c0b01124b0c59840c1238d4bc381fbbb691232fa
 ## Repositorio Git: Uso de ramas separadas
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 
@@ -222,11 +230,14 @@ Descripción: el usuario deberá poder agregar recordatorios, de modo que se le 
 Prioridad: media
 
 ### Rf6: Ventana de actividad actual
-Actor: sisstema
+Actor: sistema
 Descripcion: el usuario debe tener a primer hora del dia (a modifica)
 Prioridad: media
 
-###Rf
+### Rf7: Anticipacion de las tareas de dia
+Actor: sistema
+Descripcion: al comenzar el dia que aparezca un pop up con todas las tareas y eventos que sucederan en el dia.
+Prioridad: alta.
 
 ## Requerimientos no Funcionales
 
@@ -245,7 +256,8 @@ Descripcion: el usuario podra tener la opcion de imprimir su calendario.
 ### Rnf5: formato de la aplicacion
 Descripcion: se debera mostrar en formato horziontal, con el texto de fuente Tahoma y en mayusculas.
 
-###Rnf6: tiempo maximo
+### Rnf6: Tiempo de maximo de tareas
+Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo de 5 minutos y una tarea no puede durar mas de 2 horas.
 
 ## HISTORIAS DE USUARIO
 
@@ -286,21 +298,168 @@ Descripcion: se debera mostrar en formato horziontal, con el texto de fuente Tah
 
 
 ## CASOS DE USO
-## Caso de uso 1
+## Caso de uso 1:
 Titulo: ingreso de tareas
 Actor: usuario
 Curso Normal:
-|Accion de los actores|Respuesta del sistema|
-|-||-|
-|1. El usuario completa el formulario de la tarea|2. Se agrega al calendario|
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario completa el formulario de la tarea     | 2. Se agrega al calendario  |
+
+![Alt text](image-4.png)
+
+
+
 ### Curso alternativo:
 1.1 El usuario no completa los campos obligatorios.
 1.2 El usuario completa los campos obligatorios y confirma los datos.
 1.3 El sistema agrega la tarea al calendario.
 curso alternativo
-## Caso de uso 2
+## Caso de uso 2:
+Titulo: realizar una tarea
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario, ya habiendo escrito una tarea, va a la sección de ahora mismo | 2. El sistema muestra la tarea, el tiempo restante y la siguiente tarea a esta|
+
+![Alt text](image-6.png)
+
+### Curso alternativo:
+1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
+1.2 En la pantalla le saldrá un cartel el cual aparecerá "No hay tareas por completar".
+
+## Caso de uso 3:
+Titulo: eliminar una nota
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario ingresa a la sección de notas  |2.  El sistema deberá mostrar en pantalla todos los nombres de las notas|
+| 3. El usuario presiona la nota |4.  El sistema muestra la nota con su respecitiva descripción |
+| 4. El usuario presiona el ícono de borrar  |5.  El sistema le pone un cartel de confirmación |
+| 6. El usuario selecciona la opcion que dice **"SI"**  |7.  El sistema llevará al usuario devuelta a donde estan todas las notas, dejando de mostrar la ya borrada |
+
+| 1|4 |
+|--------------|--------------|
+| ![Alt text](image-7.png) |![wssw](image-8.png) |
+
+| 6|7|
+|--------------|--------------|
+| ![Alt text](image-9.png)|![Alt text](image-11.png)|
+
+
+
+### Curso alternativo:
+5.1 El usuario selecciona la opcion que dice **"NO"**.
+5.2 Se vuelve a mostrar la nota completa.
+
+
+## Caso de uso 3:
+Titulo: agregar una nota
+Actor: usuario
+Curso Normal:
+
+| Acción de los actores | Respuesta del Sistema |
+|--------------|--------------|
+| 1. El usuario ingresa a la sección de notas  |2.  El sistema deberá mostrar en pantalla todos los nombres de las notas|
+| 3. El usuario presiona el icono para agregar |5.  El sistema va a mostrar una nueva sección en donde se rellena la información sobre la nota |
+| 6. El usuario rellena los campos y le da al botón de aceptar  |7.  El sistema pondrá en la sección de notas, la nueva que escribió el usuario |
+
+
+| 1|4 |
+|--------------|--------------|
+|![Alt text](image-12.png) |![Alt text](image-14.png) |
+
+| 7|
+|--------------|
+| ![Alt text](image-13.png)|
+
+
+
+
+
+
+
+
+
+### Cursos alternativos:
+4.1 El usuario solo rellena el título
+4.2 El sistema agrega la nota de igual manera
+
+4.1 El usuario solo rellena la descripción
+4.2 El sistema muestra un error
+
+
+
+
+
+
 
 ## VALIDACION Y VERIFICACION
+### Validación
+Opinion de la psicologa
+
+### Verificación de requerimientos
+
+Checklist requerimientos
+
+| Dimensión                            | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
+|--------------------------------------|-----|-----|-----|-----|-----|-----|-----|
+| **Completitud**                       |     |     |     |     |     |     |     |
+| Se encuentran todos los requerimientos correctamente priorizados? | SI | SI|  SI|  |  |  |  |
+| ¿Están identificados los usuarios? |SI  | SI |SI  |SI  |SI  |SI  |SI  |
+| ¿Respeta a especificación la estructura y apartados del estándar? |  |  |  |  |  |  |  |
+| ¿Están todas las características de calidad tenidas en cuenta en la especificación? |  |  |  |  |  |  |  |
+| **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
+| ¿Tiene cada requerimiento una única interpretación? | SI | SI | SI |SI  |SI  |SI |SI  |
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  |  |  |  |  |
+| **Correctitud y consistencia**        |     |     |     |     |     |     |     |
+| ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? | SI |SI  | SI |SI  |SI  |SI  | SI |
+| ¿Existe duplicación de requerimientos o conflicto entre requerimientos? | NO | NO | NO |NO  |NO  |NO  |NO  |
+| ¿Está cada requerimiento dentro del alcance del problema a resolver? | SI |SI  |SI  |SI  |SI  |SI  | SI |
+|**Trazabilidad**                               |    |    |    |    |    |    |    |
+| ¿Puede cada requerimiento ser identificado correctamente y en forma única? | SI | SI | SI | SI | SI | SI | SI |
+| ¿Se referencian correctamente los requerimientos entre sí? | SI | SI | SI | SI | SI | SI | SI |
+| ¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de los stakeholders)? | SI | SI | SI | SI | SI | SI | SI |
+
+
+### Verificación de Casos de Uso
+
+Checklist casos de uso
+
+¿Cumple el caso de uso un único objetivo 0 tarea?
+
+¿Es su objetivo un resultado medible para el usuario?
+
+¿Queda claro que actor(es) participan y benefician del caso de uso?
+
+¿Existe una secuencia lógica en los pasos que permita entenderla transacción
+entre actor y sistema?
+
+¿Es el nivel de abstracción de las transacciones adecuado para el caso de uso?
+¿Está el caso de uso libre de detalles de diseño e implementación de posibles
+soluciones?
+
+¿Se documentan todos los posibles cursos altematvos y excepcionales?
+¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso?
+
+
+| Casos de uso| Caso 1 | Caso 2| Caso 3| Caso 4|
+|--------------|--------------|--------------|--------------|--------------|
+| ¿Cumple el caso de uso un único objetivo o tarea? | SI |SI  | SI |SI |
+| ¿Es su objetivo un resultado medible para el usuario? | SI |SI  | SI |SI |
+| ¿Queda claro qué actor(es) participan y se benefician del caso de uso? | SI |SI  | SI |SI |
+| ¿Existe una secuencia lógica en los pasos que permita entender la transacción entre actor y sistema? | SI |SI  | SI |SI |
+| ¿Es el nivel de abstracción de las transacciones adecuado para el caso de uso? |  |  | ||
+| ¿Está el caso de uso libre de detalles de diseño e implementación de posibles soluciones? |  | |  | |
+| ¿Se documentan todos los posibles cursos alternativos y excepcionales? | | |  | |
+| ¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso? | | | | |
+
+
 ## REFLEXIÓN
 
 
@@ -327,14 +486,3 @@ curso alternativo
 
 
 
-
-
-
-## preguntas para la entrevista:
-que es el adhd
-que dificultades presenta en el dia a dia una persona con adhd
-como trabajas tu con gente con adhd
-como responden al estimulo la gente con adhd? estimulo positivo? negativo? ambos?
-cuales son buenas practicas para tratar con gente con adhd?
-que recursos usas para tratar con esta gente?
-g
