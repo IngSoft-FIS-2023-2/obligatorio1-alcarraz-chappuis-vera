@@ -188,9 +188,9 @@ producen hiperactividad e impulsividad. El córtex prefontral controla la persis
 ## Modelado de usuarios del Sistema
 Esta aplicacion esta dise;ada enfocada a personas con tdah sin embargo muchas personas elijen usar este tipo de metodos, por lo tanto tambien vamos a agregarlos a nuestro publico
 
-![Alt text](image-2.png)
+![Alt text](/src/image-2.png)
 
-![Alt text](image-3.png)
+![Alt text](/src/image-3.png)
 
 
 
@@ -304,7 +304,7 @@ Curso Normal:
 |--------------|--------------|
 | 1. El usuario completa el formulario de la tarea     | 2. Se agrega al calendario  |
 
-![Alt text](image-4.png)
+![Alt text](/src/image-4.png)
 
 
 
@@ -322,7 +322,7 @@ Curso Normal:
 |--------------|--------------|
 | 1. El usuario, ya habiendo escrito una tarea, va a la sección de ahora mismo | 2. El sistema muestra la tarea, el tiempo restante y la siguiente tarea a esta|
 
-![Alt text](image-6.png)
+![Alt text](/src/image-6.png)
 
 ### Curso alternativo:
 1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
@@ -342,11 +342,11 @@ Curso Normal:
 
 | 1|4 |
 |--------------|--------------|
-| ![Alt text](image-7.png) |![wssw](image-8.png) |
+| ![Alt text](/src/image-7.png) |![wssw](/src/image-8.png) |
 
 | 6|7|
 |--------------|--------------|
-| ![Alt text](image-9.png)|![Alt text](image-11.png)|
+| ![Alt text](/src/image-9.png)|![Alt text](/src/image-11.png)|
 
 
 
@@ -369,11 +369,11 @@ Curso Normal:
 
 | 1|4 |
 |--------------|--------------|
-|![Alt text](image-12.png) |![Alt text](image-14.png) |
+|![Alt text](/src/image-12.png) |![Alt text](/src/image-14.png) |
 
 | 7|
 |--------------|
-| ![Alt text](image-13.png)|
+| ![Alt text](/src/image-13.png)|
 
 
 
