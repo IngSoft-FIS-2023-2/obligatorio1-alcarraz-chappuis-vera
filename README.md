@@ -14,10 +14,18 @@ Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor 
 3. Redes sociales, influencers, etc: Promueven y popularizan la app. 
 
 ## Repositorio Git: Uso de ramas separadas
+
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 
 ## Versionado:
-El obligatorio cuenta con dos ramas, una la **dev**, en la cual subimos todos nuestros avances con el objetivo de tener un cuerpo claro del obligatorio, para luego hacer un merge con la rama **main** cuando lleguemos a una versión completa.
+Para trabajar en el repositorio remoto cada uno en su computadora, creamos cada uno un repositorio local. Primero creamos una nueva carpeta vacia y luego hicimos un **git clone <uml>** que nos ofrece el repo.
+Luego, para abrir el repositorio local, fuimos subiendolo a la rama **dev** o development, abrimos una terminal nueva, personalmente preferimos Git bash, hacemos **cd** seguido de la direccion de nuestra carpeta entre comillas, luego git bash nos va a mostrar arriba de donde escribimos la direccion de la carpeta y entre parentesis main o dev, de esa manera sabemos que estamos en nuestro repositorio y no en cualquier directorio de la computadora.
+
+Al llegar a este estado, antes de comenzar a trabajar hacemos **git pull** para tener el ultimo commit del repo hecho por nuestros compa;eros.
+Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**, ahi mismo hacemos los cambios que consideremos necesarios, cuando terminamos de trabajar o cuando pensamos que terminamos de hacer cierto avance y queremos "pasar raya" y seguir con una tarea de desarrollo no relacionada a la anterior, le damos "save" o **"CTRL + S"**  y luego en consola hacemos **git add .** y **git commit -m "descripcion del avance"** o directamente **git commit -a -m "descripcion del avance"** podemos hacer distintos commits dentro de nuestro repo local, por ejemplo en el caso de que sean cambios de distinas tareas del proyecto, y cuando hayamos terminado de trabajar, hacemos un **git push** y esto hace que todos nuestros avances o commits se suban al repo remoto, queden grabados en la nube y nuestos compa;eros o cualquiera que acceda al repo pueda acceder a nuestra ultima version del proyecto.
+
+El obligatorio cuenta con dos ramas, una llamada **dev**, que se refiere a desarrolo, donde vamos subiendo todos nuestros avances del proyecto. Por otro lado, tenemos la rama **main** donde va la version final del proyecto o para subir alguna version que haya llegado a ciertos logros o avances que nos parezcan significantes.
+Para hacer un merge al main, con el objetivo de que esta en su ultima version sea igual a la ultima version del dev, hacemos un **git checkout main** en el caso de que estemos parados en el dev, y luego ejecutamos el comando **git merge dev** para que se haga un merge de ambas.
 
 
 # ELICITACIÓN
@@ -394,7 +402,7 @@ Opinion de la psicologa
 
 ### Verificación de requerimientos
 
-Checklist requerimientos
+Checklist requerimientos - elegir lo que realmente queremos  verificar.
 
 | Dimensión                            | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
 |--------------------------------------|-----|-----|-----|-----|-----|-----|-----|
