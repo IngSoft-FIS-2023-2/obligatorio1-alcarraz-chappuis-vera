@@ -8,22 +8,11 @@ M4A - Docentes: Alejandro  Adorjan
 El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolecentes con TDAH (Trastorno por Déficit de Atención e Hiperactividad). Este debe ser altamente customizable, adaptarse a las necesidades, problemas , limitaciones y desafios que presentan el dia a dia de un adolecente con TDAH.
 Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organizacion que favorecen su entrendimiento, concentracion y atencion, asi mejorando su productividad diaria, ayudando que no se desenfoquen y pierdan sus objetivos de vista, asi mejorando su rendimiento diario y poco  a poco, ayudarlos acercarse a su potencial maximo
 
-<<<<<<< HEAD
-## Descripción contexto: 
-planner altamente customizable para TDAH, enfocado en poder organizar su día tener un dia eficiente, con un método de puntos (como para que no lo dejen colgado, se enganchen con ambición, racha, competencias) que se puedan marcar objetivos, que puedan agregar sus hábitos y metas diarias. puede adaptarse al mood de cada uno
-
-## Stakeholders
-1. Adolecentes con TDAH: Los usuarios finales del programa, ellos son quienes hacen la desicion final de usar la app o no.
-2. Profesionales y expertos del tema: Por ejemplo: Pisiquiatras, Profesores, Tecnicos de dificultades de aprendizaje, etc. Ellos tienen entendimiento profundo en la condicion y al probar nuestra app reconoceran facilmente que realmente ayuda a un adolecente con TDAH y que no
-3. Redes sociales, influencers, etc: Promueven y popularizan la app.
-
-=======
 ## Stakeholders
 1. Adolecentes con TDAH: Los usuarios finales del programa, ellos son quienes hacen la desicion final de usar la app o no.
 2. Profesionales y expertos del tema: Por ejemplo: Pisiquiatras, Profesores, Tecnicos de dificultades de aprendizaje, etc. Ellos tienen entendimiento profundo en la condicion y al probar nuestra app reconoceran facilmente que realmente ayuda a un adolecente con TDAH y que no
 3. Redes sociales, influencers, etc: Promueven y popularizan la app. 
 
->>>>>>> c0b01124b0c59840c1238d4bc381fbbb691232fa
 ## Repositorio Git: Uso de ramas separadas
 Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
 
