@@ -460,9 +460,12 @@ soluciones?
 ## REFLEXIÓN
 
 
-
-
- 
+# Investigacion
+Las estrategias que mejor resultado han dado son:
+- Estructurar la actividad. El objetivo es ayudar a que el alumno desempeñe adecuadamente las actividades que tienen que ver con la memoria de trabajo y sistematice actividades. Es conveniente hablar al niño sobre lo que se va a trabajar y qué se va a lograr con ello, cuánto tiempo va a durar y si habrá o no descanso, qué material va a utilizarse y retirar el que no sea necesario. Hay que explicar las normas y dar al niño las instrucciones claras, breves, y si fuera posible utilizar material llamativo como carteles de colores que el niño pueda ver y le recuerden la tarea a realizar.
+-  Expresar de modo claro las consecuencias positivas de la realización de la actividad. Para ello hay que motivar al niño sistemáticamente, ya que los procesos de atención sostenida suponen un gran reto para él. Los premios no deben ser necesariamente materiales sino de fortalecimiento de la autovaloración y autoconfianza y deben ser inmediatos a la consecución de la tarea.
+- El profesor llevará a cabo lo que se conoce como atención estratégica, que consiste en el uso de la atención del profesor para ayudar al estudiante a mantenerse en la realización de la tarea o redirigirse a ésta si la ha abandonado. Los comentarios de ánimo u otras formas de refuerzo (sonrisas, fichas canjeables por privilegios, etc.) han demostrado su efecto positivo en el niño con TDAH, y el uso de la retirada de esta atención positiva ante  conductas inadecuadas puede hacerlas disminuir. Esta ignorancia activa hacia el niño exige la retirada total de la atención.
+ Anticiparse a las «situaciones problema», aquellas en las que aparecen dificultades para el alumno, tanto de atención como de impulsividad-hiperactividad, (cambios de clase, salida al recreo) en definitiva, cambios en la actividad. Para ello hay que establecer las normas a tener en cuenta, que el alumno demuestre que las conoce y establecer el estímulo positivo posterior a la buena ejecución. En todos los procesos que se lleven a cabo, las normas, consignas, consecuencias positivas y negativas deben ser conocidas de antemano y consensuadas con la familia, ya que en muchas ocasiones será ella la encargada de llevarlas a cabo. Un requisito necesario para poder llevar a cabo las actividades en la escuela es que el docente tenga un estilo flexible, sea dinámico y conozca las características del trastorno. Las correcciones a los errores que haya podido tener tienen que ser claras, directas y respetuosas. La superación de las dificultades se consigue con seguridad, no con ataques a la autoestima, ni con ridiculizaciones públicas. No deben hacerse comentarios sobre sus dificultades en público, ni de sus tratamientos psicoterapéuticos ni farmacológicos, pueden llevar a estigmatización y van en contra del derecho de privacidad del individuo. 
 
 
 
