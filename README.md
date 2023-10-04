@@ -356,37 +356,29 @@ Curso Normal:
 5.1 El usuario selecciona la opción que dice **"NO"**.
 5.2 Se vuelve a mostrar la nota completa.
 
-## Caso de uso 3:
-**Título:** agregar una nota
-**Actor:** usuario
+## Caso de uso 4:
+**Título:** Finalización de la tarea
+**Actor:** Usuario
 **Curso Normal:**
 
 | Acción de los actores | Respuesta del Sistema |
 |--------------|--------------|
-| 1. El usuario ingresa a la sección de notas  |2.  El sistema deberá mostrar en pantalla todos los nombres de las notas|
-| 3. El usuario presiona el icono para agregar |5.  El sistema va a mostrar una nueva sección en donde se rellena la información sobre la nota |
-| 6. El usuario rellena los campos y le da al botón de aceptar  |7.  El sistema pondrá en la sección de notas, la nueva que escribió el usuario |
+| 1. En la sección horarios el usuario presiona uno de los *checkbox* |2.  En pantalla debera aparecer seleccionado en verde, haciendo que aparezca un pop up diciendo "Tarea completada" y una capa de confeti|
 
-| 1|4 |
+
+| 1|2|
 |--------------|--------------|
-|![Alt text](image-9.png)|![Alt text](image-4.png) |
-
-| 7|
-|--------------|
-| ![Alt text](image-8.png)|
-
-
-
-
-
+|![Alt text](image.png) |![Alt text](image-10.png) |
 
 
 
 ### Cursos alternativos:
 4.1 El usuario solo rellena el título
+
 4.2 El sistema agrega la nota de igual manera
 
 4.1 El usuario solo rellena la descripción
+
 4.2 El sistema muestra un error
 
 
