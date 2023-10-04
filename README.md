@@ -29,11 +29,17 @@ Para hacer un merge al main, con el objetivo de que esta en su última versión 
 
 # ELICITACIÓN
 Con el objetivo de profundizar en el tema del TDAH y los planners diarios llevamos a cabo: una entrevista, una investigación y ingeniería inversa de dos apps de planning diario.
+Entrevista: Realizada con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. La evidencia de nuestras actividades de investigacion se encuentra dentro de la carpeta src.
+Ingenieria Inversa:Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
+Investigación: 
+Fue extraída de tres fuentes principales:
+1. El libro: "Convivir con Niños y adolescentes con Trastorno por Déficit de Atención e Hiperactividad"
+2. Guía Práctica para los Trastornos de Déficit Atencional con/sin Hiperactividad - Alberto Espina y Asunción Ortego
+3. Cómo actúan los colores sobre las emociones y sentimientos en los niños con TDAH - Universidad de Vallanoid
+La primera fuente fue usada principalmete para proveernos un marco teorico de que es el TDAH, como afecta a los adolecentes y que dificultades presentan. Por otra parte, la segunda fuente fue utilizada para extraer de una guia para Psicopedagogos y Profesores sobre como mediar con ni;os y adolecentes con TDAH ciertas modalidades que nos parecieron clave y pueden ser aplicadas a la app, mientras que la tercera fuente fue utilizada para extraer que colores ulitlizar en nuestra interfaz.
 
-Investigación: Fue extraída de tres fuentes principales:
-1. El libro: "Convivir con Niños y adolescentes con Trastorno por Déficit de Atención e Hiperactividad
 ## Entrevista
-Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
+Llevamos a cabo una entrevista con Laura Fazacas, ella es una técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDHA), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
 
 En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDHA, que tipos de TDHA existen, cómo podemos ayudarlos en su día a día, que problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
@@ -62,15 +68,10 @@ Nos brindó consejos para tratar y generar recursos para personas con TDAH, esto
 - La app debe tener la posibilidad de imprimir el planner de la semana, a muchos de sus estudiantes les gusta tener su planner en la heladera, escritorio, cuarto, tenerlo en muchos lugares y muchas copias genera más instancias de recordatorios.
 - Muchos toman pastillas para la concentración: recordatorio de tomar las pastillas y marcar las horas de concentración.
 - Es difícil aprenderse información clave como número de cédula de identidad, número de teléfono de contactos importantes, dirección de casa, etc.
-
-(No quiero poner porque es muy directo):
 - Necesitan un lugar para poder tomar notas, hacer checklists, etc.
 
 ## INGENIERIA INVERSA
-Investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.
-¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
-
- ### Tiimo
+### Tiimo
 Features principales:
 - Al empezar te pregunta si SOS un pensador visual neurodivergente, esto permite que la app se organice de distintas maneras y da recomendaciones según las necesidades del perfil definido. También pregunta para qué quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
 - Elegir objetivos para que nos ayude, estos pueden ser: estrés, ansiedad, querer estructurar nuestras rutinas mejor, mejorar la concentración, entre otras.
@@ -108,64 +109,84 @@ Notion es una aplicación de gestión que se adapta a una amplia variedad de nec
 ## Conclusiones de la ingeniería inversa:
  Tiimo se destaca por su enfoque visual y la adaptabilidad a las necesidades de personas neurodivergentes, especialmente aquellas con TDAH. Ofrece una personalización significativa al permitir la elección de objetivos y la asignación de colores y representaciones visuales a las tareas. La visualización en tiempo real de las tareas proporciona una experiencia completa y facilita la gestión del tiempo de manera efectiva.
 
- 
 Mientras que Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales. PUEDE IR EN CONCLUSIONES
 
  
 ## INVESTIGACIÓN
 
-**1. ¿Qué es el Trastorno por Déficit de Atención e Hiperactividad o TDAH?**
+### ¿Qué es el Trastorno por Déficit de Atención e Hiperactividad o TDAH?
 El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y con transmisión genética, que afecta a la capacidad del niño, adolescente o adulto de:
 - regular su nivel de actividad, por lo que tienen hiperactividad,
 - inhibir o frenar sus ideas, pensamientos o comportamiento, por lo que tienen impulsividad.
 - prestar atención a las acciones que realizan, por lo que sufren inatención.
 
-**2. ¿Qué consecuencias tiene el TDAH para el adolescente y su familia?**
-El TDAH tiene un efecto muy negativo sobre el que lo padece. A largo plazo, y si no se trata correctamente, produce una disminución del rendimiento académico que desemboca en fracaso escolar. Esto dificulta su paso a cursos superiores. Si pasan curso, no dominan la materia anterior y la base de conocimientos del adolescente se hace cada vez más endeble. Además, afecta al desarrollo social y emocional del adolescente. Debido a los múltiples problemas en las relaciones con los compañeros por su impulsividad, los adolescentes con TDAH tienden a tener pocos amigos, poco duraderos, y las relaciones son menos estrechas. Debido a los fracasos repetidos en el colegio, las discusiones con los amigos y con los padres por malas notas y mal comportamiento, son frecuentes los síntomas depresivos e incluso la depresión en los adolescentes con TDAH. Algunos adolescentes con TDAH desarrollan comportamientos negativistas: desobediencias progresivas, desafío a la autoridad y, poco a poco, problemas de conducta mayores, e incluso, abuso de alcohol y drogas. No es un trastorno "cosmético" o fruto del perfeccionismo de la sociedad. Las personas con TDAH que no reciben tratamiento correcto suelen alcanzar trabajos o profesiones por debajo de su capacidad.
-
-**3. ¿Que tipos de TDAH existen?**
+### ¿Que tipos de TDAH existen?
 - TDAH tipo hiperactivo-impulsivo (el niño sólo presenta hiperactividad e impulsividad), que es muy poco frecuente.
 - TDAH tipo inatento (presentan inatención).
 - TDAH tipo combinado (el mito presenta los tres síntomas hiperactividad, impulsividad e inatención), que es el más frecuente.
 
-**4. ¿Puede una persona con TDAH no ser hiperactiv@?**
+### ¿Puede una persona con TDAH no ser hiperactiv@?
 Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención: cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad.
 
-**5. ¿Qué características tiene y cómo se reconoce la inatención?**
+### ¿Qué características tiene y cómo se reconoce la inatención?
 Las personas que presentan inatención tienen muchas dificultades para realizar una misma actividad durante mucho tiempo. Se aburren enseguida tras unos minutos haciendo la tarea, su mente comienza a fluir 
  y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. De lo contrario se distraen con cualquier estímulo que se cruza en su camino. por ejemplo, al prepararse para empezar el día de madrugada, si mientras se visten ven algo que les llame la atención, por ejemplo el celular, se quedan medio vestidos jugado o checkeando las redes sociales. Hay que recordarles muchas veces que deben irse al liceo o universidad y convencerlos que vuelvan a enfocarse.
 
-**6. ¿Qué características tiene y como se reconoce la hiperactividad?**
+### ¿Qué características tiene y como se reconoce la hiperactividad?
 Las personas con hiperactividad están en movimiento constante, y tienen muchas dificultades para permanecer sentados durante mucho tiempo (en clase, en la cena, en el templo, viendo la TV, etc.).
 Se levantan y merodean sinsentido, y hablan sin parar. Les resulta imposible aguantar una clase entera sentados y quietos.
 Se levantan y dan vueltas por la clase si se les permite. Cuando están sentados, se mueven mucho en la silla, enredando con los pies y manos, cambiando de postura, tocándolo todo, por lo que, con frecuencia, las cosas se les caen al suelo. Son ruidosos, y están siempre dando golpecitos en la mesa o canturreando.
 Otras veces, aunque no se mueven, dicen que se sienten inquietos o nerviosos. Los padres cuentan que estos niños mordisquean y rompen los lápices y bolígrafos, desarman las cosas con piezas, perdiendo o estropeando algunas y no pueden armarlas de nuevo (desarman un bolígrafo y pierden el muelle o lo estiran); a veces, también muerden la ropa o arrancan los hilitos que sobresalen hasta que los rompen.
 
-**7. ¿Qué características tiene y como se reconoce la impulsividad?**
+### ¿Qué características tiene y como se reconoce la impulsividad?
 Los niños y adolescentes con impulsividad tienen dificultades para inhibir o modular sus respuestas o reacciones inmediatas ante las situaciones. Es decir, les resulta difícil no hacer lo primero que les apetece o se les ocurre. No piensan en las consecuencias de sus actos y directamente hacen (o dicen) lo primero que piensan, lo que se les pasa por la cabeza. Por eso, en clase responden sin pensar, a veces, incluso antes de que el profesor haya terminado de formular la pregunta, sin pensar realmente en lo que se les está preguntando. Hacen comentarios inapropiados sin pensar en la reacción de la otra persona. Por ejemplo, dicen en voz alta "vaya tontería" tras una explicación del profesor, lo que les acarrea un castigo o un punto negativo. Un niño sin impulsividad pensaría que lo que dice el profesor es una tontería, pero que si él lo dice en alto le pueden castigar y decidiría no decir nada. Algunas personas con TDAH no tienen ese diálogo interior antes de realizar una acción, no valoran las posibilidades ni las consecuencias de cada posible respuesta, simplemente actúan y luego sufren las consecuencias. Sólo ven las consecuencias de sus actos cuando es demasiado tarde y ya han hecho o dicho algo inapropiado. Sin embargo, a pesar de sufrir consecuencias, no aprenden, y más adelante se vuelven a dejar llevar por la primera cosa que se les ocurre, reaccionando impulsivamente.
 
-**8. ¿Cómo son los adolescentes con TDAH?**
+### ¿Cómo son los adolescentes con TDAH?
 Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente, ya que con la edad esto puede tratarse o mejorarse, pero todavía enredan en exceso con las manos, hacen ruiditos, dan golpecitos y sienten inquietud interna. Sin embargo, todavía son desorganizados en sus trabajos escolares y les cuesta mucho acabar las cosas. Les resulta difícil trabajar de forma independiente, todavía hay que estar encima de ellos para que acaben sus tareas y estudios. Suelen tener más comportamientos arriesgados relacionados con la impulsividad (fumar, beber, consumir drogas, tener accidentes, actuar impulsivamente, etc). Sufren autoestima baja por sus fracasos, y por sus peores relaciones con sus iguales presentan dificultades y encontronazos con las figuras de autoridad (padres, profesores, entrenadores). A veces, si el niño es inteligente y sus padres han estado muy pendientes de las tareas escolares, puede no notarse el TDAH hasta la adolescencia, donde los trabajos son más complejos y se requiere no sólo un trabajo mecánico, sino asociación de conceptos aprendidos anteriormente.
 
-**9. ¿Qué complicaciones tienen los adolescentes con TDAH?**
+### ¿Qué complicaciones tienen los adolescentes con TDAH?
 según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes sin TDAH. Esto se debe a que no piensan las consecuencias de sus actos y no aprenden de sus errores.
 
 ![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/4153d7ad-42d2-4aef-a8a0-d32d371b0dd7)
 
-
-**ETIOLOGÍA- Causas del TDAH**
-
-30. ¿Qué neurotransmisores están
-implicados en el TDAH?
+### ¿Qué neurotransmisores están implicados en el TDAH?
 Los estudios indican que en el TDAH hay problemas en los circuitos reguladores 
-que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebro
-producen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
+que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebromproducen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
 
 ![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/e3b13812-db26-41d1-8cae-0d880de007ae)
 
+### 11. ¿Qué medidas y estrategias suelen tomar los profesionales al tratar con TDAH?
+Como hemos señalado anteriormente el TDAH suele ir asociado a Trastornos del Aprendizaje y el fracaso escolar es frecuente, sobre todo en los casos en los que el déficit de atención es severo, el CI del alumno es medio bajo o no recibe la estimulación y el control adecuados por parte de la familia y escuela.
+En muchos casos, son alumnos con necesidades educativas especiales ya que el ritmo de adquisición de los contenidos académicos varía mucho del de sus compañeros. 
+Los objetivos a trabajar en los espacios de apoyo no son solamente académicos, el refuerzo en algunas asignaturas o en la adquisición de conocimientos y habilidades
+está mediatizado por los procesos de atención. Enseñar «cómo hacer lo que se sabe», ya que no carece de la capacidad para aprender sino que tiene dificultad para organizar lo que ya sabe y reproducirlo del modo y en el momento adecuado. Son también objetivos a trabajar las relaciones sociales y la disminución de la hiperactividad e impulsividad.
+La organización del material de estudio y la tarea deben sistematizarse, hay que insistir en que repase los materiales para la actividad diaria, favorecer que llegue a mecanizar estas actividades, estructurar el trabajo, ayudarle a planificarlo. Preparar material que sea «atractivo» y estimulante para que el trabajo en la escuela y el hogar faciliten su motivación. En tiempos de clase o estudio, es conveniente permitir al niño que cada cierto tiempo se mueva de la silla.
+
+Las estrategias que mejor resultado han dado son:
+- Estructurar la actividad. El objetivo es ayudar a que el alumno desempeñe adecuadamente las actividades que tienen que ver con la memoria de trabajo y sistematice actividades. Es conveniente hablarle sobre lo que se va a trabajar y qué se va a lograr con ello, cuánto tiempo va a durar y si habrá o no descanso, qué material va a utilizarse y retirar el que no sea necesario. Hay que explicar las normas y proveer las instrucciones claras, breves, y si fuera posible utilizar material llamativo como carteles de colores que el adolecente pueda ver y le recuerden la tarea a realizar.
+-  Expresar de modo claro las consecuencias positivas de la realización de la actividad. Para ello hay que motivar al niño sistemáticamente, ya que los procesos de atención sostenida suponen un gran reto para él. Los premios no deben ser necesariamente materiales sino de fortalecimiento de la autovaloración y autoconfianza y deben ser inmediatos a la consecución de la tarea.
+- Los comentarios de ánimo u otras formas de refuerzo (sonrisas, fichas canjeables por privilegios, etc.) han demostrado su efecto positivo en las personas con TDAH, y el uso de la retirada de esta atención positiva ante  conductas inadecuadas puede hacerlas disminuir. Esta ignorancia activa hacia el niño exige la retirada total de la atención.
+- Anticiparse a las «situaciones problema», aquellas en las que aparecen dificultades para el alumno, tanto de atención como de impulsividad-hiperactividad, (cambios de clase, salida al recreo) en definitiva, cambios en la actividad.
+
+### porque es importante el uso de los colores trabajando con TDAH?
+1. **Facilita la organización**: El TDAH a menudo se asocia con dificultades en la organización y la planificación. El uso de colores puede ayudar a crear sistemas visuales que faciliten la organización, como etiquetar carpetas o tareas con colores específicos para categorizarlas.
+
+2.**Mejora la atención**: Los colores pueden ayudar a captar la atención de las personas con TDAH. Utilizar colores brillantes o destacados en material de estudio o presentaciones puede hacer que la información sea más atractiva y memorable.
+
+3.**Fomenta la estructura**: La estructura y la rutina son importantes para las personas con TDAH. Usar colores para marcar diferentes momentos en el día o actividades específicas puede ayudar a crear una estructura visual que les permita mantenerse enfocados y seguir un horario.
+
+4. **Diferencia la información**: El uso de colores puede ser útil para resaltar información importante o relevante en un texto o gráfico. Esto puede ayudar a las personas con TDAH a identificar rápidamente lo que es esencial y a concentrarse en ello.
+
+5. **Reduce la sobrecarga sensorial**: Las personas con TDAH a veces pueden ser sensibles a la sobrecarga sensorial. Utilizar colores suaves o colores que ayuden a crear un ambiente tranquilo y relajante puede ser beneficioso para reducir el estrés y la ansiedad.
 
 
-## OBSERVACIÓN
+### ¿Qué efectos nos producen los colores?
+- El Rojo es un color que significa vitalidad y energía. Con él se intenta estimular la acción. Es un color poco recomendable para la concentración porque impide la concentración.
+- El amarillo estimula la actividad mental asique suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
+- El naranja, un color que mezcla el amarillo y el rojo, aporta la energía y por otro lado la alegría.
+- El verde: relaja el sistema nervioso, produce armonía. Es ideal para ambientes de descanso.
+- El azul unido a la relajación de los niños produce paz y sueño.
+- El violeta utilizado para la inspiración y para la intuición. Estimula la creatividad y la habilidad artística.
 
 ## Modelado de usuarios del Sistema
 Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro publico
@@ -409,35 +430,3 @@ Checklist requerimientos - elegir lo que realmente queremos  verificar.
 
 ## REFLEXIÓN
 Consideramos que este proyecto fue una experiencia diferente, en comparación a los que tuvimos en otras materias. Pudimos aplicar los conocimientos dados en clase, fundamentalmente con los de gitHub ya que era la primera vez que todos nosotros lo usabamos, pero no tuvimos algun problema importante. Por el otro lado, también pudimos aplicar las principales técnicas de elicitación. Durante el proceso de la creación del obligatorio, nos dimos cuenta que necesitabamos mucha información ya sea de algun experto, de internet o de otras aplicaciones parecidas. Como consecuencia de esto, nos llevó un tiempo considerable recolectar los puntos necesarios antes de poder realizar los bocetos. En general, creemos que realizamos un trabajo completo y aprendimos a simpatizar un poco más con un grupo con estas caracterísitcas.
-
-
-
-
-
-# Investigacion
-Las estrategias que mejor resultado han dado son:
-- Estructurar la actividad. El objetivo es ayudar a que el alumno desempeñe adecuadamente las actividades que tienen que ver con la memoria de trabajo y sistematice actividades. Es conveniente hablar al niño sobre lo que se va a trabajar y qué se va a lograr con ello, cuánto tiempo va a durar y si habrá o no descanso, qué material va a utilizarse y retirar el que no sea necesario. Hay que explicar las normas y dar al niño las instrucciones claras, breves, y si fuera posible utilizar material llamativo como carteles de colores que el niño pueda ver y le recuerden la tarea a realizar.
--  Expresar de modo claro las consecuencias positivas de la realización de la actividad. Para ello hay que motivar al niño sistemáticamente, ya que los procesos de atención sostenida suponen un gran reto para él. Los premios no deben ser necesariamente materiales sino de fortalecimiento de la autovaloración y autoconfianza y deben ser inmediatos a la consecución de la tarea.
-- El profesor llevará a cabo lo que se conoce como atención estratégica, que consiste en el uso de la atención del profesor para ayudar al estudiante a mantenerse en la realización de la tarea o redirigirse a ésta si la ha abandonado. Los comentarios de ánimo u otras formas de refuerzo (sonrisas, fichas canjeables por privilegios, etc.) han demostrado su efecto positivo en el niño con TDAH, y el uso de la retirada de esta atención positiva ante  conductas inadecuadas puede hacerlas disminuir. Esta ignorancia activa hacia el niño exige la retirada total de la atención.
- Anticiparse a las «situaciones problema», aquellas en las que aparecen dificultades para el alumno, tanto de atención como de impulsividad-hiperactividad, (cambios de clase, salida al recreo) en definitiva, cambios en la actividad. Para ello hay que establecer las normas a tener en cuenta, que el alumno demuestre que las conoce y establecer el estímulo positivo posterior a la buena ejecución. En todos los procesos que se lleven a cabo, las normas, consignas, consecuencias positivas y negativas deben ser conocidas de antemano y consensuadas con la familia, ya que en muchas ocasiones será ella la encargada de llevarlas a cabo. Un requisito necesario para poder llevar a cabo las actividades en la escuela es que el docente tenga un estilo flexible, sea dinámico y conozca las características del trastorno. Las correcciones a los errores que haya podido tener tienen que ser claras, directas y respetuosas. La superación de las dificultades se consigue con seguridad, no con ataques a la autoestima, ni con ridiculizaciones públicas. No deben hacerse comentarios sobre sus dificultades en público, ni de sus tratamientos psicoterapéuticos ni farmacológicos, pueden llevar a estigmatización y van en contra del derecho de privacidad del individuo. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
