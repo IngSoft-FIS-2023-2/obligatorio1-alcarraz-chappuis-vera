@@ -260,7 +260,7 @@ Descripción: si una tarea dura más de 45 minutos debe tener un descanso mínim
 
 ## HISTORIAS DE USUARIO
 
-##Modelo conceptual del problema
+## Modelo conceptual del problema
 [diagrama de cada página]
 ## Historias de usuario 1
 **Título:** Planificación
@@ -399,7 +399,7 @@ Opinion de la psicologa
 
 Checklist requerimientos - elegir lo que realmente queremos  verificar.
 
-| Dimensión                            | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
+| Requerimientos                           | Rf1 | Rf2 | Rf3 | Rf4 | Rf5 | Rf6 | Rf7 |
 |--------------------------------------|-----|-----|-----|-----|-----|-----|-----|
 | **Completitud**                       |     |     |     |     |     |     |     |
 | ¿Se encuentran todos los requerimientos correctamente priorizados? | SI | SI|  SI|  SI| SI |SI  |SI  |
