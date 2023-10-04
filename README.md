@@ -168,12 +168,12 @@ Las estrategias que mejor resultado han dado son:
 - Los comentarios de ánimo u otras formas de refuerzo (sonrisas, fichas canjeables por privilegios, etc.) han demostrado su efecto positivo en las personas con TDAH, y el uso de la retirada de esta atención positiva ante  conductas inadecuadas puede hacerlas disminuir. Esta ignorancia activa hacia el niño exige la retirada total de la atención.
 - Anticiparse a las «situaciones problema», aquellas en las que aparecen dificultades para el alumno, tanto de atención como de impulsividad-hiperactividad, (cambios de clase, salida al recreo) en definitiva, cambios en la actividad.
 
-### porque es importante el uso de los colores trabajando con TDAH?
+### Porque es importante el uso de los colores trabajando con TDAH?
 1. **Facilita la organización**: El TDAH a menudo se asocia con dificultades en la organización y la planificación. El uso de colores puede ayudar a crear sistemas visuales que faciliten la organización, como etiquetar carpetas o tareas con colores específicos para categorizarlas.
 
-2.**Mejora la atención**: Los colores pueden ayudar a captar la atención de las personas con TDAH. Utilizar colores brillantes o destacados en material de estudio o presentaciones puede hacer que la información sea más atractiva y memorable.
+2. **Mejora la atención**: Los colores pueden ayudar a captar la atención de las personas con TDAH. Utilizar colores brillantes o destacados en material de estudio o presentaciones puede hacer que la información sea más atractiva y memorable.
 
-3.**Fomenta la estructura**: La estructura y la rutina son importantes para las personas con TDAH. Usar colores para marcar diferentes momentos en el día o actividades específicas puede ayudar a crear una estructura visual que les permita mantenerse enfocados y seguir un horario.
+3. **Fomenta la estructura**: La estructura y la rutina son importantes para las personas con TDAH. Usar colores para marcar diferentes momentos en el día o actividades específicas puede ayudar a crear una estructura visual que les permita mantenerse enfocados y seguir un horario.
 
 4. **Diferencia la información**: El uso de colores puede ser útil para resaltar información importante o relevante en un texto o gráfico. Esto puede ayudar a las personas con TDAH a identificar rápidamente lo que es esencial y a concentrarse en ello.
 
@@ -181,11 +181,11 @@ Las estrategias que mejor resultado han dado son:
 
 
 ### ¿Qué efectos nos producen los colores?
-- El Rojo es un color que significa vitalidad y energía. Con él se intenta estimular la acción. Es un color poco recomendable para la concentración porque impide la concentración.
-- El amarillo estimula la actividad mental asique suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
-- El naranja, un color que mezcla el amarillo y el rojo, aporta la energía y por otro lado la alegría.
-- El verde: relaja el sistema nervioso, produce armonía. Es ideal para ambientes de descanso.
-- El azul unido a la relajación de los niños produce paz y sueño.
+- El **rojo** es un color que significa vitalidad y energía. Con él se intenta estimular la acción. Es un color poco recomendable para la concentración porque impide la concentración.
+- El **amarillo** estimula la actividad mental asique suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
+- El **naranja**, un color que mezcla el amarillo y el rojo, aporta la energía y por otro lado la alegría.
+- El **verde**: relaja el sistema nervioso, produce armonía. Es ideal para ambientes de descanso.
+- El **azul** unido a la relajación de los niños produce paz y sueño.
 - El violeta utilizado para la inspiración y para la intuición. Estimula la creatividad y la habilidad artística.
 
 ## Modelado de usuarios del Sistema
@@ -303,9 +303,12 @@ Descripción: si una tarea dura más de 45 minutos debe tener un descanso mínim
 
 | Acción de los actores | Respuesta del Sistema |
 |--------------|--------------|
-| 1. El usuario completa el formulario de la tarea     | 2. Se agrega al calendario  |
+| 1. El usuario completa el formulario de la tarea   | 2. Se agrega al calendario  |
 
-![Alt text](/src/image-4.png)
+| 1|2 |
+|--------------|--------------|
+| ![Alt text](image.png) |![Alt text](image-1.png) |
+
 
 
 ### Curso alternativo:
@@ -322,7 +325,7 @@ curso alternativo
 |--------------|--------------|
 | 1. El usuario, ya habiendo escrito una tarea, va a la sección de ahora mismo | 2. El sistema muestra la tarea, el tiempo restante y la siguiente tarea a esta|
 
-![Alt text](/src/image-6.png)
+![Alt text](image-2.png)
 
 ### Curso alternativo:
 1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
@@ -342,11 +345,11 @@ Curso Normal:
 
 | 1|4 |
 |--------------|--------------|
-| ![Alt text](/src/image-7.png) |![wssw](/src/image-8.png) |
+| ![Alt text](image-3.png)|![Alt text](image-5.png)|
 
 | 6|7|
 |--------------|--------------|
-| ![Alt text](/src/image-9.png)|![Alt text](/src/image-11.png)|
+| ![Alt text](image-6.png)|![Alt text](image-7.png)|
 
 
 ### Curso alternativo:
@@ -366,11 +369,11 @@ Curso Normal:
 
 | 1|4 |
 |--------------|--------------|
-|![Alt text](/src/image-12.png) |![Alt text](/src/image-14.png) |
+|![Alt text](image-9.png)|![Alt text](image-4.png) |
 
 | 7|
 |--------------|
-| ![Alt text](/src/image-13.png)|
+| ![Alt text](image-8.png)|
 
 
 
@@ -430,3 +433,5 @@ Checklist requerimientos - elegir lo que realmente queremos  verificar.
 
 ## REFLEXIÓN
 Consideramos que este proyecto fue una experiencia diferente, en comparación a los que tuvimos en otras materias. Pudimos aplicar los conocimientos dados en clase, fundamentalmente con los de gitHub ya que era la primera vez que todos nosotros lo usabamos, pero no tuvimos algun problema importante. Por el otro lado, también pudimos aplicar las principales técnicas de elicitación. Durante el proceso de la creación del obligatorio, nos dimos cuenta que necesitabamos mucha información ya sea de algun experto, de internet o de otras aplicaciones parecidas. Como consecuencia de esto, nos llevó un tiempo considerable recolectar los puntos necesarios antes de poder realizar los bocetos. En general, creemos que realizamos un trabajo completo y aprendimos a simpatizar un poco más con un grupo con estas caracterísitcas.
+
+Reflexion Agus: yo antes de empezar este proyecto desconocia la existencia de este grupo. Sin embargo, durante el transcurso fui adquiriendo más y más información de modo que pude ir simpatizando aun más con ellos. Me sentí gratificado poder realizar un proyecto que puede ayudar a la sociedad.
