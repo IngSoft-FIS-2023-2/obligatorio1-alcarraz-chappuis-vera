@@ -243,7 +243,7 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ### RF5: Agregación de alarmas
 **Actor**: Usuario
 
-**Descripción**: El usuario deberá poder agregar recordatorios, de modo que se le active una alarma.
+**Descripción**: El usuario deberá poder agregar recordatorios, de modo que se le active una alarma para poder realizar su tarea.
 
 **Prioridad**: Media
 
@@ -333,7 +333,8 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2 |
 |--------------|--------------|
-| ![Alt text](/src/agregarT.png)|![Alt text](/src/nuevaT.png)|
+| ![Alt text](/src/alrama.png)|![Alt text](/src/calendario.png)|
+
 
 
 ### Curso alternativo:
@@ -342,6 +343,9 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 1.2 El usuario completa los campos obligatorios y confirma los datos.
 
 1.3 El sistema agrega la tarea al calendario.
+
+
+
 
 
 ## Caso de uso 2:
@@ -512,7 +516,7 @@ Laura nos inspiró a mantener un equilibrio entre la funcionalidad y la claridad
 | ¿Están identificados los usuarios? |SI  | SI |SI  |SI  |SI  |SI  |SI  |
 | **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
 | ¿Tiene cada requerimiento una única interpretación? | SI | SI | SI |SI  |SI  |SI |SI  |
-| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  SI| SI| NO |SI|
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  SI| SI| SI |SI|
 | **Correctitud y consistencia**        |     |     |     |     |     |     |     |
 | ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? | SI |SI  | SI |SI  |SI  |SI  | SI |
 | ¿Existe duplicación de requerimientos o conflicto entre requerimientos? | NO | NO | NO |NO  |NO  |NO  |NO  |
