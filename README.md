@@ -494,7 +494,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 ## VALIDACIÓN Y VERIFICACIÓN
 ### Validación
-Opinion de la psicologa
+Laura, la psicopedagoga a la cual le realizamos la entrevista, nos dió una devolución del proyecto. Nos corrigió algunos errores que dificultaban la dinámica con el usuario y remarcó la importancia de mantener la app simple.
+
+Su enfoque en la simplicidad nos recordó la importancia de evitar la sobrecarga de información y distracciones innecesarias en la aplicación. Su feedback resultó ser un valioso activo para nuestro proyecto. 
+
+Laura nos inspiró a mantener un equilibrio entre la funcionalidad y la claridad en el diseño de la aplicación, lo que beneficiará a nuestros usuarios al evitar cualquier elemento que pueda causar confusión o distracción.
 
 ### Verificación de requerimientos
 
