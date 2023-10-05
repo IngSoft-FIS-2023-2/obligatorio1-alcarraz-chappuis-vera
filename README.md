@@ -512,7 +512,7 @@ Laura nos inspiró a mantener un equilibrio entre la funcionalidad y la claridad
 | ¿Están identificados los usuarios? |SI  | SI |SI  |SI  |SI  |SI  |SI  |
 | **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
 | ¿Tiene cada requerimiento una única interpretación? | SI | SI | SI |SI  |SI  |SI |SI  |
-| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  NO| NO | NO |NO  |NO  |
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  SI| SI| NO |SI|
 | **Correctitud y consistencia**        |     |     |     |     |     |     |     |
 | ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? | SI |SI  | SI |SI  |SI  |SI  | SI |
 | ¿Existe duplicación de requerimientos o conflicto entre requerimientos? | NO | NO | NO |NO  |NO  |NO  |NO  |
