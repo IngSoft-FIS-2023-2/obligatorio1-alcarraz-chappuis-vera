@@ -155,14 +155,13 @@ Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente, ya qu
 
 ### ¿Qué complicaciones tienen los adolescentes con TDAH?
 Según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes que no poseen estas condiciones. Esto se debe a que no piensan las consecuencias de sus actos y no aprenden de sus errores.
-
-![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/4153d7ad-42d2-4aef-a8a0-d32d371b0dd7)
+![Alt text](/src/repercusionesdeltdah.png)
 
 ### ¿Qué neurotransmisores están implicados en el TDAH?
 Los estudios indican que en el TDAH hay problemas en los circuitos reguladores 
 que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebromproducen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
 
-![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/e3b13812-db26-41d1-8cae-0d880de007ae)
+![image](/src/cerebrostdah.png)
 
 ### 11. ¿Qué medidas y estrategias suelen tomar los profesionales al tratar con TDAH?
 Como hemos señalado anteriormente el TDAH suele ir asociado a Trastornos del Aprendizaje y el fracaso escolar es frecuente, sobre todo en los casos en los que el déficit de atención es severo, el CI(Coeficiente Intelectual) del alumno es medio bajo o no recibe la estimulación y el control adecuados por parte de la familia y escuela.
@@ -202,11 +201,9 @@ Las estrategias que mejor resultado han dado son:
 ## Modelado de usuarios del Sistema
 Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro publico
 
-![Alt text](/src/image-2.png)
+![Alt text](/src/usuario1.png)
 
-![Alt text](/src/image-3.png)
-
-
+![Alt text](/src/usuario2.png)
 
 ## ESPECIFICACIÓN
 ## Requerimientos Funcionales
@@ -332,7 +329,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2 |
 |--------------|--------------|
-| ![Alt text](image.png) |![Alt text](image-1.png) |
+| ![Alt text](/src/horarios1.png)|![Alt text](/src/agregartarea1.png)|
 
 
 
@@ -359,7 +356,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 |--------------|--------------|
 | 1. El usuario selecciona la sección de **AHORA MISMO** | 2. El sistema un reloj, representando el tiempo restante de la tarea actual y por separado la siguiente tarea por realizar|
 
-![Alt text](image-2.png)
+![Alt text](/src/ahoramismo.png)
 
 ### Curso alternativo:
 1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
@@ -388,11 +385,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|4 |
 |--------------|--------------|
-|![Alt text](image-11.png) |![Alt text](image-12.png)|
+|![Alt text](/src/notasvacio.png) |![Alt text](/src/nuevanota1.png)|
 
 | 7|
 |--------------|
-| ![Alt text](image-13.png)|
+|![Alt text](/src/panelnotas.png)|
 
 
 
@@ -449,11 +446,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|4 |
 |--------------|--------------|
-| ![Alt text](image-3.png)|![Alt text](image-5.png)|
+|![Alt text](/src/notaslleno.png)|![Alt text](/src/notasuper.png)|
 
 | 6|7|
 |--------------|--------------|
-| ![Alt text](image-6.png)|![Alt text](image-7.png)|
+| ![Alt text](/src/borrarnota.png)|![Alt text](/src/notaborrada.png)|
 
 
 ### Curso alternativo:
