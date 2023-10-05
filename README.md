@@ -1,4 +1,4 @@
-M4A - Docentes: Alejandro  Adorjan
+M4A - Docentes: Alejandro  Adorjan y Jhonny Kidd
 - Agustin Alcarraz 281644
 - Victoria Chappuis 278311
 - Serena Vera 267108
@@ -6,11 +6,11 @@ M4A - Docentes: Alejandro  Adorjan
 # Fundamentos de Ingeniería en Software
 ## Objetivos: 
 El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolescentes con TDAH (Trastorno por Déficit de Atención e Hiperactividad). Este debe ser altamente customizable, adaptarse a las necesidades, problemas , limitaciones y desafíos que presentan el día a día de un adolescente con TDAH.
-Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organización que favorecen su entendimiento, concentración y atención. Como consecuencia de esto, mejora su productividad diaria, ayudando a que no se desenfoquen y no pierdan sus objetivos de vista,  su rendimiento diario y poco a poco, ayudarlos acercarse a su potencial máximo.
+Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organización que favorecen su entendimiento, concentración y atención. Como consecuencia de esto, mejora su productividad diaria, ayudando a que no se desenfoquen y no pierdan sus objetivos de vista,  su rendimiento diario y poco a poco, ayudarlos a acercarse a su máximo potencial.
 
 ## Stakeholders
 1. Adolescentes con TDAH: los usuarios finales del programa, ellos son quienes hacen la decisión final de usar la app o no.
-2. Profesionales y expertos del tema: por ejemplo, psiquiatras, profesores, técnicos de dificultades de aprendizaje, entre otros. Ellos tienen entendimiento profundo en la condición y al probar nuestra app reconocerán fácilmente que realmente ayuda a un adolescente con TDAH y que no.
+2. Profesionales y expertos del tema: por ejemplo, psiquiatras, profesores, técnicos especializados en dificultades de aprendizaje, entre otros. Ellos tienen un entendimiento profundo en la condición y al probar nuestra app reconocerán fácilmente que realmente ayuda a un adolescente con TDAH y que no.
 3. Redes sociales, influencers, etc. Promueven y popularizan la app. 
 
 ## Repositorio Git: Uso de ramas separadas
@@ -20,11 +20,11 @@ Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo 
 ## Versionado:
 Primero uno de los integrantes creó un repositorio remoto, para luego compartirlo con los otros integrantes. Para ello, cada miembro del equipo realizó **git clone "url"** para poder trabajar de manera local.
 
-El obligatorio cuenta con dos ramas, una llamada **dev**, que se refiere a desarrollo, donde vamos subiendo todos nuestros avances del proyecto. Por otro lado, tenemos la rama **main** donde va la versión final del proyecto o para subir alguna versión que haya llegado a ciertos logros o avances que nos parezcan significantes. Para hacer un merge al main, con el objetivo de que esta en su última versión sea igual a la última version del dev, hacemos un **git checkout main** en el caso de que estemos parados en el dev, y luego ejecutamos el comando **git merge dev** para que se haga un merge de ambas.
+El obligatorio cuenta con dos ramas, una llamada **dev**, que se refiere a desarrollo, donde vamos subiendo todos nuestros avances del proyecto. Por otro lado, tenemos la rama **main** donde va la versión final del proyecto o para subir alguna versión que haya llegado a ciertos logros o avances que nos parezcan significativos. Para hacer un merge al main, con el objetivo de que está en su última versión sea igual a la última versión del dev, hacemos un **git checkout main** en el caso de que estemos parados en el dev, y luego ejecutamos el comando **git merge dev** para que se haga un merge de ambas.
 
 
-Antes de comenzar a trabajar hacemos **git pull** para tener el ultimo commit del repositorio hecho por nuestros compañeros.
-Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**, ahí mismo hacemos los cambios que consideremos necesarios, cuando terminamos de trabajar o cuando pensamos que terminamos de hacer cierto avance y queremos "pasar raya" y seguir con una tarea de desarrollo no relacionada a la anterior, le damos "save" o **"CTRL + S"**  y luego en consola hacemos **git add .** y **git commit -m "descripcion del avance"** o directamente **git commit -a -m "descripción del avance"** podemos hacer distintos commits dentro de nuestro repositorio local. Por ejemplo en el caso de que sean cambios de distintas tareas del proyecto, y cuando hayamos terminado de trabajar, hacemos un **git push** y esto hace que todos nuestros avances o commits se suban al repositorio remoto, quedando grabados en la nube y nuestros compañeros o cualquiera que acceda este pueda acceder a nuestra última versión del proyecto.
+Antes de comenzar a trabajar hacemos **git pull** para tener el último commit del repositorio hecho por nuestros compañeros.
+Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**, ahí mismo hacemos los cambios que consideremos necesarios, cuando terminamos de trabajar o cuando pensamos que terminamos de hacer cierto avance y queremos "pasar raya" y seguir con una tarea de desarrollo no relacionada a la anterior, le damos "save" o **"CTRL + S"**  y luego en consola hacemos **git add .** y **git commit -m "descripción del avance"** o directamente **git commit -a -m "descripción del avance"** podemos hacer distintos commits dentro de nuestro repositorio local. Por ejemplo en el caso de que sean cambios de distintas tareas del proyecto, y cuando hayamos terminado de trabajar, hacemos un **git push** y esto hace que todos nuestros avances o commits se suban al repositorio remoto, quedando grabados en la nube y nuestros compañeros o cualquiera que acceda este pueda acceder a nuestra última versión del proyecto.
 
 
 ### Resumen de los commits:
@@ -41,22 +41,22 @@ https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/commit
 
 # ELICITACIÓN
 Con el objetivo de profundizar en el tema del TDAH y los planners diarios llevamos a cabo: una entrevista, una investigación y ingeniería inversa de dos apps de planning diario.
-- Entrevista: realizada con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. La evidencia de nuestras actividades de investigacion se encuentra dentro de la carpeta src.
+- Entrevista: realizada con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. La evidencia de nuestras actividades de investigación se encuentra dentro de la carpeta src.
 
-- Ingenieria Inversa: investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
+- Ingeniería Inversa: investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
 - Investigación: 
 Fue extraída de tres fuentes principales:
 1. El libro: "Convivir con Niños y adolescentes con Trastorno por Déficit de Atención e Hiperactividad"
 2. Guía Práctica para los Trastornos de Déficit Atencional con/sin Hiperactividad - Alberto Espina y Asunción Ortego
-3. Cómo actúan los colores sobre las emociones y sentimientos en los niños con TDAH - Universidad de Vallanoid
-La primera fuente fue usada principalmete para proveernos un marco teorico de que es el TDAH, como afecta a los adolescentes y que dificultades presentan. Por otra parte, la segunda fuente fue utilizada para extraer de una guia para Psicopedagogos y Profesores sobre como mediar con ni;os y adolescentes con TDAH ciertas modalidades que nos parecieron clave y pueden ser aplicadas a la app, mientras que la tercera fuente fue utilizada para extraer que colores ulitlizar en nuestra interfaz.
+3. Cómo actúan los colores sobre las emociones y sentimientos en los niños con TDAH - Universidad de Valladolid
+La primera fuente fue usada principalmente para proveernos un marco teórico de que es el TDAH, cómo afecta a los adolescentes y qué dificultades presentan. Por otra parte, la segunda fuente fue utilizada para extraer de una guía para Psicopedagogos y Profesores sobre cómo mediar con niños y adolescentes con TDAH ciertas modalidades que nos parecieron clave y pueden ser aplicadas a la app, mientras que la tercera fuente fue utilizada para extraer qué colores utilizar en nuestra interfaz.
 
 ## Entrevista
 Llevamos a cabo una entrevista con Laura Fazacas, ella es una técnica de estudio especializada en dificultades de aprendizaje. 
 Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDAH), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
 
-En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDAH, que tipos de TDAH existen, cómo podemos ayudarlos en su día a día, que problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
-Luego pasamos a hablar sobre como ella desarrollaría el planner ideal para un adolescente con TDAH, que factores son clave, que cosas debemos cuidar y que deberíamos evitar.
+En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDAH, qué tipos de TDAH existen, cómo podemos ayudarlos en su día a día, qué problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
+Luego pasamos a hablar sobre como ella desarrollaría el planner ideal para un adolescente con TDAH, qué factores son clave, qué cosas debemos cuidar y que deberíamos evitar.
 
 ### Conclusiones de la entrevista
 - El TDAH tiene varios tipos, y las personas con TDAH suelen padecer de otros trastornos mencionados anteriormente.
@@ -65,10 +65,10 @@ Luego pasamos a hablar sobre como ella desarrollaría el planner ideal para un a
 
 Nos brindó consejos para tratar y generar recursos para personas con TDAH, estos son:
 - Otorgar tiempo adicional tanto en su trabajo diario como en las evaluaciones. El tiempo que demanda procesar información es mayor.
-- **Estimular y apoyar la organización** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene siguiente, cuales son los eventos del día, etc.
+- **Estimular y apoyar la organización** de todas sus tareas. Se ven beneficiados por la **anticipación**. Saber que viene al día siguiente, cuales son los eventos del día, etc.
 - Presentar **instrucciones pautadas** para las tareas, el espacio gráfico suficiente para desarrollarla, escribir lo que sea necesario y a continuación la siguiente propuesta.
 - Permitirle **descanso entre tareas** y cierto tiempo para que se "mueva" y retome la tarea.
-- Es difícil para ellos anticipar cuánto tiempo les lleva prepararse y conmutar para atender ciertos eventos. Debemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de cómo prepararse, como llegar, qué ómnibus, etc.
+- Es difícil para ellos anticipar cuánto tiempo les lleva prepararse y conmutar para atender ciertos eventos. Debemos recordarles antes de este tiempo, y darles instrucciones **claras y concisas** de cómo prepararse, cómo llegar, qué ómnibus, etc.
 - Evitar cualquier elemento que pueda generar confusiones/desentendimientos: Simplificar enunciados, utilizar lenguaje claro y directo, reducir cantidad de preguntas, evitar letras con serifas, Escribir ciertos elementos clave en mayúsculas es de gran ayuda y utilizar colores fácilmente distinguibles.
 - Tener siempre en cuenta que los "elementos distractores" pueden ser perjudiciales para su desempeño.
 - Deben poder visualizar su semana y a la vez tener sus tareas del día y sus horarios todos en un mismo lugar.
@@ -120,7 +120,7 @@ Notion es una aplicación de gestión que se adapta a una amplia variedad de nec
 
  
 ## Conclusiones de la ingeniería inversa:
- Tiimo se destaca por su enfoque visual y la adaptabilidad a las necesidades de personas neurodivergentes, especialmente aquellas con TDAH. Ofrece una personalización significativa al permitir la elección de objetivos y la asignación de colores y representaciones visuales a las tareas. La visualización en tiempo real de las tareas proporciona una experiencia completa y facilita la gestión del tiempo de manera efectiva.
+ Tiimo se destaca por su enfoque visual y la adaptabilidad a las necesidades de personas neuro divergentes, especialmente aquellas con TDAH. Ofrece una personalización significativa al permitir la elección de objetivos y la asignación de colores y representaciones visuales a las tareas. La visualización en tiempo real de las tareas proporciona una experiencia completa y facilita la gestión del tiempo de manera efectiva.
 
 Mientras que Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales.
 
@@ -133,7 +133,7 @@ El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y 
 - inhibir o frenar sus ideas, pensamientos o comportamiento, por lo que tienen impulsividad.
 - prestar atención a las acciones que realizan, por lo que sufren inatención.
 
-### ¿Que tipos de TDAH existen?
+### ¿Qué tipos de TDAH existen?
 - TDAH tipo hiperactivo-impulsivo (el niño sólo presenta hiperactividad e impulsividad), que es muy poco frecuente.
 - TDAH tipo inatento (presentan inatención).
 - TDAH tipo combinado (el mito presenta los tres síntomas hiperactividad, impulsividad e inatención), que es el más frecuente.
@@ -143,12 +143,12 @@ Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con
 
 ### ¿Qué características tiene y cómo se reconoce la inatención?
 Las personas que presentan inatención tienen muchas dificultades para realizar una misma actividad durante mucho tiempo. Se aburren enseguida tras unos minutos haciendo la tarea, su mente comienza a fluir 
- y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. De lo contrario se distraen con cualquier estímulo que se cruza en su camino. por ejemplo, al prepararse para empezar el día de madrugada, si mientras se visten ven algo que les llame la atención, por ejemplo el celular, se quedan medio vestidos jugado o checkeando las redes sociales. Hay que recordarles muchas veces que deben irse al liceo o universidad y convencerlos que vuelvan a enfocarse.
+ y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. De lo contrario se distraen con cualquier estímulo que se cruza en su camino. por ejemplo, al prepararse para empezar el día de madrugada, si mientras se visten ven algo que les llame la atención, por ejemplo el celular, se quedan medio vestidos jugando o checando las redes sociales. Hay que recordarles muchas veces que deben irse al liceo o universidad y convencerlos de que vuelvan a enfocarse.
 
 ### ¿Qué características tiene y cómo se reconoce la hiperactividad?
-Las personas con hiperactividad están en movimiento constante, y tienen muchas dificultades para permanecer sentados durante mucho tiempo (en clase, en la cena, en el templo, viendo la TV, etc.).
+Las personas con hiperactividad están en constante movimiento, y tienen muchas dificultades para permanecer sentados durante mucho tiempo (en clase, en la cena, en el templo, viendo la TV, etc.).
 Se levantan y merodean sin sentido, y hablan sin parar. Les resulta imposible aguantar una clase entera sentados y quietos.
-Se levantan y dan vueltas por la clase si se les permite. Cuando están sentados, se mueven mucho en la silla, enredando con los pies y manos, cambiando de postura, tocándolo todo, por lo que, con frecuencia, las cosas se les caen al suelo. Son ruidosos, y están siempre dando golpecitos en la mesa o canturreando.
+Se levantan y dan vueltas por la clase si se les permite. Cuando están sentados, se mueven mucho en la silla, enredando con los pies y manos, cambiando de postura, tocándolo todo, por lo que, con frecuencia, las cosas se les caen al suelo. Son ruidosos, y siempre están dando golpecitos en la mesa o canturreando.
 Otras veces, aunque no se mueven, dicen que se sienten inquietos o nerviosos. Los padres cuentan que estos niños mordisquean y rompen los lápices y bolígrafos, desarman las cosas con piezas, perdiendo o estropeando algunas y no pueden armarlas de nuevo (desarman un bolígrafo y pierden el muelle o lo estiran); a veces, también muerden la ropa o arrancan los hilitos que sobresalen hasta que los rompen.
 
 ### ¿Qué características tiene y cómo se reconoce la impulsividad?
@@ -158,12 +158,12 @@ Los niños y adolescentes con impulsividad tienen dificultades para inhibir o mo
 Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente, ya que con la edad esto puede tratarse o mejorarse, pero todavía enredan en exceso con las manos, hacen ruiditos, dan golpecitos y sienten inquietud interna. Sin embargo, todavía son desorganizados en sus trabajos escolares y les cuesta mucho acabar las cosas. Les resulta difícil trabajar de forma independiente, todavía hay que estar encima de ellos para que acaben sus tareas y estudios. Suelen tener más comportamientos arriesgados relacionados con la impulsividad (fumar, beber, consumir drogas, tener accidentes, actuar impulsivamente, etc). Sufren autoestima baja por sus fracasos, y por sus peores relaciones con sus iguales presentan dificultades y encontronazos con las figuras de autoridad (padres, profesores, entrenadores). A veces, si el niño es inteligente y sus padres han estado muy pendientes de las tareas escolares, puede no notarse el TDAH hasta la adolescencia, donde los trabajos son más complejos y se requiere no sólo un trabajo mecánico, sino asociación de conceptos aprendidos anteriormente.
 
 ### ¿Qué complicaciones tienen los adolescentes con TDAH?
-Según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes que no poseen estas condiciones. Esto se debe a que no piensan las consecuencias de sus actos y no aprenden de sus errores.
+Según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes que no poseen estas condiciones. Esto se debe a que no piensan en las consecuencias de sus actos y no aprenden de sus errores.
 ![Alt text](/src/repercusionesdeltdah.png)
 
 ### ¿Qué neurotransmisores están implicados en el TDAH?
 Los estudios indican que en el TDAH hay problemas en los circuitos reguladores 
-que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebromproducen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
+que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebro producen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
 
 ![image](/src/cerebrostdah.png)
 
@@ -196,14 +196,14 @@ Las estrategias que mejor resultado han dado son:
 
 ### ¿Qué efectos nos producen los colores?
 - El **rojo** es un color que significa vitalidad y energía. Con él se intenta estimular la acción. Es un color poco recomendable para la concentración porque impide la concentración.
-- El **amarillo** estimula la actividad mental asi que suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
+- El **amarillo** estimula la actividad mental así que suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
 - El **naranja**, un color que mezcla el amarillo y el rojo, aporta la energía y por otro lado la alegría.
 - El **verde**: relaja el sistema nervioso, produce armonía. Es ideal para ambientes de descanso.
 - El **azul** va unido a la relajación de los niños produce paz y sueño.
-- El **violeta** se utiliza para la inspiración y para la intuición. Estimula la creatividad y la habilidad artística.
+- El **violeta** Se utiliza para la inspiración y para la intuición. Estimula la creatividad y la habilidad artística.
 
 ## Modelado de usuarios del Sistema
-Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro publico
+Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro público
 
 ![Alt text](/src/usuario1.png)
 
@@ -258,13 +258,13 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ## Requerimientos no Funcionales
 
 ### RNF1: Sistema de compatibilidad
-**Descripción**: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores.
+**Descripción**: El planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores.
 
 ### RNF2: Idiomas soportados
-**Descripción**: la aplicación deberá ser desarrollada principalmente en español e inglés.
+**Descripción**: La aplicación deberá ser desarrollada principalmente en español e inglés.
 
 ### RNF3: Validación de la aplicación
-**Descripción**: para poder subir la aplicación tanto para la Play Store de Android como en la App Store de IOS, deberá cumplir con los estándares de dichas tiendas .
+**Descripción**: Para poder subir la aplicación tanto para la Play Store de Android como en la App Store de IOS, deberá cumplir con los estándares de dichas tiendas .
 
 ### RNF4: Impresión
 **Descripción**: el usuario podrá tener la opción de imprimir su calendario. 
@@ -300,14 +300,14 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 - **Para** sentirme motivado y seguir usando la aplicación.
 
 **Criterios de aceptación:**
-- Al terminar cada una de las tareas, el sistema brindara un cartel grande que dice "Tarea Completada", junto a una explosión de confeti.
+- Al terminar cada una de las tareas, el sistema brindará un cartel grande que dice "Tarea Completada", junto a una explosión de confeti.
 
 ## Historias de usuario 3
 **Título:** Representación temporal de las tareas
 
 - **Como** usuario
 - **Quiero** poder ver cuánto tiempo me queda para terminar mi tarea
-- **Para** poder concentrarme y ser consciente sobre como debo lidiar con esta.
+- **Para** poder concentrarme y ser consciente sobre cómo debo lidiar con esta.
 
 **Criterios de aceptación:**
 - El usuario tendrá que ingresar una tarea para poder ver cuánto tiempo le falta para terminarla en la sección de **Ahora Mismo**.
@@ -317,7 +317,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 ## CASOS DE USO
 ## Caso de uso 1: ARREGLAR
 
-*PRE: la tarea no esta registrada en el sistema*
+*PRE: la tarea no está registrada en el sistema*
 
 *POS: El sistema registra la tarea*
 
@@ -345,9 +345,9 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 
 ## Caso de uso 2:
-*PRE: el usuario tiene que tener una tarea ingresada en el sistena*
+*PRE: el usuario tiene que tener una tarea ingresada en el sistema*
 
-*POS: El sistema muestra en tiempo real cuanto tiempo restante le falta a la tarea actual, como tambien cual es la siguiente*
+*POS: El sistema muestra en tiempo real cuánto tiempo restante le falta a la tarea actual, como también cual es la siguiente*
 
 **Titulo:** Realizar una tarea
 
@@ -466,7 +466,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 
 ## Caso de uso 5:
-*PRE: el usuario debera tener al menos una tarea en ese dia*
+*PRE: el usuario deberá tener al menos una tarea en ese dia*
 
 *POS: el sistema deja de mostrar en la sección del calendario la tarea*
 
@@ -496,7 +496,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 ## VALIDACIÓN Y VERIFICACIÓN
 ### Validación
-Opinion de la psicologa
+Laura, la psicopedagoga a la cual le realizamos la entrevista, nos dió una devolución del proyecto. Nos corrigió algunos errores que dificultan la dinámica con el usuario y remarcó la importancia de mantener la app simple.
+
+Su enfoque en la simplicidad nos recordó la importancia de evitar la sobrecarga de información y distracciones innecesarias en la aplicación. Su feedback resultó ser un valioso activo para nuestro proyecto. 
+
+Laura nos inspiró a mantener un equilibrio entre la funcionalidad y la claridad en el diseño de la aplicación, lo que beneficiará a nuestros usuarios al evitar cualquier elemento que pueda causar confusión o distracción.
 
 ### Verificación de requerimientos
 
@@ -528,14 +532,22 @@ Opinion de la psicologa
 | ¿Queda claro qué actor(es) participan y se benefician del caso de uso? | SI |SI  | SI |SI |SI
 | ¿Existe una secuencia lógica en los pasos que permita entender la transacción entre actor y sistema? | SI |SI  | SI |SI |SI
 | ¿Se documentan todos los posibles cursos alternativos y excepcionales? |SI |SI |SI  |SI | SI
-| ¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso? SI|SI |SI |SI |SI |SI
+| ¿Existen pre y pos condiciones que contextualizan correctamente el caso de uso? SI|SI |SI |SI |SI |SI
 
 ## REFLEXIÓN
-Consideramos que este proyecto fue una experiencia diferente, en comparación a los que tuvimos en otras materias. Pudimos aplicar los conocimientos dados en clase, fundamentalmente con los de gitHub ya que era la primera vez que todos nosotros lo usabamos, pero no tuvimos algun problema importante. Por el otro lado, también pudimos aplicar las principales técnicas de elicitación. Durante el proceso de la creación del obligatorio, nos dimos cuenta que necesitabamos mucha información ya sea de algun experto, de internet o de otras aplicaciones parecidas. Como consecuencia de esto, nos llevó un tiempo considerable recolectar los puntos necesarios antes de poder realizar los bocetos. En general, creemos que realizamos un trabajo completo y aprendimos a simpatizar un poco más con un grupo con estas caracterísitcas.
+Consideramos que este proyecto fue una experiencia diferente, en comparación a los que tuvimos en otras materias. Pudimos aplicar los conocimientos dados en clase, fundamentalmente con los de gitHub ya que era la primera vez que todos nosotros lo usábamos, pero no tuvimos algún problema importante. Por otro lado, también pudimos aplicar las principales técnicas de elicitación. Durante el proceso de creación del obligatorio, nos dimos cuenta que necesitábamos mucha información ya sea de algún experto, de internet o de otras aplicaciones parecidas. Como consecuencia de esto, nos llevó un tiempo considerable recolectar los puntos necesarios antes de poder realizar los bocetos. En general, creemos que realizamos un trabajo completo y aprendimos a simpatizar un poco más con un grupo con estas características.
 
-Reflexión Agus: Antes de embarcarme en este proyecto, no estaba completamente familiarizado con el grupo de personas que enfrentan desafíos diarios debido al TDAH. A medida que avanzaba en el desarrollo de este planner, me sumergí en la comprensión profunda de sus experiencias y obstáculos únicos. Esta inmersión me permitió conectar de manera más empática con su realidad cotidiana y apreciar la valentía que demuestran al enfrentar estos desafíos.
+### Reflexión Agustín: 
+Antes de embarcarme en este proyecto, no estaba completamente familiarizado con el grupo de personas que enfrentan desafíos diarios debido al TDAH. A medida que avanzaba en el desarrollo de este planner, me sumergí en la comprensión profunda de sus experiencias y obstáculos únicos. Esta inmersión me permitió conectar de manera más empática con su realidad cotidiana y apreciar la valentía que demuestran al enfrentar estos desafíos.
 Me sentí enriquecido y agradecido por la oportunidad de contribuir a la sociedad al crear un proyecto que puede marcar una diferencia positiva en la vida de quienes conviven con el TDAH.
 
-Reflexión Victoria: Disfruté mucho este proyecto. Poder ponerle una cara a los los programas que luego desarrollaremos da un nuevo sentido y significado a lo que hacemos. Hubieron muchas tomas de decisiones difíciles, cuando logramos comprender que no ibamos a poder satisfacer a todo nuestro público inicial con una sola app.
+### Reflexión Victoria: 
+Disfruté mucho este proyecto. Poder ponerle una cara a los los programas que luego desarrollaremos da un nuevo sentido y significado a lo que hacemos. Hubo muchas tomas de decisiones difíciles, cuando logramos comprender que no íbamos a poder satisfacer a todo nuestro público inicial con una sola app.
 
-Lo que más me gusto fue el enfoque en la adaptabilidad y empatía que tuvimos que desarrollar. En el proceso de elicitación hay que mezclar muchas habilidades blandas con conocimiento técnico, y fue algo diferente que me encantaría seguir trabajando.
+Lo que más me gustó fue el enfoque en la adaptabilidad y empatía que tuvimos que desarrollar. En el proceso de elicitación hay que mezclar muchas habilidades blandas con conocimiento técnico, y fue algo diferente que me encantaría seguir trabajando.
+
+### Reflexión Serena: 
+Personalmente me siento muy orgullosa con el trabajo realizado en nuestro proyecto, y me fascina la idea de que algún día pueda ser un servicio de verdad. Por otra parte, siento que tanto la entrevista como la ingeniería inversa y la investigación me han hecho ganar mucho conocimiento sobre el TDAH, el cual se estima que padece el 10% de la población, lo cual siempre es bueno saber más para poder tratar ciertas situaciones con más empatía.
+
+En cuanto al trabajo en sí, siento que tuve una maravillosa oportunidad de ampliar y poner en papel todos mis conocimientos de desarrollo de aplicaciones y de investigación tanto como los ganados en esta primera parte del curso y siento que expandi y selle enormemente mis habilidades y conocimientos con respecto a los repositorios de git. Además me gustó tener la oportunidad de poder enfrentarnos a ciertos problemas con el grupo y resolverlos basados en nuestros conocimientos e ideas. 
+
