@@ -27,6 +27,8 @@ Antes de comenzar a trabajar hacemos **git pull** para tener el ultimo commit de
 Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**, ahí mismo hacemos los cambios que consideremos necesarios, cuando terminamos de trabajar o cuando pensamos que terminamos de hacer cierto avance y queremos "pasar raya" y seguir con una tarea de desarrollo no relacionada a la anterior, le damos "save" o **"CTRL + S"**  y luego en consola hacemos **git add .** y **git commit -m "descripcion del avance"** o directamente **git commit -a -m "descripción del avance"** podemos hacer distintos commits dentro de nuestro repositorio local. Por ejemplo en el caso de que sean cambios de distintas tareas del proyecto, y cuando hayamos terminado de trabajar, hacemos un **git push** y esto hace que todos nuestros avances o commits se suban al repositorio remoto, quedando grabados en la nube y nuestros compañeros o cualquiera que acceda este pueda acceder a nuestra última versión del proyecto.
 
 
+### Resumen de los commits:
+En esta sección se podra visualizar como fue el desarrollo del proyecto mediante el uso de los commits. LINK
 
 
 
