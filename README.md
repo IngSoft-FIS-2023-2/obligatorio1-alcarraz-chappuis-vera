@@ -15,7 +15,7 @@ Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor 
 
 ## Repositorio Git: Uso de ramas separadas
 
-Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, están presentes las carpetas "casosDeUso" en donde tiene las imágenes correspondientes a los perfiles que consideramos adecuados para nuestra aplicación.
+Creamos un repositorio en GitHub, en el cual vamos a subir todo nuestro trabajo a este repositorio remoto, utilizando los comandos dados en clase. En él está el Readme.md en el cual está todo el trabajo del obligatorio. A su vez, está la carpeta **src** en donde tiene las imágenes correspondientes a los user personas, casos de uso y la evidencia de la investigación.
 
 ## Versionado:
 Primero uno de los integrantes creó un repositorio remoto, para luego compartirlo con los otros integrantes. Para ello, cada miembro del equipo realizó **git clone "url"** para poder trabajar de manera local.
@@ -218,7 +218,7 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ###  RF2: Ingreso y actualización de tareas 
 **Actor**: Sistema
 
-**Descripción**: El usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y cuando una tarea se completa debe desaparecer para poder visualizarse mejor el calendario.
+**Descripción**: El usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y cuando una tarea se completa debe desaparecer para poder visualizarse mejor el calendario. A su vez en el momento que el usuario agregue la información sobre dicha tarea puede agregar un emoticon o foto para guiarse.
 
 **Prioridad**: alta
 
@@ -274,7 +274,7 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ## HISTORIAS DE USUARIO
 
 ## Modelo conceptual del problema
-[diagrama de cada página]
+![Alt text](/src/grafopantallas.drawio.png)
 
 
 
@@ -329,8 +329,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2 |
 |--------------|--------------|
-| ![Alt text](/src/horarios1.png)|![Alt text](/src/agregartarea1.png)|
-
+| ![Alt text](/src/agregarT.png)|![Alt text](/src/nuevaT.png)|
 
 
 ### Curso alternativo:
@@ -480,7 +479,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2|
 |--------------|--------------|
-|![Alt text](image.png) |![Alt text](image-10.png) |
+|![Alt text](/src/horarios1.png) |![Alt text](/src/horariosfiesta.png) |
 
 
 
