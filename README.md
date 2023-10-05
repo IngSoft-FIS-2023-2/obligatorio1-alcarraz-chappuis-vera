@@ -480,15 +480,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2|
 |--------------|--------------|
-|![Alt text](image.png) |![Alt text](image-10.png) |
-
-
-
-
-
-
-
-
+|![Alt text](/src/horarios1.png) |![Alt text](/src/horariosfiesta.png)|
 
 
 ## VALIDACIÓN Y VERIFICACIÓN
