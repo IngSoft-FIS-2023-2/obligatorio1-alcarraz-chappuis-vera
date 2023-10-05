@@ -9,15 +9,9 @@ El objetivo de nuestro proyecto es hacer un planner visual para ayudar a adolesc
 Para cumplir con estos objetivos, intentamos que nuestra app se adapte lo mejor posible ciertos criterios organizacionales, visuales y de organización que favorecen su entendimiento, concentración y atención. Como consecuencia de esto, mejora su productividad diaria, ayudando a que no se desenfoquen y no pierdan sus objetivos de vista,  su rendimiento diario y poco a poco, ayudarlos acercarse a su potencial máximo.
 
 ## Stakeholders
-<<<<<<< HEAD
-1. Adolecentes con TDAH: Los usuarios finales del programa, ellos son quienes hacen la decisión final de usar la app o no.
-2. Profesionales y expertos del tema: Por ejemplo: Psiquiatras, Profesores, Técnicos de dificultades de aprendizaje, etc. Ellos tienen entendimiento profundo en la condición y al probar nuestra app reconocerán facilmente qué realmente ayuda a un adolecente con TDAH y qué no.
-3. Redes sociales, influencers, etc: Promueven y popularizan la app. 
-=======
 1. Adolescentes con TDAH: los usuarios finales del programa, ellos son quienes hacen la decisión final de usar la app o no.
 2. Profesionales y expertos del tema: por ejemplo, psiquiatras, profesores, técnicos de dificultades de aprendizaje, entre otros. Ellos tienen entendimiento profundo en la condición y al probar nuestra app reconocerán fácilmente que realmente ayuda a un adolescente con TDAH y que no.
 3. Redes sociales, influencers, etc. Promueven y popularizan la app. 
->>>>>>> dev
 
 ## Repositorio Git: Uso de ramas separadas
 
@@ -34,36 +28,19 @@ Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**
 
 
 ### Resumen de los commits:
-En esta sección se podra visualizar como fue el desarrollo del proyecto mediante el uso de los commits. LINK
+En esta sección se podra visualizar como fue el desarrollo del proyecto mediante el uso de los commits. 
+
+https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/commits/main
 
 
 
 
 
-<<<<<<< HEAD
-Al llegar a este estado, antes de comenzar a trabajar hacemos **git pull** para tener el ultimo commit del repo hecho por nuestros compañeros.
-Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**, ahi mismo hacemos los cambios que consideremos necesarios, cuando terminamos de trabajar o cuando pensamos que terminamos de hacer cierto avance y queremos "pasar raya" y seguir con una tarea de desarrollo no relacionada a la anterior, le damos "save" o **"CTRL + S"**  y luego en consola hacemos **git add .** y **git commit -m "descripcion del avance"** o directamente **git commit -a -m "descripcion del avance"** podemos hacer distintos commits dentro de nuestro repo local, por ejemplo en el caso de que sean cambios de distinas tareas del proyecto, y cuando hayamos terminado de trabajar, hacemos un **git push** y esto hace que todos nuestros avances o commits se suban al repo remoto, queden grabados en la nube y nuestos compañeros o cualquiera que acceda al repo pueda acceder a nuestra ultima versión del proyecto.
 
-El obligatorio cuenta con dos ramas, una llamada **dev**, que se refiere a desarrollo, donde vamos subiendo todos nuestros avances del proyecto. Por otro lado, tenemos la rama **main** donde va la version final del proyecto o para subir alguna version que haya llegado a ciertos logros o avances que nos parezcan significantes.
-Para hacer un merge al main, con el objetivo de que esta en su ultima version sea igual a la ultima version del dev, hacemos un **git checkout main** en el caso de que estemos parados en el dev, y luego ejecutamos el comando **git merge dev** para que se haga un merge de ambas.
-=======
-
->>>>>>> dev
 
 
 # ELICITACIÓN
 Con el objetivo de profundizar en el tema del TDAH y los planners diarios llevamos a cabo: una entrevista, una investigación y ingeniería inversa de dos apps de planning diario.
-<<<<<<< HEAD
-
-Investigación : Fue extraida de tres fuentes principales:
-1. El libro: "Convivir con Niños y adolescentes con Transtorno por Deficit de Atencion e Hiperactividad
-## Entrevista
-Llevamos a cabo una entrevista con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. 
-Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas las edades con dificultades de aprendizaje, diagnosticadas o no, como pueden ser Dislexia, Disgrafía, Discalculia, Discapacidad de la memoria y el procesamiento auditivo, Trastorno por déficit de atención e hiperactividad (TDAH), Trastorno del espectro autista/Trastorno generalizado del desarrollo, entre otros.
-
-En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDAH, que tipos de TDAH existen, cómo podemos ayudarlos en su dia a dia, qué problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
-Luego pasamos a hablar sobre cómo ella desarrollaría el planner ideal para un adolescente con TDAH, qué factores son clave, qué cosas debemos cuidar y qué deberíamos evitar.
-=======
 - Entrevista: realizada con Laura Fazacas, técnica de estudio especializada en dificultades de aprendizaje. La evidencia de nuestras actividades de investigacion se encuentra dentro de la carpeta src.
 
 - Ingenieria Inversa: investigamos y evaluamos dos apps para daily planning: Tiimo y Notion. Nos enfocamos en desglosar sus características clave, prestando especial atención en la interfaz de usuario y diseño. Buscamos patrones de diseño efectivos y mejores prácticas que podamos incorporar en nuestra propia aplicación.¿Por qué elegimos estas dos y no otras? Notion es la más usada por estudiantes y Tiimo tiene como objetivo ser un planner más que nada visual hecho para personas con TDAH.
@@ -80,7 +57,6 @@ Su trabajo diario consiste en ayudar con tareas diarias a estudiantes de todas l
 
 En aspectos generales, comenzamos hablando de nuestros objetivos y a quienes estaba dirigido el proyecto, que es el TDAH, que tipos de TDAH existen, cómo podemos ayudarlos en su día a día, que problemas suelen tener las personas que trata y qué estrategias usa ella para ayudarlos.
 Luego pasamos a hablar sobre como ella desarrollaría el planner ideal para un adolescente con TDAH, que factores son clave, que cosas debemos cuidar y que deberíamos evitar.
->>>>>>> dev
 
 ### Conclusiones de la entrevista
 - El TDAH tiene varios tipos, y las personas con TDAH suelen padecer de otros trastornos mencionados anteriormente.
@@ -110,11 +86,7 @@ Nos brindó consejos para tratar y generar recursos para personas con TDAH, esto
 ## INGENIERIA INVERSA
 ### Tiimo
 Features principales:
-<<<<<<< HEAD
-- Al empezar te pregunta si eres un pensador visual neurodivergente, esto permite que la app se orgnize de distintas maneras y da recomendaciones según las necesidades del perfil definido. También pregunta para qué quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
-=======
 - Al empezar te pregunta si eres un pensador visual neurodivergente, esto permite que la app se organice de distintas maneras y da recomendaciones según las necesidades del perfil definido. También pregunta para qué quieres usar la app, ofrece opciones como: tareas del hogar, estudio, trabajo, etc.
->>>>>>> dev
 - Elegir objetivos para que nos ayude, estos pueden ser: estrés, ansiedad, querer estructurar nuestras rutinas mejor, mejorar la concentración, entre otras.
 - Nos permite crear un reminder para revisar los planes del día cada mañana y editarlos, también nos ofrece una revisión para la noche con el objetivo de revisar las tareas pendientes.
 - Recordatorios diarios de ciertas tareas están disponibles
@@ -147,26 +119,11 @@ Notion es una aplicación de gestión que se adapta a una amplia variedad de nec
 4. Gestión del tiempo: Las funciones de gestión del tiempo, como los calendarios y las fechas de vencimiento de tareas, son útiles, pero las personas con déficit de atención pueden necesitar recordatorios adicionales y alertas para seguir un horario.
 
  
-<<<<<<< HEAD
-## Conclusiones de la ingenieria inversa:
-Tras realizar la ingeniería inversa de las aplicaciones Tiimo y Notion, hemos identificado varios aspectos clave que podemos incorporar en nuestro propio proyecto de planner visual para adolescentes con TDAH:
-
-1. *Visualización de Tiempo Real*: La característica de Tiimo que muestra la tarea actual en tiempo real, con detalles como la hora actual y el tiempo restante, es una excelente manera de ayudar a los usuarios a visualizar su tiempo y mantenerse en el camino.
-
-2. *Simplificación de la Interfaz*: Notion es una herramienta poderosa, pero su complejidad visual puede resultar abrumadora. Para las personas con TDAH, es importante mantener una interfaz clara y libre de distracciones visuales innecesarias.
-
-3. *Organización Simplificada*: Aunque la organización es crucial, algunos usuarios con TDAH pueden encontrar desafíos para mantener una estructura coherente. Proporcionar orientación, plantillas predefinidas y una forma sencilla de organizar tareas puede ser beneficioso.
-
-4. *Enfoque en Tareas Concretas*: Para evitar distracciones, es importante fomentar el enfoque en tareas específicas. Esto puede lograrse mediante recordatorios visuales y la capacidad de establecer horarios y fechas de vencimiento claras.
-
-En general, nuestra investigación de ingeniería inversa resalta la importancia de simplificar la interfaz para evitar distracciones innecesarias y proporcionar herramientas efectivas de organización y seguimiento.
-=======
 ## Conclusiones de la ingeniería inversa:
  Tiimo se destaca por su enfoque visual y la adaptabilidad a las necesidades de personas neurodivergentes, especialmente aquellas con TDAH. Ofrece una personalización significativa al permitir la elección de objetivos y la asignación de colores y representaciones visuales a las tareas. La visualización en tiempo real de las tareas proporciona una experiencia completa y facilita la gestión del tiempo de manera efectiva.
 
 Mientras que Notion es una poderosa herramienta de organización e información, pero para las personas con déficit de atención, puede requerir una adaptación cuidadosa para evitar distracciones y garantizar una experiencia más enfocada y productiva. Esto se puede lograr mediante la simplificación de la interfaz, la orientación clara y la implementación de recordatorios visuales.
 
->>>>>>> dev
  
 ## INVESTIGACIÓN
 
@@ -176,40 +133,11 @@ El TDAH es un trastorno psiquiátrico de origen biológico, a nivel cerebral, y 
 - inhibir o frenar sus ideas, pensamientos o comportamiento, por lo que tienen impulsividad.
 - prestar atención a las acciones que realizan, por lo que sufren inatención.
 
-<<<<<<< HEAD
-**2. ¿Qué consecuencias tiene el TDAH para el adolescente y su familia?**
-El TDAH tiene un efecto muy negativo sobre el que lo padece. A largo plazo, y si no se trata correctamente, produce una disminución del rendimiento académico que desemboca en fracaso escolar. Esto dificulta su paso a cursos superiores. Si pasan curso, no dominan la materia anterior y la base de conocimientos del adolescente se hace cada vez más endeble. Además, afecta al desarrollo social y emocional del adolescente. Debido a los múltiples problemas en las relaciones con los compañeros por su impulsividad, los adolescentes con TDAH tienden a tener pocos amigos, poco duraderos, y las relaciones son menos estrechas. Debido a los fracasos repetidos en el colegio, las discusiones con los amigos y con los padres por malas notas y mal comportamiento, son frecuentes los síntomas depresivos e incluso la depresión en los adolecentes con TDAH. Algunos adolescentes con TDAH desarrollan comportamientos negativistas: desobediencias progresivas, desafío a la autoridad y, poco a poco, problemas de conducta mayores, e incluso, abuso de alcohol y drogas.No es un trastorno "cosmético" o fruto del perfeccionismo de la sociedad. Las personas con TDAH que no reciben tratamiento correcto suelen alcanzar trabajos o profesiones por debajo de su capacidad.
-
-**3. ¿Que tipos de TDAH existen?**
-=======
 ### ¿Que tipos de TDAH existen?
->>>>>>> dev
 - TDAH tipo hiperactivo-impulsivo (el niño sólo presenta hiperactividad e impulsividad), que es muy poco frecuente.
 - TDAH tipo inatento (presentan inatención).
 - TDAH tipo combinado (el mito presenta los tres síntomas hiperactividad, impulsividad e inatención), que es el más frecuente.
 
-<<<<<<< HEAD
-**4. ¿Puede una persona con TDAH no ser hiperactiva?**
-Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención: cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad.
-
-**5. ¿Qué características tiene y cómo se reconoce la inatención?**
-Los niños con inatención tienen muchas dificultades para realizar una misma actividad durante mucho tiempo. Se aburren enseguida tras unos minutos haciendo la tarea, y empiezan a pensar en otras cosas. Tienen que hacer un esfuerzo extra para terminar acciones rutinarias y mantenerse organizados. Por ejemplo, al prepararse para ir al colegio, si mientras se viste ve un juguete que le atrae, se queda medio vestido jugando. Hay que decirle muchas veces que se vista, quitarle el juguete, acabar de vestirle y llevarle a desayunar, para encontrarle jugueteando con otra cosa y sin desayunar.
-En el colegio, si tiene que ir a sacar punta al lápiz, puede encontrarse por el camino con otros niños con los que hará bromas y se distraerá; olvidará que iba a sacar punta, el profesor le llamará la atención y volverá a su sitio con el lápiz sin punta, teniendo que volver a levantarse... La inatención hace que cualquier estímulo o situación que se cruce por el camino del niño le haga perder el norte y olvidarse de lo que estaba haciendo, dejando las cosas a medias. Los padres dicen: "está en todo y en nada", cambiando continuamente su foco de atención, sin alcanzar nunca el objetivo final.
-
-**¿Qué características tiene y como se reconoce la hiperactividad?**
-Los niños con hiperactividad están en movimiento constante, y tienen muchas dificultades para permanecer sentados durante mucho tiempo (en clase, en la cena, en la iglesia, viendo la TV, etc.).
-Se levantan y merodean sinsentido, y hablan sin parar. Les resulta imposible aguantar una clase entera sentados y quietos.
-Se levantan y dan vueltas por la clase. Cuando están sentados, se mueven mucho en la silla, enredando con los pies y manos, cambiando de postura, tocándolo todo, por lo que, con frecuencia, las cosas se les caen al suelo. Son ruidosos, y están siempre dando golpecitos en la mesa o cantando.
-Otras veces, aunque no se mueven, dicen que se sienten inquietos o nerviosos. Los padres cuentan que estos niños mordisquean y rompen los lápices y lapiceras, desarman las cosas con piezas, perdiendo o estropeando algunas y no pueden armarlas de nuevo. A veces, también muerden la ropa o arrancan los hilitos que sobresalen hasta que los rompen.
-
-**¿Qué características tiene y como se reconoce la impulsividad?**
-Los niños con impulsividad tienen dificultades para inhibir o modular sus respuestas o reacciones inmediatas ante las situaciones. Es decir, les resulta difícil no hacer lo primero que les apetece o se les ocurre. No piensan en las consecuencias de sus actos y directamente hacen (o dicen) lo primero que piensan, lo que se les pasa por la cabeza. Por eso, en clase responden sin pensar, a veces, incluso antes de que el profesor haya terminado de formular la pregunta, sin pensar realmente en lo que se les está preguntando. Hacen comentarios inapropiados sin pensar en la reacción de la otra persona. Los niños con TDAH no tienen ese diálogo interior antes de realizar una acción, no valoran las posibilidades ni las consecuencias de cada posible respuesta, simplemente actúan y luego sufren las consecuencias.
-Ven las consecuencias de sus actos cuando es demasiado tarde y ya han hecho o dicho algo inapropiado. Sin embargo, a pesar de sufrir consecuencias, no aprenden, y más adelante se vuelven a dejar llevar por la primera cosa que se les ocurre, reaccionando impulsivamente.
-
-**¿Cómo son los adolescentes con TDAH?**
-Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente como los niños, pero todavía enredan en exceso con las manos, hacen ruiditos, dan golpecitos y sienten inquietud interna. Los padres dicen que la hiperactividad mejora bastante.
-Sin embargo, todavía son desorganizados en sus trabajos escolares y les cuesta mucho acabar las cosas. Les resulta difícil trabajar de forma independiente, todavía hay que estar encima de ellos para que acaben sus tareas y estudios. Suelen tener más comportamientos arriesgados (fumar, beber, consumir drogas, tener accidentes, actuar impulsivamente, etc). Sufren autoestima baja por sus fracasos, y por sus peores relaciones con sus iguales. Presentan dificultades y encontronazos con las figuras de autoridad (padres, profesores, entrenadores). A veces, si el niño es inteligente y sus padres han estado muy pendientes de las tareas escolares, puede no notarse el TDAH hasta la adolescencia, donde los trabajos son más complejos y se requiere no sólo un trabajo mecánico, sino asociación de conceptos aprendidos anteriormente.
-=======
 ### ¿Puede una persona con TDAH no ser hiperactiv@?
 Claro que sí. No todas las personas con TDAH son hiperactivas. Las personas con TDAH tipo inatento no tienen hiperactividad o impulsividad; sólo presentan síntomas de inatención: cometen errores por no prestar atención a los detalles, no mantienen la atención en tareas largas, parece que no escuchan, tienen dificultad para completar órdenes complejas (dejan las cosas a medias), evitan las acciones que requieren esfuerzo mental (dejan los deberes siempre para el final), son muy desorganizados, pierden cosas, son olvidadizos y se distraen con facilidad.
 
@@ -228,29 +156,14 @@ Los niños y adolescentes con impulsividad tienen dificultades para inhibir o mo
 
 ### ¿Cómo son los adolescentes con TDAH?
 Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente, ya que con la edad esto puede tratarse o mejorarse, pero todavía enredan en exceso con las manos, hacen ruiditos, dan golpecitos y sienten inquietud interna. Sin embargo, todavía son desorganizados en sus trabajos escolares y les cuesta mucho acabar las cosas. Les resulta difícil trabajar de forma independiente, todavía hay que estar encima de ellos para que acaben sus tareas y estudios. Suelen tener más comportamientos arriesgados relacionados con la impulsividad (fumar, beber, consumir drogas, tener accidentes, actuar impulsivamente, etc). Sufren autoestima baja por sus fracasos, y por sus peores relaciones con sus iguales presentan dificultades y encontronazos con las figuras de autoridad (padres, profesores, entrenadores). A veces, si el niño es inteligente y sus padres han estado muy pendientes de las tareas escolares, puede no notarse el TDAH hasta la adolescencia, donde los trabajos son más complejos y se requiere no sólo un trabajo mecánico, sino asociación de conceptos aprendidos anteriormente.
->>>>>>> dev
 
 ### ¿Qué complicaciones tienen los adolescentes con TDAH?
 Según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes que no poseen estas condiciones. Esto se debe a que no piensan las consecuencias de sus actos y no aprenden de sus errores.
 ![Alt text](/src/repercusionesdeltdah.png)
 
-<<<<<<< HEAD
-Segun ciertas estadisiticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH.También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes sin TDAH. Esto se debe a que no
-piensan las consecuencias de sus actos y no aprenden de sus errores.
-
-![image](https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/assets/142766153/4153d7ad-42d2-4aef-a8a0-d32d371b0dd7)
-
-
-
-**ETIOLOGÍA- Causas del TDAH**
-
-¿Qué neurotransmisores están implicados en el TDAH?
-Los estudios indican que en el TDAH hay problemas en los circuitos reguladores que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente del la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebro producen hiperactividad e impulsividad. El córtex prefontral controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
-=======
 ### ¿Qué neurotransmisores están implicados en el TDAH?
 Los estudios indican que en el TDAH hay problemas en los circuitos reguladores 
 que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebromproducen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
->>>>>>> dev
 
 ![image](/src/cerebrostdah.png)
 
@@ -281,12 +194,6 @@ Las estrategias que mejor resultado han dado son:
 5. **Reduce la sobrecarga sensorial**. Las personas con TDAH a veces pueden ser sensibles a la sobrecarga sensorial. Utilizar colores suaves o colores que ayuden a crear un ambiente tranquilo y relajante puede ser beneficioso para reducir el estrés y la ansiedad.
 
 
-<<<<<<< HEAD
-## OBSERVACION
-
-## Modelado de usuarios del Sistema
-Esta aplicacion esta diseñada enfocada a personas con tdah sin embargo muchas personas elijen usar este tipo de metodos, por lo tanto tambien vamos a agregarlos a nuestro público.
-=======
 ### ¿Qué efectos nos producen los colores?
 - El **rojo** es un color que significa vitalidad y energía. Con él se intenta estimular la acción. Es un color poco recomendable para la concentración porque impide la concentración.
 - El **amarillo** estimula la actividad mental asi que suele ayudar en la concentración. Por ello se usa en los libros y algunas veces en los sitios de trabajo de los niños.
@@ -297,7 +204,6 @@ Esta aplicacion esta diseñada enfocada a personas con tdah sin embargo muchas p
 
 ## Modelado de usuarios del Sistema
 Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro publico
->>>>>>> dev
 
 ![Alt text](/src/usuario1.png)
 
@@ -309,42 +215,17 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ###  RF1: Visualización de tarea
 **Actor**: Usuario
 
-<<<<<<< HEAD
-###  Rf2: Ingreso y actualización de tareas 
-Actor: Sistema
-Descripción: el usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y cuando una tarea se completa debe desaparecer/tacharse para poder visualizarse mejor
-Prioridad: alta
-
-### Rf3: Feedback positivo:
-Actor : usuario
-Descripción: el sistema deberá mostrar al terminar todas sus tareas pendientes del dia el numero de caritas felices segun sus tareas completasas
-Prioridad: media
-=======
 **Descripción**: Cuando el usuario abre la app, lo primero que debe ver es su semana y tareas del día.
 
 **Prioridad**: Alta
->>>>>>> dev
 
 ###  RF2: Ingreso y actualización de tareas 
 **Actor**: Sistema
 
-<<<<<<< HEAD
-### Rf5: Agregacion de alarmas
-Actor: usuario
-Descripción: el usuario deberá poder agregar recordatorios, de modo que se le active una alarma.
-Prioridad: alta
-=======
 **Descripción**: El usuario debe poder tanto ingresar y actualizar el estado de las tareas en su planner y cuando una tarea se completa debe desaparecer para poder visualizarse mejor el calendario. A su vez en el momento que el usuario agregue la información sobre dicha tarea puede agregar un emoticon o foto para guiarse.
->>>>>>> dev
 
 **Prioridad**: alta
 
-<<<<<<< HEAD
-### Rf7: Anticipacion de las tareas de dia
-Actor: sistema
-Descripcion: al comenzar el dia que aparezca un pop up con todas las tareas y eventos que sucederan en el dia.
-Prioridad: media.
-=======
 ### RF3: Feedback positivo:
 **Actor**: Usuario
 
@@ -373,34 +254,18 @@ Prioridad: media.
 **Descripción**: Al comenzar el día, el sistema deberá mostrar todas las tareas y eventos que sucederán en el día.
 
 **Prioridad**: Alta.
->>>>>>> dev
 
 ## Requerimientos no Funcionales
 
 ### RNF1: Sistema de compatibilidad
 **Descripción**: el planner deberá soportar celulares con sistema operativo: Android 10 o IOS 13 o sus versiones superiores.
 
-<<<<<<< HEAD
-### Rnf2: Idiomas soportados
-Descripción: la aplicación deberá ser desarrollada principalmente en español 
-=======
 ### RNF2: Idiomas soportados
 **Descripción**: la aplicación deberá ser desarrollada principalmente en español e inglés.
->>>>>>> dev
 
 ### RNF3: Validación de la aplicación
 **Descripción**: para poder subir la aplicación tanto para la Play Store de Android como en la App Store de IOS, deberá cumplir con los estándares de dichas tiendas .
 
-<<<<<<< HEAD
-### Rnf4: Impresión
-Descripcion: el usuario podra tener la opcion de imprimir su calendario en formato pdf. 
-
-### Rnf5: formato de la aplicación
-Descripcion: se deberá mostrar en formato horziontal, con el texto de fuente Tahoma y en mayusculas.
-
-### Rnf6: Tiempo maximo de tareas
-Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo de 5 minutos y una tarea no puede durar mas de 2 horas.
-=======
 ### RNF4: Impresión
 **Descripción**: el usuario podrá tener la opción de imprimir su calendario. 
 
@@ -409,7 +274,6 @@ Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo 
 
 ### RNF6: Tiempo de máximo de tareas
 **Descripción**: si una tarea dura más de 45 minutos debe tener un descanso mínimo de 5 y una tarea no puede durar más de 2 horas.
->>>>>>> dev
 
 ## HISTORIAS DE USUARIO
 
@@ -418,11 +282,6 @@ Descripcion: si una tarea dura mas de 45 minutos, debe tener un descanso minimo 
 
 
 
-<<<<<<< HEAD
-## Modelo conceptual del problema
-[diagrama de cada pagina]
-=======
->>>>>>> dev
 ## Historias de usuario 1
 **Título:** Planificación
 
@@ -447,13 +306,8 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 **Título:** Representación temporal de las tareas
 
 - **Como** usuario
-<<<<<<< HEAD
-- **Quiero**poder poder ver cuanto tiempo me queda para terminar mi tarea
-- **Para** poder concentrarme y ser consciente sobre cómo debo lidiar con esta.
-=======
 - **Quiero** poder ver cuánto tiempo me queda para terminar mi tarea
 - **Para** poder concentrarme y ser consciente sobre como debo lidiar con esta.
->>>>>>> dev
 
 **Criterios de aceptación:**
 - El usuario tendrá que ingresar una tarea para poder ver cuánto tiempo le falta para terminarla en la sección de **Ahora Mismo**.
