@@ -315,7 +315,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 
 ## CASOS DE USO
-## Caso de uso 1: ARREGLAR
+## Caso de uso 1:
 
 *PRE: la tarea no está registrada en el sistema*
 
