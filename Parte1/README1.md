@@ -28,7 +28,9 @@ Luego, para desarrollar nos paramos en la rama dev haciendo **git checkout dev**
 
 
 ### Resumen de los commits:
-En esta sección se podrá visualizar cómo fue el desarrollo del proyecto mediante el uso de los commits. LINK
+En esta sección se podra visualizar como fue el desarrollo del proyecto mediante el uso de los commits. 
+
+https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera/commits/main
 
 
 
@@ -157,13 +159,13 @@ Los adolescentes con TDAH pueden no tener una hiperactividad tan evidente, ya qu
 
 ### ¿Qué complicaciones tienen los adolescentes con TDAH?
 Según ciertas estadísticas, tienen más riesgo de empezar a fumar tabaco, beber alcohol, consumir drogas como marihuana y tener relaciones sexuales más tempranas (y por ello tienen hijos mucho antes y más enfermedades de transmisión sexual) que los adolescentes sin TDAH. También repiten curso más frecuentemente y terminan el bachillerato y pasan a la Universidad en menor proporción que los adolescentes que no poseen estas condiciones. Esto se debe a que no piensan en las consecuencias de sus actos y no aprenden de sus errores.
-![Alt text](/src/repercusionesdeltdah.png)
+![Alt text](/Parte1/img/repercusionesdeltdah.png)
 
 ### ¿Qué neurotransmisores están implicados en el TDAH?
 Los estudios indican que en el TDAH hay problemas en los circuitos reguladores 
 que comunican el córtex prefrontal y los ganglios basales. Estas dos áreas del cerebro se comunican mediante la dopamina y la noradrenalina. Estas zonas y circuitos están, además, regulados por inervación dopaminérgica procedente de la zona de los pedúnculos cerebrales en el tronco del encéfalo. Los estudios con animales indican que niveles bajos de noradrenalina en el cerebro producen hiperactividad e impulsividad. El córtex prefrontal controla la persistencia en una tarea (atención mantenida), la resistencia a la distracción (inhibición motora), y la capacidad de volver a una tarea después de distraernos (memoria de trabajo).
 
-![image](/src/cerebrostdah.png)
+![image](/Parte1/img/cerebrostdah.png)
 
 ### 11. ¿Qué medidas y estrategias suelen tomar los profesionales al tratar con TDAH?
 Como hemos señalado anteriormente el TDAH suele ir asociado a Trastornos del Aprendizaje y el fracaso escolar es frecuente, sobre todo en los casos en los que el déficit de atención es severo, el CI(Coeficiente Intelectual) del alumno es medio bajo o no recibe la estimulación y el control adecuados por parte de la familia y escuela.
@@ -203,9 +205,9 @@ Las estrategias que mejor resultado han dado son:
 ## Modelado de usuarios del Sistema
 Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas personas elijen usar este tipo de métodos, por lo tanto también vamos a agregarlos a nuestro público
 
-![Alt text](/src/usuario1.png)
+![Alt text](/Parte1/img/usuario1.png)
 
-![Alt text](/src/usuario2.png)
+![Alt text](/Parte1/img/usuario2.png)
 
 ## ESPECIFICACIÓN
 ## Requerimientos Funcionales
@@ -241,7 +243,7 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ### RF5: Agregación de alarmas
 **Actor**: Usuario
 
-**Descripción**: El usuario deberá poder agregar recordatorios, de modo que se le active una alarma.
+**Descripción**: El usuario deberá poder agregar recordatorios, de modo que se le active una alarma para poder realizar su tarea.
 
 **Prioridad**: Media
 
@@ -276,7 +278,7 @@ Esta aplicación esta deseada enfocada a personas con TDAH sin embargo muchas pe
 ## HISTORIAS DE USUARIO
 
 ## Modelo conceptual del problema
-![Alt text](/src/grafopantallas.drawio.png)
+![Alt text](/Parte1/img/grafopantallas.drawio.png)
 
 
 
@@ -313,7 +315,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 
 ## CASOS DE USO
-## Caso de uso 1: ARREGLAR
+## Caso de uso 1:
 
 *PRE: la tarea no está registrada en el sistema*
 
@@ -331,7 +333,8 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2 |
 |--------------|--------------|
-| ![Alt text](/src/agregarT.png)|![Alt text](/src/nuevaT.png)|
+| ![Alt text](/Parte1/img/alrama.png)|![Alt text](/Parte1/img/calendario.png)|
+
 
 
 ### Curso alternativo:
@@ -340,6 +343,9 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 1.2 El usuario completa los campos obligatorios y confirma los datos.
 
 1.3 El sistema agrega la tarea al calendario.
+
+
+
 
 
 ## Caso de uso 2:
@@ -357,7 +363,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 |--------------|--------------|
 | 1. El usuario selecciona la sección de **AHORA MISMO** | 2. El sistema un reloj, representando el tiempo restante de la tarea actual y por separado la siguiente tarea por realizar|
 
-![Alt text](/src/ahoramismo.png)
+![Alt text](/Parte1/img/ahoramismo.png)
 
 ### Curso alternativo:
 1.1 El usuario al no tener tareas disponibles en ese momento, selecciona esa sección del planner.
@@ -386,11 +392,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|4 |
 |--------------|--------------|
-|![Alt text](/src/notasvacio.png) |![Alt text](/src/nuevanota1.png)|
+|![Alt text](/Parte1/img/notasvacio.png) |![Alt text](/Parte1/img/nuevanota1.png)|
 
 | 7|
 |--------------|
-|![Alt text](/src/panelnotas.png)|
+|![Alt text](/Parte1/img/panelnotas.png)|
 
 
 
@@ -447,11 +453,11 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|4 |
 |--------------|--------------|
-|![Alt text](/src/notaslleno.png)|![Alt text](/src/notasuper.png)|
+|![Alt text](/Parte1/img/notaslleno.png)|![Alt text](/Parte1/img/notasuper.png)|
 
 | 6|7|
 |--------------|--------------|
-| ![Alt text](/src/borrarnota.png)|![Alt text](/src/notaborrada.png)|
+| ![Alt text](/Parte1/img/borrarnota.png)|![Alt text](/Parte1/img/notaborrada.png)|
 
 
 ### Curso alternativo:
@@ -481,7 +487,7 @@ El usuario podrá ver en el calendario sus tareas en sus respectivos días.
 
 | 1|2|
 |--------------|--------------|
-|![Alt text](/src/horarios1.png) |![Alt text](/src/horariosfiesta.png) |
+|![Alt text](/Parte1/img/horarios1.png) |![Alt text](/Parte1/img/horariosfiesta.png) |
 
 
 
@@ -510,7 +516,7 @@ Laura nos inspiró a mantener un equilibrio entre la funcionalidad y la claridad
 | ¿Están identificados los usuarios? |SI  | SI |SI  |SI  |SI  |SI  |SI  |
 | **Verificabilidad y no ambigüedad**   |     |     |     |     |     |     |     |
 | ¿Tiene cada requerimiento una única interpretación? | SI | SI | SI |SI  |SI  |SI |SI  |
-| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  NO| NO | NO |NO  |NO  |
+| ¿Puede ser cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? | SI | SI |  SI| SI| SI |SI|
 | **Correctitud y consistencia**        |     |     |     |     |     |     |     |
 | ¿Están los requerimientos escritos en forma consistente y a un nivel de detalle adecuado? | SI |SI  | SI |SI  |SI  |SI  | SI |
 | ¿Existe duplicación de requerimientos o conflicto entre requerimientos? | NO | NO | NO |NO  |NO  |NO  |NO  |
