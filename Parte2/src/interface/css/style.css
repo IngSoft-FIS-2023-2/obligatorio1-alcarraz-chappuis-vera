@@ -1,9 +1,50 @@
-#idTitulo{
+.footer{
+    background-color: rgb(255, 238, 0);
+    text-align: center;
+}
+
+.classTitulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(224, 224, 17);
     text-align: center;
 }
 
-#nuevaNota{
-    /*centrar boton a la derecha*/
+#textAreaNota{
+    font-family: Tahoma;
+    height: 100%;
+    width: 100%;
+    margin-left: 3%;
+}
+
+#tituloNuevaNota{
+    margin-left: 3%;
+}
+
+::placeholder {
+    font-family: Tahoma;
+    color: gray;
+  }
+
+.texto-centrado{
+    text-align: center;
+}
+
+.estiloIconoMas{
+    width: 25%; 
+    height: 25%;
+}
+
+
+#tituloNuevaNota{
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.estiloIconos{
+    width: 9%; 
+    height: 9%;
+}
+
+.botonGuardar{
+    margin-bottom: 3%;
 }
