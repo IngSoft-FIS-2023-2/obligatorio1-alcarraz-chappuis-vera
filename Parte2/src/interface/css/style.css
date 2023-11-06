@@ -48,3 +48,11 @@
 .botonGuardar{
     margin-bottom: 3%;
 }
+.botonNuevaNota {
+    margin-right: 5%; /* Espacio entre el botón y el borde derecho de la página */
+    text-align: right; /* Alinea el contenido del botón a la derecha */
+}
+.estiloIconoMas {
+    width: 10%; /* Ajusta el ancho del SVG al 10% del contenedor */
+    height: 10%; /* Ajusta la altura del SVG al 10% del contenedor */
+}

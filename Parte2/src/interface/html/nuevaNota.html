@@ -14,23 +14,11 @@
     <h2 class="classTitulo">NUEVA NOTA</h2>
 
     <form id="formularioNota">
-        <input type="text" id="tituloNuevaNota" name="titulo" placeholder="Título...">
-        <textarea id="textareaNota" name="note" rows="4" cols="50" placeholder="Escribe tu nota aquí.."></textarea>
+        <input type="text" id="tituloNuevaNota" name="titulo" placeholder="Título..." required>
+        <textarea id="textAreaNota" name="note" rows="4" cols="50" placeholder="Escribe tu nota aquí.." required></textarea>
         <br>
         <button type="button" class="btn btn-success botonGuardar" onclick="saveNote()">Guardar</button>
     </form>
-
-    <script>
-        //ver comk poner en el js
-        function saveNote() {
-            var titulo = document.getElementById("tituloNuevaNota").value;
-            var note = document.getElementById("textareaNota").value;
-            // Aquí puedes hacer algo con los valores, como guardarlos en el almacenamiento local o enviarlos a un servidor
-            console.log("Título: " + titulo);
-            console.log("Nota: " + note);
-            // Puedes añadir aquí la lógica para guardar los datos en algún lugar
-        }
-    </script>
 
 
     <footer class="footer">
@@ -38,18 +26,11 @@
         <div class="container pt-4">
             <!-- Section: Social media -->
             <section class="mb-4">
-                <a href="#!" role="button" data-mdb-ripple-color="dark">
-                    <svg class="estiloIconos" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
-                    </svg>
-                </a>
+               
 
 
-                <!-- Twitter -->
-                <a href="#!" role="button" data-mdb-ripple-color="dark">
+            
+                <a href="index.html" role="button" data-mdb-ripple-color="dark">
                     <svg class="estiloIconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd"
@@ -58,8 +39,7 @@
                     </svg>
                 </a>
 
-                <!-- Google -->
-                <a href="indexNotas.html" role="button" data-mdb-ripple-color="dark">
+                <a href="#!" role="button" data-mdb-ripple-color="dark">
                     <svg class="estiloIconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path
@@ -70,18 +50,11 @@
                 </a>
 
 
-                <!-- Instagram -->
-                <a href="#!" role="button" data-mdb-ripple-color="dark">
-                    <svg class="estiloIconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
+             
             </section>
         </div>
     </footer>
+    <script src="../js/funciones.js"></script>
 </body>
 
 </html>
