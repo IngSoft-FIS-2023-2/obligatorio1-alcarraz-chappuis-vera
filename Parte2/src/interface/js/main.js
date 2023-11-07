@@ -1,43 +1,39 @@
-import { NuevaNota } from "./nuevaNota.js";
-import { NotasList } from "./Notaslist.js";
 
+import Notaslist from "./Notaslist.js";
+import NuevaNota from "./nuevaNota.js";
 
 const botonG  = document.getElementById('botonG');
 const tituloNota = document.getElementById('tituloNuevaNota');
 const textoNota = document.getElementById('textAreaNota');
 
-const mainNotaslist = new NotasList();
+const notalista = new Notaslist();
+//instanciar notaslist
 
 botonG.addEventListener('click', () => {
-  const new_nota = new NuevaNota(tituloNota.value);
+  // Obtener los valores del título y la nota
+  const titulo = document.getElementById('tituloNuevaNota').value;
+  const texto = document.getElementById('textAreaNota').value;
+  const new_nota = new NuevaNota(titulo, texto);
+  notalista.enListar(new_nota);
+  limpiar();
 
-  //esto no se que es
-  const countriesErrorContainer = document.getElementById("add-countries-error");
-  const countriesError = document.getElementById("add-countries-error-msg");
-  
-  new_nota.setTexto(textoNota.value);
-  try
-  {
-    mainNotaslist.add(new_nota);
-    limpiar();
 
-    //no se que es
-    countriesErrorContainer.classList.add("d-none");
-
-    CargarNotas(new_nota);
-  }
-  catch (error)
-  {
-    //no se que es
-    countriesErrorContainer.classList.remove("d-none");
-    countriesError.innerText = error;
-  }
+  // Mostrar la lista de notas en la consola para verificar
+  console.log(listaNotas);
+ 
 });
+
 
 function limpiar() {
     tituloNota.value = "";
     textoNota.value = "";
 }
+
+window.saveNote = function() {
+  
+};
+
+
 
 function CargarNotas(new_nota) {
   const countriesList = document.getElementById("notes-list");
@@ -62,32 +58,9 @@ inpCapital.addEventListener("keypress", function(event) {
 });
 */
 
-/*
-function saveNote() {
-    var titulo = document.getElementById("tituloNuevaNota").value;
-    var note = document.getElementById("textareaNota").value;
-    // Aquí puedes hacer algo con los valores, como guardarlos en el almacenamiento local o enviarlos a un servidor
-    console.log("Título: " + titulo);
-    console.log("Nota: " + note);
-    // Puedes añadir aquí la lógica para guardar los datos en algún lugar
-}*/
+
 
 //const sistema = new Sistema(); // Añade paréntesis para crear una instancia de la clase
-
-
-function saveNote() {
-    let formulario = document.getElementById("formularioNota");
-    if (formulario.reportValidity()) {
-        let titulo = document.getElementById("tituloNuevaNota").value;
-        let texto = document.getElementById("textAreaNota").value;
-
-        let unaNota = new Nota(titulo, texto);
-        sistema.agregarNota(unaNota);
-        formulario.reset();
-        cargarNotas(); 
-        alert("Llenar todos los campos");
-    }
-}
 
 function cargarNotas() {
     const notasGuardadas = document.getElementById("notasGuardadas");
@@ -96,7 +69,7 @@ function cargarNotas() {
 
     for (const nota of sistema.listaNotas) { 
       const notaElement = document.createElement("div");
-      notaElement.classList.add("nota"); 
+      notaElement.classList.enListar("nota"); 
   
       const tituloElement = document.createElement("h3");
       tituloElement.textContent = nota.titulo;

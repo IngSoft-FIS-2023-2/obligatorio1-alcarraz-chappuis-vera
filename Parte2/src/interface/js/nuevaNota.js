@@ -1,15 +1,18 @@
-export class NuevaNota {
+export default class NuevaNota {
 
     #titulo;
     #texto;
   
-    constructor(aTitulo) {
+    constructor(aTitulo, aTexto) {
       this.#titulo = aTitulo;
       this.#texto=aTexto
     }
   
     getTitulo() {
       return this.#titulo;
+    }
+    getTexto() {
+      return this.#texto;
     }
   
     setTexto(aTexto) {
