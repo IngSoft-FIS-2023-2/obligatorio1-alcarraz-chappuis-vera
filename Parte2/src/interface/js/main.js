@@ -15,45 +15,52 @@ botonG.addEventListener('click', () => {
   const countriesErrorContainer = document.getElementById("add-countries-error");
   const countriesError = document.getElementById("add-countries-error-msg");
   
-  newCountry.setCapital(inpCapital.value);
+  new_nota.setTexto(textoNota.value);
   try
   {
-    mainCountryList.add(newCountry);
-    clearInputs();
+    mainNotaslist.add(new_nota);
+    limpiar();
+
+    //no se que es
     countriesErrorContainer.classList.add("d-none");
-    loadCountryList(newCountry);
+
+    CargarNotas(new_nota);
   }
   catch (error)
   {
+    //no se que es
     countriesErrorContainer.classList.remove("d-none");
     countriesError.innerText = error;
   }
 });
 
-function clearInputs() {
-  inpName.value = "";
-  inpCapital.value = "";
+function limpiar() {
+    tituloNota.value = "";
+    textoNota.value = "";
 }
 
-function loadCountryList(newCountry) {
-  const countriesList = document.getElementById("countries-list");
-  const countriesContainer = document.getElementById("countries");
+function CargarNotas(new_nota) {
+  const countriesList = document.getElementById("notes-list");
+  const containerNotas = document.getElementById("notasGuardadas");
   const emptyList = document.getElementById("empty-list");
   
   emptyList.classList.add('d-none');
-  countriesContainer.classList.remove("d-none");
+  containerNotas.classList.remove("d-none");
   let li = document.createElement("li");
   li.classList.add("list-group-item");
-  li.innerText = newCountry.toString();
+  li.innerText = new_nota.toString();
   countriesList.appendChild(li);
 }
 
+//no entiendo que es
+/*
 inpCapital.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     botonG.click();
   }
 });
+*/
 
 /*
 function saveNote() {
@@ -65,7 +72,8 @@ function saveNote() {
     // Puedes añadir aquí la lógica para guardar los datos en algún lugar
 }*/
 
-const sistema = new Sistema(); // Añade paréntesis para crear una instancia de la clase
+//const sistema = new Sistema(); // Añade paréntesis para crear una instancia de la clase
+
 
 function saveNote() {
     let formulario = document.getElementById("formularioNota");
