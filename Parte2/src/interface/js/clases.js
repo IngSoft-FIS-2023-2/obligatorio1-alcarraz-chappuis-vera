@@ -7,6 +7,7 @@ class Nota{
         return this.titulo + " " + this.texto;
     }
     
+    
 }
 
 //CHEQUEAR COMO PONERLE CIERTOS COLORES A CADA TITULO

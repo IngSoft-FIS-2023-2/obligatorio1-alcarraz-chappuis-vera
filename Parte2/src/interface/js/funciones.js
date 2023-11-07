@@ -1,3 +1,4 @@
+const sistema = new Sistema(); // Añade paréntesis para crear una instancia de la clase
 
 function saveNote() {
     let formulario = document.getElementById("formularioNota");
@@ -6,15 +7,34 @@ function saveNote() {
         let texto = document.getElementById("textAreaNota").value;
 
         let unaNota = new Nota(titulo, texto);
-        Sistema.agregarNota(unaNota); //falta hacer esta funcion
+        sistema.agregarNota(unaNota);
         formulario.reset();
-        cargarNotas(); //falta hacer esta funcion
-    } else {
-        alert("LLenar todos los campos");
+        cargarNotas(); 
+        alert("Llenar todos los campos");
     }
 }
 
 function cargarNotas() {
-//ir actualizando la tabla en el html
+    const notasGuardadas = document.getElementById("notasGuardadas");
+  
+    notasGuardadas.innerHTML = "";
 
+    for (const nota of sistema.listaNotas) { 
+      const notaElement = document.createElement("div");
+      notaElement.classList.add("nota"); 
+  
+      const tituloElement = document.createElement("h3");
+      tituloElement.textContent = nota.titulo;
+  
+      const textoElement = document.createElement("p");
+      textoElement.textContent = nota.texto;
+  
+      notaElement.appendChild(tituloElement);
+      notaElement.appendChild(textoElement);
+
+      notasGuardadas.appendChild(notaElement);
+    }
 }
+
+
+

@@ -1,6 +1,9 @@
 .footer{
     background-color: rgb(255, 238, 0);
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .classTitulo{
