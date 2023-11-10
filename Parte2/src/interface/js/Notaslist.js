@@ -6,7 +6,7 @@ export default class Notaslist {
       this.#notas = [];
     }
   
-    enListar(notas) {
+    enListar(nota) {
       let notaenListada = this.#notas.some(m => m.getNombre() == nota.getNombre());
       if (!notaenListada && nota.isValid()) {
         this.#notas.push(nota);
