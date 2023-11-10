@@ -1,12 +1,12 @@
 // main.js
 
-import Nota from "../js/nuevaNota.js";
-import Notaslist from "../js/Notaslist.js";
+import Notaslist from "../domain/Notaslist"; 
+import Nota from "../domain/nuevaNota"; 
 
 // Obtener el contenedor de notas
 const notasContainer = document.getElementById("notas-section");
 const nuevaNotaContainer = document.getElementById("nuevaNota-section");
-const calendarioContainer = document.getElementById("calendario-section"); // Agregar el contenedor del calendario
+const calendarioContainer = document.getElementById("calendario-section"); 
 
 
 const btnAdd = document.getElementById('botonG');
@@ -21,7 +21,7 @@ function aparecerNotas() {
         notasContainer.style.display = 'block';
         nuevaNotaContainer.style.display = 'none';
         calendarioContainer.style.display = 'none';
-        mostrarNotas(mainNotasList.getCountries());
+        mostrarNotas(mainNotasList.getNotasList());
     }
     notasContainer.style.display = 'none';
     draw();
@@ -42,12 +42,12 @@ function toggleSection() {
 
 
 function aparecerCalendario() {
-    notasContainer.style.display = 'none';
-    nuevaNotaContainer.style.display = 'none';
-    calendarioContainer.style.display = 'block'; // Show the calendar container
-
-    // Call the draw function to display the calendar
-    draw();
+    var container =document.getElementsByClassName("calendario-section")[0];
+    if(container.style.visibility == "hidden"){
+        container.style.visibility = "visible";
+    }else{
+        container.style.visibility = "hidden";
+    }
 }
 
 function aparecerNuevaNota() {
@@ -67,7 +67,7 @@ btnAdd.addEventListener('click', () => {
     try {
         mainNotasList.enListar(nuevaNota);
         clearInputs();
-        mostrarNotas(mainNotasList.getCountries());
+        mostrarNotas(mainNotasList.getNotasList());
     } catch (error) {
         console.error(error.message);
     }

@@ -1,4 +1,4 @@
-export default class NuevaNota {
+export default class Nota {
 
     #titulo;
     #texto;

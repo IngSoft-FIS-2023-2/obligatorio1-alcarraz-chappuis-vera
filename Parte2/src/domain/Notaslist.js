@@ -15,7 +15,7 @@ export default class Notaslist {
       }
     }
   
-    getCountries() {
+    getNotasList() {
       return this.#notas;
     }
   }

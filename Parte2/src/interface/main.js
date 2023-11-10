@@ -1,6 +1,6 @@
 
-import Notaslist from "./Notaslist.js";
-import NuevaNota from "./nuevaNota.js";
+import Notaslist from "../domain/Notaslist"; 
+import Nota from "../domain/nuevaNota"; 
 
 const botonG  = document.getElementById('botonG');
 const tituloNota = document.getElementById('tituloNuevaNota');
