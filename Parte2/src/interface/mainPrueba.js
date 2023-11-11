@@ -1,7 +1,7 @@
 // main.js
 
-import Notaslist from "../domain/Notaslist"; 
-import Nota from "../domain/nuevaNota"; 
+import { Notaslist } from "../domain/Notaslist"; 
+import { Nota } from "../domain/nuevaNota"; 
 
 // Obtener el contenedor de notas
 const notasContainer = document.getElementById("notas-section");
@@ -9,9 +9,52 @@ const nuevaNotaContainer = document.getElementById("nuevaNota-section");
 const calendarioContainer = document.getElementById("calendario-section"); 
 
 
-const btnAdd = document.getElementById('botonG');
+const btnAdd = document.getElementById('btn-add');
+const inpName = document.getElementById('inp-name');
+const inpCapital = document.getElementById('inp-capital');
+
 const mainNotasList = new Notaslist();
 // Intentar cargar notas guardadas al cargar la página
+
+btnAdd.addEventListener('click', () => {
+    const titulo = inpName.value;
+    const descripcion = inpCapital.value;
+    const nuevaNota = new Nota(titulo, descripcion);
+
+    const countriesErrorContainer = document.getElementById("add-countries-error");
+    const countriesError = document.getElementById("add-countries-error-msg");
+    
+    newCountry.setCapital(inpCapital.value);
+    try
+    {
+      mainCountryList.add(newCountry);
+      clearInputs1();
+      countriesErrorContainer.classList.add("d-none");
+      loadCountryList(newCountry);
+    }
+    catch (error)
+    {
+      //countriesErrorContainer.classList.remove("d-none");
+      //countriesError.innerText = error;
+    }
+  });
+
+  function clearInputs1() {
+    inpName.value = "";
+    inpCapital.value = "";
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 aparecerNotas();
 aparecerNuevaNota();
 aparecerCalendario();
@@ -26,7 +69,6 @@ function aparecerNotas() {
     notasContainer.style.display = 'none';
     draw();
 
-   
     
 }
 

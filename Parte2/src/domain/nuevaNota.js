@@ -1,4 +1,4 @@
-export default class Nota {
+export class Nota {
 
     #titulo;
     #texto;
