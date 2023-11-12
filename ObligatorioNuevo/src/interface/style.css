@@ -1,5 +1,4 @@
 .navbar {
-  margin-bottom: 40px;
   background-color: rgba(237, 237, 237, 0.950);
   
 }
@@ -48,6 +47,25 @@ margin-left: 30%;
   font-family: Tahoma;
   margin-top: 10%; /* Ajusta el valor según sea necesario */
   margin-right: 20%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.calendar-hidden #nav-calendar {
+  display: none;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
 }
 
 
