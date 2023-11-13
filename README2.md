@@ -1,6 +1,19 @@
-# Proyecto: Desarrollo de una Aplicación
+hacer en tabla
+Identificacion
+Fundamentos de ingenieria en software
+M4D- Docentes: Alejandro Adorjan, Jhonny Kidd
+Agustin Alcarraz, Maria Victoria Chappuis, Serena Vera
+Noviembre 2023
+[link al nuestro repo de git]
+
+
+
+# Proyecto: Desarrollo de app TDAH
 
 ## Construcción
+deberia haber al menos 1 parrafo con c/u de estos conceptos, 
+principales funcionalidades de la aplicacion, cuales son, que es lo que estamos resolviendo? elegimos este caso de uso,, justificar porque elejimmos c/u
+que tecnologias usamos(visual studio code), 
 
 Las funciones principales de nuestra aplicacion son: 
 
@@ -13,12 +26,12 @@ Las funciones principales de nuestra aplicacion son:
 ## Interfaz de usuario
 
 - Interfaz de usuario web / mobile (responsive)
+- Pagina unica con navegacion entre secciones
+- Aplicar un sistema de dise;o y principios de usabilidad.
+- estandard WACG
 - Buenas prácticas de implementación de frontend
 - Aplicar un sistema de diseño y principios de usabilidad
-
-## Estándar de accesibilidad WCAG
-
-- Estándar de accesibilidad WCAG: 6
+- Hicimos un gran esfuerzo en seguir el estilo definido previamente en la especificacion
 
 ## Codificación
 
@@ -26,16 +39,12 @@ Las funciones principales de nuestra aplicacion son:
 - Estándares de codificación (HTML, CSS, JavaScript): Google style
 - Buenas prácticas de OOP: separación de lógica e interfaz
 - Análisis estático de código: mostrar reducción de problemas: 6
+- - Estándar de accesibilidad WCAG: 6
 
 ## Test unitario
 
 - Test unitarios en Jest
 - 100% cobertura en clases de dominio: 6
-
-## Code freeze
-
-- En la semana previa a la entrega se debe congelar el desarrollo.
-- A partir de este punto solo se realizan actividades de test de sistema, reporte de issues y generación de informes.
 
 ## Test de sistema
 
@@ -46,9 +55,7 @@ Las funciones principales de nuestra aplicacion son:
 
 ## Reporte de issues
 
-- Reportar issues (bugs, improvements, missing features) en GitHub
-- Aplicar buenas prácticas de reporte de issues
-- Definir labels para tipos de issue y niveles de severidad: 3
+Explicar como reportamos los issues al otro equipo
 
 ## Informe de calidad del sistema
 
@@ -56,6 +63,7 @@ Las funciones principales de nuestra aplicacion son:
 - Realizar una evaluación global de la calidad: 3
 
 ## Reflexión
+reflexion personal e idividual
 
 - Detalle del trabajo individual
 - Técnicas aplicadas y aprendizajes: 2
