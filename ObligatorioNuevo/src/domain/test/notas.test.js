@@ -1,4 +1,3 @@
-import { Country } from "../country";
 import { Notas } from "../notas";
 
 describe('Notas class tests', () => {
