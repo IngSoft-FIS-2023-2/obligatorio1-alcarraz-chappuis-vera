@@ -22,7 +22,25 @@ export class Notas {
     this.#texto = aTexto;
   }
   setColor(aColor){
-    this.#color=aColor;
+ 
+      switch (aColor) {
+        case "Rojo":
+          this.#color='#FF0000';
+          break;
+        case "Azul":
+          this.#color='#0000FF';
+          break;
+        case "Verde":
+          this.#color='#008000';
+          break;
+        case "Naranja":
+          this.#color='#FFA500';
+          break;
+        default:
+          throw new Error('El color no esta en el sistema');
+          break;
+      }
+         
   }
 
   toString() {

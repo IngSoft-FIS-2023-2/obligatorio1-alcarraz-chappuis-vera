@@ -34,7 +34,8 @@ function clearInputs() {
   inpName.value = "";
   inpDescripcion.value = "";
 }
-function coonvertirColor(colorName) {
+/*
+function coonvertirColor(colorName) { //typo en oo
   // Colores predefinidos
   const predefinedColors = {
     Rojo: '#FF0000',
@@ -55,7 +56,7 @@ function coonvertirColor(colorName) {
     color += letters[Math.floor(Math.random() * 16)];
   }
   return color;
-}
+}*/
 
 function loadNoteList() {
   const notasContainer = document.getElementById("notas");
@@ -101,7 +102,7 @@ function loadNoteList() {
     let card = document.createElement("div");
     card.classList.add("card", "text-white", "mb-3");
     card.style.maxWidth = "18rem";
-    card.style.backgroundColor = coonvertirColor(newNote.getColor());
+    card.style.backgroundColor = newNote.getColor();
     card.style.marginLeft = "7%";
 
     let cardHeader = document.createElement("div");
@@ -158,6 +159,14 @@ function deleteNote(titulo, descripcion) {
   loadNoteList(updatedNotes);
 }
 
+function mostrarCalendario() {
+  var div = document.getElementById('calendario');
+  if (div.style.display === 'none') {
+      div.style.display = 'block';
+  } else {
+      div.style.display = 'none';
+  }
+}
 
 
 
