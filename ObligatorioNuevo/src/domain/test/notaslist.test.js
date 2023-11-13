@@ -65,10 +65,18 @@ describe("notasList class tests", () => {
 
     test ("Añadir nota invalida a la lista", () =>{
         let listaDeNotas = new NotasList();
-        let nota = new Notas("");
-        let expectedErrorMessage = `No se pudo agregar. ${aNota.getNombre()}`;
+        let nota = new Notas(null);
+        let expectedErrorMessage = `No se pudo agregar. ${aNota.getTitulo()}`;
         expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
-    });
+  
+      });
+      test ("Añadir nota invalida a la lista", () =>{
+        let listaDeNotas = new NotasList();
+        let nota = new Notas("hola");
+        nota.setTexto(null);
+        let expectedErrorMessage = `No se pudo agregar. ${aNota.getTitulo()}`;
+        expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
+      });  
 
     test("Obtener la lista de notas después de añadir", () => {
         let listaDeNotas = new NotasList();

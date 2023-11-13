@@ -38,7 +38,6 @@ export class Notas {
           break;
         default:
           throw new Error('El color no esta en el sistema');
-          break;
       }
          
   }
