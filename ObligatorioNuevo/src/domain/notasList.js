@@ -10,7 +10,7 @@ export class NotasList {
     if (aNota.isValid()) {
       this.#notas.push(aNota);
     } else {
-      throw new Error(`No se pudo agregar. ${aNota.getNombre()} ya está en la lista.`);
+      throw new Error(`No se pudo agregar. ${aNota.getNombre()}`);
     }
   }
 

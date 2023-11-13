@@ -114,4 +114,12 @@ describe('Notas class tests', () => {
         let expectedString = 'Titulo: Este es mi titulo - texto: Este es mi texto - color: #FF0000';
         expect(nota.toString()).toBe(expectedString);
     });
+    test("Color indefinido", () => {
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Holaaa");
+        nota.setColor(undefined);
+        let expectedErrorMessage = 'El color no esta en el sistema';
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
+      });
+      
 });
