@@ -1,36 +1,39 @@
-import { Country } from "../country";
-import { CountryList } from "../countrylist";
+import { Notas } from "../notas";
+import { NotasList } from "../notasList";
 
-describe("CountryList class tests", () => {
+describe("notasList class tests", () => {
 
-    test ("Create an empty country list", () =>{
-        let countryList = new CountryList();
+    test ("Crea una lista de notas vacia", () =>{
+        let listaDeNotas = new NotasList();
         let expectedLength = 0;
-        expect(countryList.getCountries().length).toBe(expectedLength);
+        expect(listaDeNotas.getNotasList().length).toBe(expectedLength);
     });
 
-    test ("Add a country to the list", () =>{
-        let countryList = new CountryList();
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        countryList.add(country);
+    test ("Añadir una nota a la lista", () =>{
+        let listaDeNotas = new NotasList();
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Verde"); //la option value se escribe asi?
+        listaDeNotas.add(nota);
         let expectedLength = 1;
-        expect(countryList.getCountries().length).toBe(expectedLength);
+        expect(listaDeNotas.getNotasList().length).toBe(expectedLength);
     });
 
-    test ("Add a repeated country to the list", () =>{
-        let countryList = new CountryList();
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        countryList.add(country);
-        let expectedErrorMessage = "No se pudo agregar. Uruguay ya está en la lista.";
-        expect(() => countryList.add(country)).toThrow(expectedErrorMessage);
+    test ("Añadir una nota repetida", () =>{
+        let listaDeNotas = new NotasList();
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Verde"); //la option value se escribe asi?
+        listaDeNotas.add(nota);
+        let expectedErrorMessage = "No se pudo agregar. Esta nota ya está en la lista.";
+        expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
     });
 
-    test ("Add an invalid country to the list", () =>{
-        let countryList = new CountryList();
-        let country = new Country("");
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => countryList.add(country)).toThrow(expectedErrorMessage);
+    test ("Añadir nota invalida a la lista", () =>{
+        let listaDeNotas = new NotasList();
+        let nota = new Notas("");
+        let expectedErrorMessage = "El titulo no puede ser vacío";
+        expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
     });
+     
 });

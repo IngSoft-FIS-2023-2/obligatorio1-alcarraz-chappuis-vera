@@ -1,63 +1,66 @@
 import { Country } from "../country";
+import { Notas } from "../notas";
 
-describe('Country class tests', () => {
+describe('Notas class tests', () => {
 
-    test ("Create a country", () =>{
-        let country = new Country("Uruguay");
-        let countryName = country.getNombre();
-        let expectedName = "Uruguay";
-        expect(countryName).toBe(expectedName);
+    test ("Crear una nota", () =>{
+        let nota = new Notas("Este es mi titulo");
+        let tituloNota = nota.getTitulo();
+        let tituloEsperado = "Este es mi titulo";
+        expect(tituloNota).toBe(tituloEsperado);
     });
 
-    test ("Invalid null country name", () =>{
-        let country = new Country(null);
+    test ("Titulo null", () =>{
+        let nota = new Notas(null);
         let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Invalid undefined country name", () =>{
-        let country = new Country(undefined);
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+    test ("Titulo undefined", () =>{
+        let nota = new Notas(undefined);
+        let expectedErrorMessage = "El nombre del titulo no puede ser vacío";
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Invalid empty country name", () =>{
-        let country = new Country("");
-        let expectedErrorMessage = "El nombre del país no puede ser vacío";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+    test ("Titulo vacio", () =>{
+        let nota = new Notas("");
+        let expectedErrorMessage = "El nombre del titulo no puede ser vacío";
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Invalid null country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital(null);
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+    test ("Texto null", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto(null);
+        let expectedErrorMessage = "El texto no puede ser vacio";
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Invalid undefined country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital(undefined);
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+    test ("Texto undefined", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto(undefined);
+        let expectedErrorMessage = "El texto no puede ser vacio";
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Invalid empty country capital", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("");
-        let expectedErrorMessage = "La capital del país no puede ser vacía";
-        expect(() => country.isValid()).toThrow(expectedErrorMessage);
+    test ("Texto vacio", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("");
+        let expectedErrorMessage = "El texto no puede ser vacio";
+        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Valid country", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        expect(country.isValid()).toBe(true);
+    test ("Nota valida", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Rojo"); //necesario?
+        expect(nota.isValid()).toBe(true);
     });
 
-    test ("ToString country", () =>{
-        let country = new Country("Uruguay");
-        country.setCapital("Montevideo");
-        let expectedString = "País: Uruguay - capital: Montevideo";
-        expect(country.toString()).toBe(expectedString);
+    test ("ToString nota", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Rojo");
+        let expectedString = "Titulo: Este es mi titulo - texto: Este es mi texto - color: Rojo";
+        expect(nota.toString()).toBe(expectedString);
     });
 });
