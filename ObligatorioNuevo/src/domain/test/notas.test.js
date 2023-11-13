@@ -99,6 +99,14 @@ describe('Notas class tests', () => {
         expect(nota.isValid()).toBe(true);
     });
 
+    test ("Color válido", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Holaaa");
+        nota.setColor("Rojo");
+        expect(nota.isValid()).toBe(true);
+    });
+    
+
     test ("ToString nota", () =>{
         let nota = new Notas("Este es mi titulo");
         nota.setTexto("Este es mi texto");
