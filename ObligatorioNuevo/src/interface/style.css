@@ -160,3 +160,21 @@ footer {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+th, td{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  border-left: 2px solid rgb(150, 150, 123);
+  border-bottom: 2px solid rgb(150, 150, 123);
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}
+
+table{
+  margin-left: 1em;
+  margin-right: 1em;
+}
