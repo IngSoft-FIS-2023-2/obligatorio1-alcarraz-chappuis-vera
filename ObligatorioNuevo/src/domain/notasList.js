@@ -49,7 +49,8 @@ export class NotasList {
    */
   deleteNoteByTitleAndDescription(titulo, descripcion) {
     const notaIndex = this.#notas.findIndex(
-        (nota) => nota.getTitulo() == titulo && nota.getTexto() == descripcion);
+        // eslint-disable-next-line max-len
+        (nota) => nota.getTitulo() === titulo && nota.getTexto() === descripcion);
     if (notaIndex !== -1) {
       this.#notas.splice(notaIndex, 1);
       return this.#notas;

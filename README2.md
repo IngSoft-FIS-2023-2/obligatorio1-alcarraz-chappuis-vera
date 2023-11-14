@@ -28,7 +28,7 @@ Mostrar Calendario: Al presionar el icono de "calendario" en el footer, se despl
 - Uso de librerías externas: 6
 
 ## Interfaz de usuario
- GIF SOBRE EL PROYECTO, 
+En la carpeta GIF, esta un gif mostrando como funciona el proyecto en terminos generales.
 
 - Interfaz de usuario web / mobile (responsive)
 - Pagina unica con navegacion entre secciones
