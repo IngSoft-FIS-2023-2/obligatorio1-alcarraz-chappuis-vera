@@ -9,8 +9,6 @@ export class NotasList {
   add(aNota) {
     if (aNota.isValid()) {
       this.#notas.push(aNota);
-    } else {
-      throw new Error(`No se pudo agregar. ${aNota.getTitulo()}`);
     }
   }
 

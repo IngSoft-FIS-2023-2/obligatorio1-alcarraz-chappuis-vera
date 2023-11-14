@@ -53,8 +53,8 @@ describe("notasList class tests", () => {
         nota.setTexto("Este es mi texto");
         nota.setColor("Verde"); 
         listaDeNotas.add(nota);
-        let expectedErrorMessage = `No se pudo encontrar la nota con título: ${titulo} y descripción: ${descripcion}`;
-        expect(() => listaDeNotas.deleteNoteByTitleAndDescription("Almorzar","Milanesas")),toThrow(expectedErrorMessage);
+        let expectedErrorMessage = 'No se pudo encontrar la nota con título: Almorzar y descripción: Milanesas';
+        expect(() => listaDeNotas.deleteNoteByTitleAndDescription("Almorzar","Milanesas")).toThrow(expectedErrorMessage);
     });
     test("Eliminar nota de una lista vacía", () => {
         let listaDeNotas = new NotasList();
@@ -66,17 +66,31 @@ describe("notasList class tests", () => {
     test ("Añadir nota invalida a la lista", () =>{
         let listaDeNotas = new NotasList();
         let nota = new Notas(null);
-        let expectedErrorMessage = `No se pudo agregar. ${aNota.getTitulo()}`;
-        expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
+        let expectedErrorMessage = "La nota debe tener un titulo no nulo";
+        expect(() => listaDeNotas.add(nota)).toThrow(expectedErrorMessage);
   
       });
       test ("Añadir nota invalida a la lista", () =>{
-        let listaDeNotas = new NotasList();
-        let nota = new Notas("hola");
-        nota.setTexto(null);
-        let expectedErrorMessage = `No se pudo agregar. ${aNota.getTitulo()}`;
-        expect(() => listaDeNotas.add(nota)),toThrow(expectedErrorMessage);
-      });  
+        let notaList = new NotasList();
+        let nota = new Notas("");
+        let expectedErrorMessage = 'La nota debe tener un titulo no nulo';
+        expect(() => notaList.add(nota)).toThrow(expectedErrorMessage);
+    });
+    test ("Añadir nota invalida a la lista", () =>{
+      let notaList = new NotasList();
+      let nota = new Notas("Hola");
+      nota.setTexto("como");
+      nota.setColor("blanco");
+      let expectedErrorMessage = 'El color no esta en el sistema';
+      expect(() => notaList.add(nota)).toThrow(expectedErrorMessage);
+  });
+
+  test ("Añadir nota invalida a la lista", () =>{
+    let notaList = new NotasList();
+    let nota = new Notas("");
+    let expectedErrorMessage = 'La nota debe tener un titulo no nulo';
+    expect(() => notaList.add(nota)).toThrow(expectedErrorMessage);
+});
 
     test("Obtener la lista de notas después de añadir", () => {
         let listaDeNotas = new NotasList();
