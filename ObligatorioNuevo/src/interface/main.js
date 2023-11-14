@@ -11,8 +11,8 @@ const mainNotasList = new NotasList();
 
 btnAdd.addEventListener('click', () => {
   const newNota = new Notas(inpName.value);
-  const notasErrorContainer = document.getElementById("add-countries-error");
-  const notasError = document.getElementById("add-countries-error-msg");
+  const notasErrorContainer = document.getElementById("add-notas-error");
+  const notasError = document.getElementById("add-notas-error-msg");
   
   newNota.setTexto(inpDescripcion.value);
   newNota.setColor(inpColor.value);
