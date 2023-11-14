@@ -1,5 +1,4 @@
 export class NotasList {
-
   #notas;
 
   constructor() {
@@ -7,24 +6,24 @@ export class NotasList {
   }
 
   add(aNota) {
-    let notaEnLista = this.#notas.some(m => m.getTitulo() === aNota.getTitulo() && m.getTexto() === aNota.getTexto());
+    const notaEnLista = this.#notas.some((m) => m.getTitulo() === aNota.getTitulo() 
+    && m.getTexto() === aNota.getTexto());
     if (!notaEnLista && aNota.isValid()) {
       this.#notas.push(aNota);
     } else {
       throw new Error('"No se pudo agregar, la nota esta repetida.');
     }
   }
-  
 
   deleteNoteByTitleAndDescription(titulo, descripcion) {
-    const notaIndex = this.#notas.findIndex(nota => nota.getTitulo() === titulo && nota.getTexto() === descripcion);
-  
+    const notaIndex = this.#notas.findIndex((nota) => nota.getTitulo() === titulo 
+    && nota.getTexto() === descripcion);
+
     if (notaIndex !== -1) {
       this.#notas.splice(notaIndex, 1);
       return this.#notas; // Retorna la lista actualizada después de eliminar la nota
-    } else {
-      throw new Error(`No se pudo encontrar la nota con título: ${titulo} y descripción: ${descripcion}`);
     }
+    throw new Error(`No se pudo encontrar la nota con título: ${titulo} y descripción: ${descripcion}`);
   }
 
   getNotasList() {
