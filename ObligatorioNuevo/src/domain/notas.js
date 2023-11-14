@@ -37,7 +37,8 @@ export class Notas {
           this.#color='#FFA500';
           break;
         default:
-          throw new Error('El color no esta en el sistema');
+          this.#color='#FF0000';
+          break;
       }
          
   }

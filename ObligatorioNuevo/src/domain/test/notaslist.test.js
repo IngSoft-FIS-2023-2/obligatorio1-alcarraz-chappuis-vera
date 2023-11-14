@@ -86,14 +86,14 @@ describe("notasList class tests", () => {
         let expectedErrorMessage = 'La nota debe tener un titulo no nulo';
         expect(() => notaList.add(nota)).toThrow(expectedErrorMessage);
     });
-    test ("Añadir nota invalida a la lista", () =>{
+    /*test ("Añadir nota invalida a la lista", () =>{
       let notaList = new NotasList();
       let nota = new Notas("Hola");
       nota.setTexto("como");
       nota.setColor("blanco");
       let expectedErrorMessage = 'El color no esta en el sistema';
       expect(() => notaList.add(nota)).toThrow(expectedErrorMessage);
-  });
+  });*/
 
   test ("Añadir nota invalida a la lista", () =>{
     let notaList = new NotasList();

@@ -60,13 +60,13 @@ describe('Notas class tests', () => {
         expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    /*test ("Color Equivocado", () =>{
+    test ("Color Equivocado", () =>{
         let nota = new Notas("Este es mi titulo");
         nota.setTexto("Holaaa");
-        nota.setColor("");
-        let expectedErrorMessage = 'El color no esta en el sistema';
-        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
-    });*/
+        nota.setColor("Blanco");
+        let color = nota.getColor();
+        expect(color).toBe('#FF0000');
+    });
 
     test ("Nota valida Roja", () =>{
         let nota = new Notas("Este es mi titulo");
@@ -118,8 +118,8 @@ describe('Notas class tests', () => {
         let nota = new Notas("Este es mi titulo");
         nota.setTexto("Holaaa");
         nota.setColor(undefined);
-        let expectedErrorMessage = 'El color no esta en el sistema';
-        expect(() => nota.isValid()).toThrow(expectedErrorMessage);
+        let color=nota.getColor();
+        expect(color).toBe('#FF0000');
       });
       
 });
