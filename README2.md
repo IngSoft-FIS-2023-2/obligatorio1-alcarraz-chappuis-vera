@@ -71,8 +71,8 @@ Explicar como reportamos los issues al otro equipo
 - Realizar una evaluación global de la calidad: 3
 
 ## Reflexión
-Agustin: al no poder realizar el obligatorio desde 0 ya que no funcionaba bien el JS decidi tomar lo que ya teniamos que funcionaba (el HTML y CSS) y lo adapte al ejemplo que vimos en clase. Tambien hice toda la funcionalidad del agregar nota y mostrar nota.
-reflexion personal e individual. Para poder realizar todo esto, tuve que ver lo como estaba hecho el ejemplo para tomarlo como guia, como tambien tuve que buscar por mi cuenta por internet. Por ejemplo como se recorre la lista de notas y también como crear una nota, la cual saque de Bootstrap, a través de un evento "click"
+Agustin: al no poder realizar el obligatorio desde 0 ya que no funcionaba bien el JS decidi tomar lo que ya teniamos que funcionaba (el HTML y CSS) y lo adapte al ejemplo que vimos en clase. Tambien hice toda la funcionalidad del agregar nota y mostrar nota. Para poder realizar todo esto, tuve que ver lo como estaba hecho el ejemplo para tomarlo como guia, como tambien tuve que buscar por mi cuenta por internet. Por ejemplo como se recorre la lista de notas y también como crear una nota, la cual saque de Bootstrap, a través de un evento "click".
 
+- reflexion personal e individual.
 - Detalle del trabajo individual
 - Técnicas aplicadas y aprendizajes: 2

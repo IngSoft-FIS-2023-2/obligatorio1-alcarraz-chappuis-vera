@@ -11,8 +11,8 @@ const mainNotasList = new NotasList();
 
 btnAdd.addEventListener('click', () => {
   const newNota = new Notas(inpName.value);
-  const countriesErrorContainer = document.getElementById("add-countries-error");
-  const countriesError = document.getElementById("add-countries-error-msg");
+  const notasErrorContainer = document.getElementById("add-countries-error");
+  const notasError = document.getElementById("add-countries-error-msg");
   
   newNota.setTexto(inpDescripcion.value);
   newNota.setColor(inpColor.value);
@@ -20,13 +20,13 @@ btnAdd.addEventListener('click', () => {
   {
     mainNotasList.add(newNota);
     clearInputs();
-    countriesErrorContainer.classList.add("d-none");
+    notasErrorContainer.classList.add("d-none");
     loadNoteList(newNota);
   }
   catch (error)
   {
-    countriesErrorContainer.classList.remove("d-none");
-    countriesError.innerText = error;
+    notasErrorContainer.classList.remove("d-none");
+    notasError.innerText = error;
   }
 });
 
