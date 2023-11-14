@@ -16,9 +16,7 @@ export class NotasList {
   }
 
   deleteNoteByTitleAndDescription(titulo, descripcion) {
-    const notaIndex = this.#notas.findIndex((nota) => nota.getTitulo() === titulo 
-    && nota.getTexto() === descripcion);
-
+    const notaIndex = this.#notas.findIndex((nota) => nota.getTitulo() === titulo && nota.getTexto() === descripcion);
     if (notaIndex !== -1) {
       this.#notas.splice(notaIndex, 1);
       return this.#notas; // Retorna la lista actualizada después de eliminar la nota

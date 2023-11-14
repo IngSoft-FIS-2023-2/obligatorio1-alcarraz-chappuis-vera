@@ -53,7 +53,10 @@ Adicionalmente, reconocemos la importancia de la concisión en el contenido text
 - Estándares de codificación (HTML, CSS, JavaScript): Google style
 
 - Buenas prácticas de OOP: separación de lógica e interfaz
-Nuestro obligatorio esta dividido por secciones, dentro de la carpeta src(source), esta la carpeta domain (dominio), en donde tenemos las clases utilizadas, como tambien sus respectivas pruebas en la carpeta test. 
+Nuestro proyecto obligatorio está organizado de manera estructurada en distintas secciones. Dentro de la carpeta "src" (fuente), encontramos la subcarpeta "domain" (dominio), que alberga las clases esenciales utilizadas en el proyecto, junto con sus respectivas pruebas que se encuentran en la carpeta "test".
+
+Adicionalmente, en el directorio "domain", se ha creado la subcarpeta "interface". Esta sección alberga archivos HTML que representan la interfaz de usuario codificada, así como el archivo que contiene la lógica en JavaScript (js) subyacente y los estilos correspondientes en Cascading Style Sheets (CSS). Este enfoque estructurado y modular facilita la comprensión y mantenimiento de nuestro código, permitiendo un desarrollo más eficiente y ordenado.
+
 - Análisis estático de código: mostrar reducción de problemas: 6
 - - Estándar de accesibilidad WCAG: 6
 
