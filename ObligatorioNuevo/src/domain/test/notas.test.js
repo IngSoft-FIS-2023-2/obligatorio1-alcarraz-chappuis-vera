@@ -1,4 +1,4 @@
-import { Notas } from '../notas';
+import {Notas} from '../notas';
 
 describe('Notas class tests', () => {
   test('Crear una nota', () => {
@@ -106,7 +106,10 @@ describe('Notas class tests', () => {
     const nota = new Notas('Este es mi titulo');
     nota.setTexto('Este es mi texto');
     nota.setColor('Rojo');
-    const expectedString = 'Titulo: Este es mi titulo - texto: Este es mi texto - color: #FF0000';
+    const expectedString =
+  'Titulo: Este es mi titulo - ' +
+  'texto: Este es mi texto - ' +
+  'color: #FF0000';
     expect(nota.toString()).toBe(expectedString);
   });
   test('Color indefinido', () => {

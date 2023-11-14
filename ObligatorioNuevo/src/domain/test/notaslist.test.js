@@ -1,5 +1,5 @@
-import { Notas } from '../notas';
-import { NotasList } from '../notasList';
+import {Notas} from '../notas';
+import {NotasList} from '../notasList';
 
 describe('notasList class tests', () => {
   test('Crea una lista de notas vacia', () => {
@@ -41,7 +41,9 @@ describe('notasList class tests', () => {
     nota.setColor('Azul');
     listaDeNotas.add(nota);
 
-    listaDeNotas.deleteNoteByTitleAndDescription('Título de prueba', 'Texto de prueba');
+    listaDeNotas.deleteNoteByTitleAndDescription(
+        'Título de prueba',
+        'Texto de prueba');
     const expectedLength = 0;
     expect(listaDeNotas.getNotasList().length).toBe(expectedLength);
   });
@@ -52,13 +54,21 @@ describe('notasList class tests', () => {
     nota.setTexto('Este es mi texto');
     nota.setColor('Verde');
     listaDeNotas.add(nota);
-    const expectedErrorMessage = 'No se pudo encontrar la nota con título: Almorzar y descripción: Milanesas';
-    expect(() => listaDeNotas.deleteNoteByTitleAndDescription('Almorzar', 'Milanesas')).toThrow(expectedErrorMessage);
+    const expectedErrorMessage =
+  'No se pudo encontrar la nota con título: Almorzar y descripción: Milanesas';
+    expect(() =>
+      // eslint-disable-next-line comma-dangle
+      listaDeNotas.deleteNoteByTitleAndDescription('Almorzar', 'Milanesas')
+    ).toThrow(expectedErrorMessage);
   });
   test('Eliminar nota de una lista vacía', () => {
     const listaDeNotas = new NotasList();
-    const expectedErrorMessage = 'No se pudo encontrar la nota con título: Título y descripción: Descripción';
-    expect(() => listaDeNotas.deleteNoteByTitleAndDescription('Título', 'Descripción')).toThrow(expectedErrorMessage);
+    const expectedErrorMessage =
+  'No se pudo encontrar la nota con título: Título y descripción: Descripción';
+    expect(() =>
+      // eslint-disable-next-line comma-dangle
+      listaDeNotas.deleteNoteByTitleAndDescription('Título', 'Descripción')
+    ).toThrow(expectedErrorMessage);
   });
 
   test('Agregar una nota Repetida al sistema', () => {
@@ -67,7 +77,7 @@ describe('notasList class tests', () => {
     notas.setTexto('Como Bananas');
     notas.setColor('Rojo');
     notasList.add(notas);
-    const expectedErrorMessage = 'No se pudo agregar, la nota esta repetida.';
+    const expectedErrorMessage = 'No se pudo agregar, la nota está repetida.';
     expect(() => notasList.add(notas)).toThrow(expectedErrorMessage);
   });
 
