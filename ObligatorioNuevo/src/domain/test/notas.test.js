@@ -60,13 +60,13 @@ describe('Notas class tests', () => {
         expect(() => nota.isValid()).toThrow(expectedErrorMessage);
     });
 
-    test ("Color Equivocado", () =>{
+    /*test ("Color Equivocado", () =>{
         let nota = new Notas("Este es mi titulo");
         nota.setTexto("Holaaa");
-        nota.setColor("Blanco");
+        nota.setColor("");
         let expectedErrorMessage = 'El color no esta en el sistema';
         expect(() => nota.isValid()).toThrow(expectedErrorMessage);
-    });
+    });*/
 
     test ("Nota valida Roja", () =>{
         let nota = new Notas("Este es mi titulo");

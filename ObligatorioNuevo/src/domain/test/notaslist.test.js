@@ -61,6 +61,16 @@ describe("notasList class tests", () => {
         let expectedErrorMessage = "No se pudo encontrar la nota con título: Título y descripción: Descripción";
         expect(() => listaDeNotas.deleteNoteByTitleAndDescription("Título", "Descripción")).toThrow(expectedErrorMessage);
       });
+
+      test ("Agregar una nota Repetida al sistema", () =>{
+        let notasList = new NotasList();
+        let notas = new Notas("Comida");
+        notas.setTexto("Como Bananas");
+        notas.setColor("Rojo")
+        notasList.add(notas);
+        let expectedErrorMessage = "No se pudo agregar, la nota esta repetida.";
+        expect(() => notasList.add(notas)).toThrow(expectedErrorMessage);
+    });
       
 
     test ("Añadir nota invalida a la lista", () =>{

@@ -7,10 +7,14 @@ export class NotasList {
   }
 
   add(aNota) {
-    if (aNota.isValid()) {
+    let notaEnLista = this.#notas.some(m => m.getTitulo() === aNota.getTitulo() && m.getTexto() === aNota.getTexto());
+    if (!notaEnLista && aNota.isValid()) {
       this.#notas.push(aNota);
+    } else {
+      throw new Error('"No se pudo agregar, la nota esta repetida.');
     }
   }
+  
 
   deleteNoteByTitleAndDescription(titulo, descripcion) {
     const notaIndex = this.#notas.findIndex(nota => nota.getTitulo() === titulo && nota.getTexto() === descripcion);
