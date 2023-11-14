@@ -66,8 +66,8 @@ body {
 /* Estilos generales para la tabla */
 .styled-table {
   width: 100%;
-  border-collapse: collapse;
-  margin: 25px 0;
+  /*border-collapse: collapse;*/
+  /*margin: 25px 0;*/
   font-size: 18px;
   text-align: left;
 }
@@ -76,13 +76,12 @@ body {
 .styled-table th {
   background-color: #007bff;
   color: #fff;
-  padding: 12px;
+  /*padding: 12px;*/
 }
 
 /* Estilos para las celdas de datos */
 .styled-table td {
   border: 1px solid #ddd;
-  padding: 12px;
 }
 
 /* Cambia el color de fondo de las filas alternas para mejorar la legibilidad */
@@ -111,8 +110,9 @@ th:first-child,
 td:first-child {
     border-left: none;
 }
-
+/*
 table{
   margin-left: 1em;
   margin-right: 1em;
 }
+*/

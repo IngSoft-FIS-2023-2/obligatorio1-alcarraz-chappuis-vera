@@ -159,15 +159,6 @@ function deleteNote(titulo, descripcion) {
   loadNoteList(updatedNotes);
 }
 
-function mostrarCalendario() {
-  var div = document.getElementById('calendario');
-  if (div.style.display === 'none') {
-      div.style.display = 'block';
-  } else {
-      div.style.display = 'none';
-  }
-}
-
 
 
 

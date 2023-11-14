@@ -1,11 +1,10 @@
-
-Identificacion
-Fundamentos de ingenieria en software
-M4D- Docentes: Alejandro Adorjan, Jhonny Kidd
-Agustin Alcarraz, Maria Victoria Chappuis, Serena Vera
-Noviembre 2023
-https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera.git
-
+| Identificacion   |
+|:------------:|
+| Fundamentos de ingenieria en software      |
+| M4D- Docentes: Alejandro Adorjan, Jhonny Kidd      |
+| Agustin Alcarraz, Maria Victoria Chappuis, Serena Vera    |
+| Noviembre 2023 |
+| https://github.com/IngSoft-FIS-2023-2/obligatorio1-alcarraz-chappuis-vera.git |
 
 
 # Proyecto: Desarrollo de app TDAH
@@ -15,19 +14,21 @@ deberia haber al menos 1 parrafo con c/u de estos conceptos,
 principales funcionalidades de la aplicacion, cuales son, que es lo que estamos resolviendo? elegimos este caso de uso,, justificar porque elejimmos c/u
 que tecnologias usamos(visual studio code), 
 
-Las funciones principales de nuestra aplicación son: 
 
-- Agregar Nota: cuando el usuario va a la sección de notas mediante el menú en la parte inferior de la pantalla, presiona el botón con un icono de "mas", de modo que le aparece el formulario en el cual hay una sección de título, el color en que desea ver su nota (los colores están limitados por nosotros) y una de descripción. Para que se pueda ingresar correctamente, el usuario debe completar todos los campos. 
-- Mostrar Nota: cuando el usuario presiona en el footer el icono de mostrar notas, el sistema deberá mostrar todas las notas con los colores asignados por el usuario. Designamos que la disposición en que mostramos las notas es una grilla la cual, si el usuario ingresa más de tres notas, se muestra en la siguiente fila.
-- Borrar nota: en la sección en donde se pueden ver las notas, en cada una de ellas hay un icono de "basura", el cual si el usuario presiona, se elimina esa nota, tanto del sistema como también a la vista del usuario.
+Agregar Nota: Cuando el usuario accede a la sección de notas a través del menú en la parte inferior de la pantalla, puede agregar una nueva nota al presionar el botón con el icono de "más". Al hacerlo, se despliega un formulario que incluye campos para el título, el color deseado para la nota (con colores predefinidos por nosotros) y una sección de descripción. La entrada de datos es obligatoria en todos los campos para que la nota sea registrada correctamente.
 
--Mostrar Calendario: si presionamos en el footer "calendario", se mostrara un calendario, sin funcionalidad.
+Mostrar Nota: Al seleccionar el icono de "mostrar notas" en el footer, el sistema exhibirá todas las notas con los colores asignados por el usuario. La presentación de las notas se realiza en una disposición de grilla, y si el usuario registra más de tres notas, estas se mostrarán en filas subsiguientes.
+
+Borrar Nota: En la sección de visualización de notas, cada una de ellas presenta un icono de "basura". Al hacer clic en este icono, la nota correspondiente se eliminará tanto del sistema como de la vista del usuario.
+
+Mostrar Calendario: Al presionar el icono de "calendario" en el footer, se desplegará un calendario sin funcionalidad adicional.
 
 ## Documentación del uso de librerías externas
 
 - Uso de librerías externas: 6
 
 ## Interfaz de usuario
+ GIF SOBRE EL PROYECTO, 
 
 - Interfaz de usuario web / mobile (responsive)
 - Pagina unica con navegacion entre secciones
@@ -39,17 +40,50 @@ Las funciones principales de nuestra aplicación son:
 
 
 
-Nuestro proyecto se trata sobre un calendario para gente con ADHD y nos dimos cuenta de que gracias a la investigación realizada para la primera entrega del obligatorio, la interfaz de usuario debe ser lo más sencilla posible. Por ejemplo, los colores para ellos son importantes, sin embargo, tampoco podemos "inundar" la página a colores porque se van a distraer fácilmente. A su vez, tenemos que ser lo más conciso posible en lo que se respecta al texto.
+Nuestro proyecto se centra en el desarrollo de un calendario destinado a usuarios con Trastorno por Déficit de Atención e Hiperactividad (ADHD). A través de la investigación llevada a cabo para la primera fase del proyecto obligatorio, hemos llegado a la conclusión de que la interfaz de usuario debe ser diseñada con la máxima simplicidad posible.
+
+Es crucial tener en cuenta que, aunque los colores desempeñan un papel importante para este grupo demográfico, debemos ejercer moderación en su aplicación. La saturación excesiva de colores podría generar distracciones fácilmente para las personas con ADHD. Por ende, nuestra estrategia se enfoca en utilizar colores de manera discernida y limitada, manteniendo un equilibrio que permita una experiencia visual amigable y enfocada.
+
+Adicionalmente, reconocemos la importancia de la concisión en el contenido textual. Con el objetivo de optimizar la accesibilidad y la comprensión, nos esforzamos por presentar información de manera clara y directa, evitando la superabundancia de texto que pueda resultar abrumadora para nuestro público objetivo. La simplicidad y la claridad son pilares fundamentales en el diseño de la interfaz y la presentación de información en nuestro calendario para adolescentes con ADHD.
 
 ## Codificación
 
+
 - IDE Visual Studio Code: configuración común del equipo
 - Estándares de codificación (HTML, CSS, JavaScript): Google style
+
 - Buenas prácticas de OOP: separación de lógica e interfaz
+Nuestro obligatorio esta dividido por secciones, dentro de la carpeta src(source), esta la carpeta domain (dominio), en donde tenemos las clases utilizadas, como tambien sus respectivas pruebas en la carpeta test. 
 - Análisis estático de código: mostrar reducción de problemas: 6
 - - Estándar de accesibilidad WCAG: 6
 
 ## Test unitario
+EJEMPLO DE UNO DE LOS TEST, VER CUAL ES EL PRINCIPAL
+Tenemos dos Test cruciales sobre nuestro proyecto: el Crear Nota y Agregar Nota
+   
+   CREAR NOTA
+   test ("Nota valida Roja", () =>{
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Rojo");
+        expect(nota.getColor()).toBe('#FF0000'); 
+        expect(nota.isValid()).toBe(true);
+    });
+
+    AGREGAR NOTA
+       test ("Añadir una nota a la lista", () =>{
+        let listaDeNotas = new NotasList();
+        let nota = new Notas("Este es mi titulo");
+        nota.setTexto("Este es mi texto");
+        nota.setColor("Verde"); 
+        listaDeNotas.add(nota);
+        let expectedLength = 1;
+        expect(listaDeNotas.getNotasList().length).toBe(expectedLength);
+    });
+
+
+Mediante Jest, realizamos las pruebas sobre las siguientes clases: Notas y NotasList. Las cuales muestran el 100 % de cobertura en cada una de ellas.
+
 
 - Test unitarios en Jest
 - 100% cobertura en clases de dominio: 6
