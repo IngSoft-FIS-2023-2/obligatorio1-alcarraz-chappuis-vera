@@ -34,29 +34,6 @@ function clearInputs() {
   inpName.value = "";
   inpDescripcion.value = "";
 }
-/*
-function coonvertirColor(colorName) { //typo en oo
-  // Colores predefinidos
-  const predefinedColors = {
-    Rojo: '#FF0000',
-    Azul: '#0000FF',
-    Verde: '#008000',
-    Naranja: '#FFA500'
-  };
-
-  // Si se proporciona un nombre de color válido, devolver ese color
-  if (predefinedColors.hasOwnProperty(colorName)) {
-    return predefinedColors[colorName];
-  }
-
-  // Si no se proporciona un nombre de color válido, generar un color aleatorio
-  const letters = "0123456789ABCDEF";
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}*/
 
 function loadNoteList() {
   const notasContainer = document.getElementById("notas");
@@ -154,7 +131,6 @@ function loadNoteList() {
 
 
 function deleteNote(titulo, descripcion) {
-  console.log("Clic en el icono de basura");
   const updatedNotes = mainNotasList.deleteNoteByTitleAndDescription(titulo, descripcion);
   loadNoteList(updatedNotes);
 }
