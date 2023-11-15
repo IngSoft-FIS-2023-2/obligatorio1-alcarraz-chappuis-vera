@@ -8,6 +8,8 @@
 
 
 # Proyecto: Desarrollo de app TDAH
+Para poder correr el las pruebas de Jest, como tambien las de esLint, recomendamos pararse en la carpeta "domain" y utilizar el comando "npm i" o "npm install" para poder descargar todas las depenedencias del obligatorio.
+
 
 ## Construcción
 deberia haber al menos 1 parrafo con c/u de estos conceptos, 
@@ -30,14 +32,13 @@ Mostrar Calendario: Al presionar el icono de "calendario" en el footer, se despl
 ## Interfaz de usuario
 En la carpeta GIF, esta un gif mostrando como funciona el proyecto en terminos generales.
 
+
 - Interfaz de usuario web / mobile (responsive)
 - Pagina unica con navegacion entre secciones
 - Aplicar un sistema de dise;o y principios de usabilidad.
 - estandard WACG
 - Buenas prácticas de implementación de frontend
 - Aplicar un sistema de diseño y principios de usabilidad
-- Hicimos un gran esfuerzo en seguir el estilo definido previamente en la especificacion
-
 
 
 Nuestro proyecto se centra en el desarrollo de un calendario destinado a usuarios con Trastorno por Déficit de Atención e Hiperactividad (ADHD). A través de la investigación llevada a cabo para la primera fase del proyecto obligatorio, hemos llegado a la conclusión de que la interfaz de usuario debe ser diseñada con la máxima simplicidad posible.
@@ -108,7 +109,7 @@ Explicar como reportamos los issues al otro equipo
 - Realizar una evaluación global de la calidad: 3
 
 ## Reflexión
-Agustin: al no poder realizar el obligatorio desde 0 ya que no funcionaba bien el JS decidi tomar lo que ya teniamos que funcionaba (el HTML y CSS) y lo adapte al ejemplo que vimos en clase. Tambien hice toda la funcionalidad del agregar nota y mostrar nota. Para poder realizar todo esto, tuve que ver lo como estaba hecho el ejemplo para tomarlo como guia, como tambien tuve que buscar por mi cuenta por internet. Por ejemplo como se recorre la lista de notas y también como crear una nota, la cual saque de Bootstrap, a través de un evento "click". A su vez hice gran parte de la correccion del esLint, como tambien participe en la parte del testeo.
+Agustin: al no poder realizar el obligatorio desde 0 ya que no funcionaba bien el JS decidi tomar lo que ya teniamos que funcionaba (el HTML y CSS) y lo adapte al ejemplo que vimos en clase. Tambien hice toda la funcionalidad del agregar nota y mostrar nota. Para poder realizar todo esto, tuve que ver lo como estaba hecho el ejemplo para tomarlo como guia, como tambien tuve que buscar por mi cuenta en internet. Por ejemplo como se recorre la lista de notas y también como crear una nota, la cual saque de Bootstrap, a través de un evento "click". A su vez hice gran parte de la correccion del esLint, como tambien participe en la parte del testeo.
 
 - reflexion personal e individual.
 - Detalle del trabajo individual
