@@ -135,7 +135,22 @@ function deleteNote(titulo, descripcion) {
   loadNoteList(updatedNotes);
 }
 
+document.getElementById('nav-calendar-tab').addEventListener('click', function() {
+  var miPestana = document.getElementById('nav-calendar');
+  miPestana.classList.remove('d-none');
+  // Puedes agregar una clase diferente si lo prefieres, por ejemplo:
+  // miPestana.classList.add('d-block');
+});
 
+document.getElementById('nav-add-nota-tab').addEventListener('click', function() {
+  var miPestana = document.getElementById('nav-calendar');
+  miPestana.classList.add('d-none');
+});
+
+document.getElementById('nav-notas-list-tab').addEventListener('click', function() {
+  var miPestana = document.getElementById('nav-calendar');
+  miPestana.classList.add('d-none');
+});
 
 
 
