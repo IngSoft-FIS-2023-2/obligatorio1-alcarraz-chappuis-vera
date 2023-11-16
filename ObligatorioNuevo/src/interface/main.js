@@ -136,20 +136,32 @@ function deleteNote(titulo, descripcion) {
 }
 
 document.getElementById('nav-calendar-tab').addEventListener('click', function() {
-  var miPestana = document.getElementById('nav-calendar');
-  miPestana.classList.remove('d-none');
+  var calendario = document.getElementById('nav-calendar');
+  var notas = document.getElementById('nav-add-nota'); 
+  var listaNotas = document.getElementById('nav-notas-list'); 
+  notas.classList.add('d-none');
+  listaNotas.classList.add('d-none');
+  calendario.classList.remove('d-none');
   // Puedes agregar una clase diferente si lo prefieres, por ejemplo:
-  // miPestana.classList.add('d-block');
+  // calendario.classList.add('d-block');
 });
 
 document.getElementById('nav-add-nota-tab').addEventListener('click', function() {
-  var miPestana = document.getElementById('nav-calendar');
-  miPestana.classList.add('d-none');
+  var calendario = document.getElementById('nav-calendar');
+  var notas = document.getElementById('nav-add-nota'); 
+  var listaNotas = document.getElementById('nav-notas-list'); 
+  calendario.classList.add('d-none');
+  listaNotas.classList.add('d-none');
+  notas.classList.remove('d-none');
 });
 
 document.getElementById('nav-notas-list-tab').addEventListener('click', function() {
-  var miPestana = document.getElementById('nav-calendar');
-  miPestana.classList.add('d-none');
+  var calendario = document.getElementById('nav-calendar');
+  var notas = document.getElementById('nav-add-nota'); 
+  var listaNotas = document.getElementById('nav-notas-list'); 
+  calendario.classList.add('d-none');
+  notas.classList.add('d-none');
+  listaNotas.classList.remove('d-none');
 });
 
 
