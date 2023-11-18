@@ -8,14 +8,11 @@
 
 
 # Proyecto: Desarrollo de app TDAH
-Para poder correr el las pruebas de Jest, como tambien las de esLint, recomendamos pararse en la carpeta "domain" y utilizar el comando "npm i" o "npm install" para poder descargar todas las depenedencias del obligatorio.
+Para poder correr las pruebas de Jest, como tambien las de esLint, recomendamos pararse en la carpeta "domain" y utilizar el comando "npm i" o "npm install" para poder descargar todas las dependencias del obligatorio.
 
 
 ## Construcción
-deberia haber al menos 1 parrafo con c/u de estos conceptos, 
-principales funcionalidades de la aplicacion, cuales son, que es lo que estamos resolviendo? elegimos este caso de uso,, justificar porque elejimmos c/u
-que tecnologias usamos(visual studio code), 
-
+Principales funcionalidades de la aplicacion:
 
 Agregar Nota: Cuando el usuario accede a la sección de notas a través del menú en la parte inferior de la pantalla, puede agregar una nueva nota al presionar el botón con el icono de "más". Al hacerlo, se despliega un formulario que incluye campos para el título, el color deseado para la nota (con colores predefinidos por nosotros) y una sección de descripción. La entrada de datos es obligatoria en todos los campos para que la nota sea registrada correctamente.
 
@@ -27,19 +24,17 @@ Mostrar Calendario: Al presionar el icono de "calendario" en el footer, se despl
 
 ## Documentación del uso de librerías externas
 
-- Uso de librerías externas: 6
+- Uso de librerías externas: 5 
 
 ## Interfaz de usuario
-En la carpeta GIF, esta un gif mostrando como funciona el proyecto en terminos generales.
+En la carpeta GIF, se encuentra un gif mostrando cómo funciona el proyecto en terminos generales.
 
+Nuestra interfaz cumple con lo siguiente:
 
-- Interfaz de usuario web / mobile (responsive)
-- Pagina unica con navegacion entre secciones
-- Aplicar un sistema de dise;o y principios de usabilidad.
-- estandard WACG
-- Buenas prácticas de implementación de frontend
-- Aplicar un sistema de diseño y principios de usabilidad
-
+- Interfaz de usuario web / mobile responsive
+- Página unica con navegación entre secciones
+- Tiene aplicado un sistema de diseño y principios de usabilidad.
+- Estandard WACG2.0 (perceptible, operable, comprensible, robusto)
 
 Nuestro proyecto se centra en el desarrollo de un calendario destinado a usuarios con Trastorno por Déficit de Atención e Hiperactividad (ADHD). A través de la investigación llevada a cabo para la primera fase del proyecto obligatorio, hemos llegado a la conclusión de que la interfaz de usuario debe ser diseñada con la máxima simplicidad posible.
 
@@ -49,20 +44,15 @@ Adicionalmente, reconocemos la importancia de la concisión en el contenido text
 
 ## Codificación
 
-
 - IDE Visual Studio Code: configuración común del equipo
 - Estándares de codificación (HTML, CSS, JavaScript): Google style
 
-- Buenas prácticas de OOP: separación de lógica e interfaz
+- Buenas prácticas de OOP: Separación de lógica e interfaz
 Nuestro proyecto obligatorio está organizado de manera estructurada en distintas secciones. Dentro de la carpeta "src" (fuente), encontramos la subcarpeta "domain" (dominio), que alberga las clases esenciales utilizadas en el proyecto, junto con sus respectivas pruebas que se encuentran en la carpeta "test".
 
 Adicionalmente, en el directorio "domain", se ha creado la subcarpeta "interface". Esta sección alberga archivos HTML que representan la interfaz de usuario codificada, así como el archivo que contiene la lógica en JavaScript (js) subyacente y los estilos correspondientes en Cascading Style Sheets (CSS). Este enfoque estructurado y modular facilita la comprensión y mantenimiento de nuestro código, permitiendo un desarrollo más eficiente y ordenado.
 
-- Análisis estático de código: mostrar reducción de problemas: 6
-- - Estándar de accesibilidad WCAG: 6
-
 ## Test unitario
-EJEMPLO DE UNO DE LOS TEST, VER CUAL ES EL PRINCIPAL
 Tenemos dos Test cruciales sobre nuestro proyecto: el Crear Nota y Agregar Nota
    
    CREAR NOTA
@@ -88,10 +78,6 @@ Tenemos dos Test cruciales sobre nuestro proyecto: el Crear Nota y Agregar Nota
 
 Mediante Jest, realizamos las pruebas sobre las siguientes clases: Notas y NotasList. Las cuales muestran el 100 % de cobertura en cada una de ellas.
 
-
-- Test unitarios en Jest
-- 100% cobertura en clases de dominio: 6
-
 ## Test de sistema
 
 - Realizar test de sistema (se asigna otro proyecto)
@@ -109,8 +95,29 @@ Explicar como reportamos los issues al otro equipo
 - Realizar una evaluación global de la calidad: 3
 
 ## Reflexión
-Agustin: al no poder realizar el obligatorio desde 0 ya que no funcionaba bien el JS decidi tomar lo que ya teniamos que funcionaba (el HTML y CSS) y lo adapte al ejemplo que vimos en clase. Tambien hice toda la funcionalidad del agregar nota y mostrar nota. Para poder realizar todo esto, tuve que ver lo como estaba hecho el ejemplo para tomarlo como guia, como tambien tuve que buscar por mi cuenta en internet. Por ejemplo como se recorre la lista de notas y también como crear una nota, la cual saque de Bootstrap, a través de un evento "click". A su vez hice gran parte de la correccion del esLint, como tambien participe en la parte del testeo.
+Agustín: Dada la dificultad para desarrollar el obligatorio desde cero debido a problemas en el JavaScript, decidí aprovechar lo que ya teníamos funcionando, es decir, el HTML y el CSS. Adapté nuestro código al ejemplo que vimos en clase y me enfoqué en implementar la funcionalidad de agregar y mostrar notas. Para lograr esto, me basé en el ejemplo proporcionado en clase y también busqué información en Internet para entender cómo recorrer la lista de notas y crear una nueva nota, utilizando eventos "click". Además, realicé una parte significativa de la corrección del ESLint y participé activamente en el proceso de pruebas.
 
-- reflexion personal e individual.
-- Detalle del trabajo individual
-- Técnicas aplicadas y aprendizajes: 2
+El proyecto representó una experiencia gratificante para mí, especialmente al llegar a la etapa del "code freeze" y comprobar que logramos completar todos los aspectos evaluados con éxito. Además, la oportunidad de desarrollar una aplicación que podría ser de utilidad para personas de mi edad añadió un componente único y significativo a la experiencia.
+
+Victoria:
+Me gustó mucho este proyecto ya que fue el primero de la carrera que elegimos nosotros. Trabajamos muy bien como equipo y aunque nos presentamos con varias frustraciones, el outcome del proyecto nos gustó mucho. Por mi parte, mi principal función fue la de la pestaña del calendario, la procuración de tener un clean code, el manejo de pestañas y encontrar librerías prolijas y consistentes. El JS pudimos mejorarlo una vez visto el ejemplo que dieron en clase, ya que antes habíamos hecho uno que no cumplía con la altura técnica necesaria.
+
+Serena: En resumen, siento que este proyecto ha sido muy enriquecedor en muchas areas, tanto como el trabajo en equipo, comoo el aprendizaje de nuevas tecnologias y la reutilización de otras ya conocidas. El trabajo dentro del equipo fue bastante uniforme y con buen uso de la comunicacion, y superamos varios desafios de todo tipo en cuanto a los desafios de programacion, tanto la busqueda e implementacion de las tecnologias nuevas, intentar reciclar codigos, entre otros. Los principales desafíos a los que me enfrenté son la parte de agregar Nota, tanto el html como el css, la navegacion entre botones y el footer y las funciones de main.js.
+
+
+Reflexión grupal:
+
+Este proyecto fue una experiencia única que nos permitió aplicar de manera práctica los conocimientos adquiridos, especialmente en el uso de GitHub, así como poner en práctica los conceptos previos aprendidos en programación I.
+
+La aplicación de técnicas de elicitación fue crucial, ya que reveló la necesidad de obtener información diversa para el desarrollo del planner. Aunque este proceso demandó tiempo, contribuyó significativamente a fortalecer nuestro entendimiento y mejorar la calidad del proyecto.
+
+Esta instancia fue particularmente enriquecedora para nosotros, ya que pudimos trabajar en un proyecto que captó nuestro interés. La motivación resultante fue un factor clave que nos impulsó a hacer realidad nuestras ideas y llevar a cabo el proyecto con éxito.
+
+
+
+
+
+
+
+
+

@@ -73,7 +73,7 @@
             <!-- Fila 3 -->
             <tr>
                 <th>9:00</th>
-                <td></td>
+                <td>ORAL HISTORIA</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -98,7 +98,7 @@
                 <th>11:00</th>
                 <td></td>
                 <td></td>
-                <td></td>
+                <td>ESCRITO FÍSICA</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -163,9 +163,9 @@
 
             <tr>
                 <th>17:00</th>
-                <td>Karate</td>
+                <td>KARATE</td>
                 <td></td>
-                <td>Karate</td>
+                <td>KARATE</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -175,9 +175,9 @@
             <tr>
                 <th>18:00</th>
                 <td></td>
+                <td>DANZA</td>
                 <td></td>
-                <td></td>
-                <td></td>
+                <td>DANZA</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -203,28 +203,28 @@
       <form id="register-form">
         <div class="row">
           <div class="col-sm">
-            <label for="inp-titulo" class="form-label">Título:</label>
-            <input type="text" class="form-control" id="inp-titulo" name="name" placeholder="Título..." required>
+            <label for="inp-titulo" class="form-label">TÍTULO:</label>
+            <input type="text" class="form-control" id="inp-titulo" name="name" placeholder="TÍTULO..." required>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm">
-            <label for="inp-color" class="form-label">Selecciona Color:</label>
+            <label for="inp-color" class="form-label">SELECCIONAR COLOR:</label>
             <select id="inp-color">
-              <option value="Rojo">Rojo</option>
-              <option value="Azul">Azul</option>
-              <option value="Verde">Verde</option>
-              <option value="Naranja">Naranja</option>
+              <option value="Rojo">ROJO</option>
+              <option value="Azul">AZUL</option>
+              <option value="Verde">VERDE</option>
+              <option value="Naranja">NARANJA</option>
               <select>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm pt-3">
-            <label for="inp-descripcion" class="form-label">Descripción:</label>
+            <label for="inp-descripcion" class="form-label">DESCRIPCIÓN:</label>
             <input type="textarea" class="form-control" id="inp-descripcion" name="descripcion"
-              placeholder="Escribe tu nota aquí" required>
+              placeholder="ESCRIBE TU NOTA AQUÍ..." required>
           </div>
         </div>
 
@@ -233,21 +233,16 @@
           <p class="text-danger pt-2" id="add-notas-error-msg"></p>
         </div>
         <div class="row-sm py-3 text-end">
-          <button id="btn-add" type="button" class="btn btn-primary">Agregar</button>
+          <button id="btn-add" type="button" class="btn btn-primary">AGREGAR</button>
         </div>
       </form>
     </div>
   </div>
-  </div>
-  </div>
-
-
-
 
   <div class="tab-pane fade" id="nav-notas-list" role="tabpanel" aria-labelledby="nav-notas-list-tab">
-    <h2 class="position-absolute top-50 start-50 translate-middle" id="empty-list">No has ingresado ninguna NOTA :(</h2>
+    <h2 class="position-absolute top-50 start-50 translate-middle" id="empty-list">NO HAS INGRESADO NINGUNA NOTA :(</h2>
     <div id="notas" class="container shadow bg-white rounded mt-4 p-2 d-none">
-      <h1 class="title ps-2">Notas: </h1>
+      <h1 class="title ps-2">NOTAS: </h1>
       <ul id="notas-list" class="list-group-numbered">
       </ul>
     </div>
@@ -266,7 +261,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14l-4-4 1.41-1.41L12 13.17l6.59-6.59L18 8z" />
             </svg>
-            Calendario
+            CALENDARIO
           </button>
         
         <button class="nav-link active me-3" id="nav-add-nota-tab" data-bs-toggle="tab"
@@ -277,7 +272,7 @@
             stroke="currentColor" class="h-6 w-6">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
           </svg>
-          Agregar Notas
+          AGREGAR NOTAS
         </button>
 
         <button class="nav-link" id="nav-notas-list-tab" data-bs-toggle="tab" data-bs-target="#nav-notas-list"
@@ -288,7 +283,7 @@
             stroke="currentColor" class="h-6 w-6">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
           </svg>
-          Mostrar Notas
+          MOSTRAR NOTAS
         </button>
 
       </div>
