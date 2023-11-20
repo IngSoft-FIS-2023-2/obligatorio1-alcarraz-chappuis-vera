@@ -40,7 +40,6 @@ function loadNoteList() {
   const emptyList = document.getElementById("empty-list");
   const notasList = document.getElementById("notas-list");
 
-  // Limpiar el contenido actual
   notasList.innerHTML = "";
 
   if (mainNotasList.getNotasList().length === 0) {
@@ -73,7 +72,7 @@ function loadNoteList() {
 
     // Obtener la columna actual
     const colContainer = document.createElement("div");
-    colContainer.classList.add("col-sm-4"); // Utilizar el sistema de columnas de Bootstrap (3 columnas por fila)
+    colContainer.classList.add("col-sm-4"); 
     rowContainer.appendChild(colContainer);
 
     let card = document.createElement("div");
@@ -142,8 +141,7 @@ document.getElementById('nav-calendar-tab').addEventListener('click', function()
   notas.classList.add('d-none');
   listaNotas.classList.add('d-none');
   calendario.classList.remove('d-none');
-  // Puedes agregar una clase diferente si lo prefieres, por ejemplo:
-  // calendario.classList.add('d-block');
+
 });
 
 document.getElementById('nav-add-nota-tab').addEventListener('click', function() {
