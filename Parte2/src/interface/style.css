@@ -90,6 +90,10 @@ body {
   text-align: left;
 }
 
+.tituloCalendario {
+    text-align: center;
+}
+
 /* Estilos para el encabezado de la tabla */
 .styled-table th {
   font-weight: bold;
