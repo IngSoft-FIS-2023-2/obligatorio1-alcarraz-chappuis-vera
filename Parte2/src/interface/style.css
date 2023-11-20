@@ -16,6 +16,24 @@
   text-align: center;
 }
 
+.ocio{
+  background-color: rgb(163, 17, 41);
+  color: white;
+  font-weight: bold;
+}
+
+.extracurricular{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.escuela{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
 #inp-descripcion{
   font-family: Tahoma;
   height: 150%;
@@ -74,8 +92,8 @@ body {
 
 /* Estilos para el encabezado de la tabla */
 .styled-table th {
-  background-color: #007bff;
-  color: #fff;
+  font-weight: bold;
+  color: #000000;
   /*padding: 12px;*/
 }
 
