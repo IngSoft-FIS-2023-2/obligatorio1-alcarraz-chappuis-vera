@@ -28,6 +28,36 @@ Cuando ingresas por primera vez un semestre se agranda el formulario y siempre q
 
 ## Reporte de issues
 
+
+Resumen: En los campos de "mes", el usuario puede ingresar cualquier cosa, de modo que no esta validando que sea un mes y como consecuencia se lo deja ingresar. A su vez tampoco se esta validando en el campo de "Año" que sea un numero o sino lo que pasa es que no estan validando que sea un año correcto (por ejemplo se puede poner 12345).
+
+Plataforma: Google Chrome
+
+Severidad: Alta
+
+Prioridad: Alta
+
+Pasos a Reproducir: Completar todos los datos del formulario y darle al boton de "Confirmar"
+
+Posibles soluciones: Para los meses, en vez de hacer que el usuario ingrese "a mano" el mes, poner un "select" con todos los meses. En lo que respecta al año, limitar al usuario que ingrese solo numeros y que estos sean mayor o igual a la fecha del sistema.
+
+
+--------------------
+Resumen: Cuando se ingresa una nota, el formulario se desplaza y se hace mas grande, para que se acomode al momento de mostrar el semestre
+
+Plataforma: Google Chrome
+
+Severidad: Baja
+
+Prioridad: Baja
+
+Pasos a Reproducir: Completar todos los datos del formulario y darle al boton de "Confirmar"
+
+Posibles soluciones: En vez de mostrar los semestres en el formulario para agregar el semestre, hacer un menu, separando el formulario con el mostrar semestre, para no cambie de tamaño y no se desplace hacia abajo.
+
+
+
+
 ## Informe de calidad del sistema
 
 En el main.js
