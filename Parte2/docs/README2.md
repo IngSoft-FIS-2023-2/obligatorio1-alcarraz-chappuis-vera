@@ -20,6 +20,11 @@ Borrar Nota: En la sección de visualización de notas, cada una de ellas presen
 
 Mostrar Calendario: Al presionar el icono de "calendario" en el footer, se desplegará un calendario sin funcionalidad adicional.
 
+## Documentación del uso de librerías externas
+Hemos integrado las librerías de Bootstrap para mejorar la apariencia y funcionalidad de elementos clave en nuestra aplicación. Utilizamos Bootstrap para el botón de agregar nota, el menú de navegación y al diseñar la presentación de las notas. Es importante mencionar que inicialmente intentamos incorporar animaciones entre secciones utilizando jQuery en el HTML, pero debido a desafíos técnicos, no logramos implementarlo y nos olvidamos de eliminar el script correspondiente.
+
+
+
 ## Interfaz de usuario
 En la carpeta GIF, se encuentra un gif mostrando cómo funciona el proyecto en términos generales.
 

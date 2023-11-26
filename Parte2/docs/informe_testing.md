@@ -57,19 +57,16 @@ No obstante, puede volverse a abrir en caso de que el problema se presente de nu
 
 ### En el main.js:
 
-En general, el código parece ser bastante claro y fácil de entender, lo cual es positivo. Además, está bien estructurado y utiliza nombres de variables y funciones descriptivos, lo que facilita la comprensión del propósito de cada parte del código. Algunas observaciones y sugerencias específicas incluyen:
+En general, el código parece ser bastante claro y fácil de entender, lo cual es positivo. Además, está bien estructurado y utiliza nombres de variables y funciones descriptivos, lo que facilita la comprensión del propósito de cada parte del código. 
 
-Consistencia en el Uso de Punto y Coma:
+Consistencia en el Uso de Punto y Coma e Identación:
 
-Se observa consistencia en el uso de punto y coma al final de las declaraciones. 
+Se observa consistencia en el uso de punto y coma al final de las declaraciones. Por último, la identación del codigo es uniforme.
 
 Comentarios:
 
-Los comentarios proporcionados son útiles.
+Los comentarios proporcionados son útiles ya que dividen el código para el que lo lea entienda que son las variables, como también las funciones.
 
-Separación de Responsabilidades:
-
-El código podría beneficiarse de una mayor separación de responsabilidades. Por ejemplo, podrían considerar dividir la lógica relacionada con la interfaz de usuario y la lógica de negocio en módulos o clases separadas para mejorar la modularidad y la mantenibilidad.
 
 ### En el listaSemestre.js y Semestre.js
 
