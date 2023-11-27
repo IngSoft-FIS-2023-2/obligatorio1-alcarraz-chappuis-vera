@@ -1,0 +1,140 @@
+.navbar {
+  background-color: rgba(237, 237, 237, 0.950);
+  
+}
+
+
+.error-container {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(107, 107, 0);
+  text-align: center;
+}
+
+.ocio{
+  background-color: rgb(163, 17, 41);
+  color: white;
+  font-weight: bold;
+}
+
+.extracurricular{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.escuela{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+#inp-descripcion{
+  font-family: Tahoma;
+  height: 150%;
+  width: 50%;
+  margin-left: 30%;
+  
+  
+}
+
+
+.form-label{
+  margin-left: 30%;
+}
+#inp-titulo{
+  font-family: Tahoma;
+  width: 50%;
+  margin-left: 30%;
+  
+}
+#inp-color{
+font-family: Tahoma;
+width: 50%;
+margin-left: 30%;
+
+}
+
+
+#btn-add {
+  font-family: Tahoma;
+  margin-top: 10%; 
+  margin-right: 20%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.calendar-hidden #nav-calendar {
+  display: none;
+}
+
+
+
+/*Css para la tabla del calendario*/
+/* Estilos generales para la tabla */
+.styled-table {
+  width: 100%;
+  /*border-collapse: collapse;*/
+  /*margin: 25px 0;*/
+  font-size: 18px;
+  text-align: left;
+}
+
+.tituloCalendario {
+    text-align: center;
+}
+
+/* Estilos para el encabezado de la tabla */
+.styled-table th {
+  font-weight: bold;
+  color: #000000;
+  /*padding: 12px;*/
+}
+
+/* Estilos para las celdas de datos */
+.styled-table td {
+  border: 1px solid #ddd;
+}
+
+/* Cambia el color de fondo de las filas alternas para mejorar la legibilidad */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+th, td{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  border-left: 2px solid rgb(150, 150, 123);
+  border-bottom: 2px solid rgb(150, 150, 123);
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}
+/*
+table{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+*/
