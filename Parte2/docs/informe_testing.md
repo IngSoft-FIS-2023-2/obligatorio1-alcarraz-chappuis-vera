@@ -65,7 +65,7 @@ Se observa consistencia en el uso de punto y coma al final de las declaraciones.
 
 Comentarios:
 
-Los comentarios proporcionados son útiles ya que dividen el código para el que lo lea entienda que son las variables, como también las funciones.
+Los comentarios proporcionados son útiles ya que dividen el código para el que lo lea entienda que utilidad tienen las variables, como también las funciones.
 
 
 ### En el listaSemestre.js y Semestre.js
@@ -77,4 +77,5 @@ El código en Semestre.js demuestra una buena calidad. La clase Semestre está b
 La indentación en ambos códigos (ListaSemestre.js y Semestre.js) es correcta y consistente. La estructura del código está claramente organizada con espacios y sangrías adecuadas, lo que mejora significativamente la legibilidad del código.
 
 El uso adecuado de la indentación contribuye en gran medida a la comprensión del código y facilita la identificación de bloques de código anidados. En resumen, en ambos archivos, la indentación es un aspecto positivo que contribuye a la calidad general del código.
+
 

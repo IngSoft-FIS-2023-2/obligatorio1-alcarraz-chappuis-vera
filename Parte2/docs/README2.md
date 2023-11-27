@@ -47,7 +47,7 @@ Nuestro proyecto obligatorio está organizado de manera estructurada en distinta
 
 Adicionalmente, en el directorio "domain", se ha creado la subcarpeta "interface". Esta sección alberga archivos HTML que representan la interfaz de usuario codificada, así como el archivo que contiene la lógica en JavaScript (js) subyacente y los estilos correspondientes (CSS). Este enfoque estructurado y modular facilita la comprensión y mantenimiento de nuestro código, permitiendo un desarrollo más eficiente y ordenado.
 
-Por último, mediante la herramienta de ESLint, corregimos nuestro codigo para que cumpla con el Estandar de Codificación de Google.
+Por último, mediante la herramienta de ESLint, corregimos nuestro código para que cumpla con el Estandar de Codificación de Google.
 
 ## Test unitario
 Tenemos dos Tests cruciales sobre nuestro proyecto: el Crear Nota y Agregar Nota
@@ -78,14 +78,20 @@ Mediante Jest, realizamos las pruebas sobre las siguientes clases: Notas y Notas
 ![Alt text](image.png)
 
 ## Reflexión y separación de tareas
-Agustín: Dada la dificultad para desarrollar el obligatorio desde cero debido a problemas en el JavaScript, decidí aprovechar lo que ya teníamos funcionando, es decir, el HTML y el CSS. Adapté nuestro código al ejemplo que vimos en clase y me enfoqué en implementar la funcionalidad de agregar y mostrar notas. Para lograr esto, me basé en el ejemplo proporcionado en clase y también busqué información en Internet para entender cómo recorrer la lista de notas y crear una nueva nota, utilizando eventos "click". Además, realicé una parte significativa de la corrección del ESLint y participé activamente en el proceso de pruebas.
+Agustín: 
+
+Dada la dificultad para desarrollar el obligatorio desde cero debido a problemas en el JavaScript, decidí aprovechar lo que ya teníamos funcionando, es decir, el HTML y el CSS. Adapté nuestro código al ejemplo que vimos en clase y me enfoqué en implementar la funcionalidad de agregar y mostrar notas. Para lograr esto, me basé en el ejemplo proporcionado en clase y también busqué información en Internet para entender cómo recorrer la lista de notas y crear una nueva nota, utilizando eventos "click". Además, realicé una parte significativa de la corrección del ESLint y participé activamente en el proceso de pruebas.
 
 El proyecto representó una experiencia gratificante para mí, especialmente al llegar a la etapa del "code freeze" y comprobar que logramos completar todos los aspectos evaluados con éxito. Además, la oportunidad de desarrollar una aplicación que podría ser de utilidad para personas de mi edad añadió un componente único y significativo a la experiencia.
 
 Victoria:
+
+
 Me gustó mucho este proyecto ya que fue el primero de la carrera que elegimos nosotros. Trabajamos muy bien como equipo y aunque nos presentamos con varias frustraciones, el outcome del proyecto nos gustó mucho. Por mi parte, mi principal función fue la de la pestaña del calendario, la procuración de tener un clean code, el manejo de pestañas y encontrar librerías prolijas y consistentes. El JS pudimos mejorarlo una vez visto el ejemplo que dieron en clase, ya que antes habíamos hecho uno que no cumplía con la altura técnica necesaria.
 
-Serena: En resumen, siento que este proyecto ha sido muy enriquecedor en muchas áreas, tanto como el trabajo en equipo, como el aprendizaje de nuevas tecnologías y la reutilización de otras ya conocidas. El trabajo dentro del equipo fue bastante uniforme y con buen uso de la comunicación, y superamos varios desafíos de todo tipo en cuanto a los desafíos de programación, tanto la búsqueda e implementación de las tecnologías nuevas, intentar reciclar códigos, entre otros. Los principales desafíos a los que me enfrenté son la parte del HTML como el CSS, la navegación entre botones y el footer y las funciones de main.js.
+Serena:
+
+ En resumen, siento que este proyecto ha sido muy enriquecedor en muchas áreas, tanto como el trabajo en equipo, como el aprendizaje de nuevas tecnologías y la reutilización de otras ya conocidas. El trabajo dentro del equipo fue bastante uniforme y con buen uso de la comunicación, y superamos varios desafíos de todo tipo en cuanto a los desafíos de programación, tanto la búsqueda e implementación de las tecnologías nuevas, intentar reciclar códigos, entre otros. Los principales desafíos a los que me enfrenté son la parte del HTML como el CSS, la navegación entre botones y el footer y las funciones de main.js.
 
 ## Reflexión grupal:
 
@@ -94,3 +100,8 @@ Este proyecto fue una experiencia única que nos permitió aplicar de manera pr�
 La aplicación de técnicas de elicitación fue crucial, ya que reveló la necesidad de obtener información diversa para el desarrollo del planner. Aunque este proceso demandó tiempo, contribuyó significativamente a fortalecer nuestro entendimiento y mejorar la calidad del proyecto.
 
 Esta instancia fue particularmente enriquecedora para nosotros, ya que pudimos trabajar en un proyecto que captó nuestro interés. La motivación resultante fue un factor clave que nos impulsó a hacer realidad nuestras ideas y llevar a cabo el proyecto con éxito.
+
+
+
+## Test Del Sistema del otro grupo, Informe de Calidad del Sistema y Reporte de Issues
+En el archivo informe_testing.md se encontrará todo lo relacionado a lo que se menciona en el título.
